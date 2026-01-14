@@ -1,0 +1,78 @@
+main:
+  - key: get_involved
+    name: Get Involved
+    weight: 1
+    child:
+      - key: mapswipe
+        name: "MapSwipe"
+        url: /mapswipe/
+      - key: hot_tasking_manager
+        name: "HOT Tasking Manager"
+        url: /hot-tasking-manager/
+      - key: field_mapping
+        name: "Field Mapping"
+        url: /field-mapping/
+      - key: current_projects
+        name: "Current Projects"
+        url: /projects/
+
+  - key: organize_event
+    name: Organize an Event
+    weight: 2
+    child:
+      - key: hosting_a_mapathon
+        name: "Hosting a Mapathon"
+        url: /hosting-a-mapathon/
+      - key: training_materials_checklists
+        name: "Training Materials & Checklists"
+        url: /training-checklists/
+      - key: statistics_useful_links
+        name: "Statistics & Useful Links"
+        url: /statistics-links/
+
+  - key: events_calendar
+    name: Events Calendar
+    url: /events/
+    weight: 3
+
+  - key: blog
+    name: Blog
+    url: /blog/
+    weight: 4
+
+  - key: about
+    name: About
+    url: /about/
+    weight: 5
+
+footer_primary:
+  - key: blog
+    name: Blog
+    url: /posts/
+    weight: 1
+  - key: about
+    name: About
+    url: /about/
+    weight: 2
+  - key: contact
+    name: Contact
+    url: /contact/
+    weight: 3
+  - key: buy_now
+    name: Buy Now
+    url: http://localhost:1313/theme/jekyll-origin/
+    weight: 4
+
+bottom:
+  - key: terms
+    name: Terms of Use
+    url: /terms/
+    weight: 1
+  - key: privacy
+    name: Privacy Policy
+    url: /privacy/
+    weight: 2
+  - key: legal_notice
+    name: Legal Notice
+    url: /legal/
+    weight: 3

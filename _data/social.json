@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Facebook",
+    "fa_icon": "fab fa-facebook-square",
+    "url": "https://www.facebook.com/TheMissingMaps"
+  },
+  {
+    "title": "Instagram",
+    "fa_icon": "fab fa-instagram-square",
+    "url": "https://www.instagram.com/themissingmaps/"
+  },
+  {
+    "title": "Mastodon",
+    "fa_icon": "fab fa-mastodon",
+    "url": "https://mastodon.social/@TheMissingMaps"
+  },
+  {
+    "title": "LinkedIn",
+    "fa_icon": "fab fa-linkedin",
+    "url": "https://www.linkedin.com/company/missing-maps"
+  }
+]

@@ -1,0 +1,21 @@
+title: "Contributions"
+items:
+  - icon: assets/images/icons/contributions/contributions.svg
+    color: "#F59E0B"
+    key: total_contributors
+    label: "total_contributors"
+
+  - icon: assets/images/icons/contributions/edits.svg
+    color: "#84CC16"
+    key: total_edits
+    label: "total_edits"
+
+  - icon: assets/images/icons/contributions/building_edits.svg
+    color: "#60A5FA"
+    key: building_edits
+    label: "building_edits"
+
+  - icon: assets/images/icons/contributions/roads.svg
+    color: "#FDE047"
+    key: roads_km
+    label: "roads_km"

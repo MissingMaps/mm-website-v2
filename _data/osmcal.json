@@ -1,0 +1,463 @@
+{
+  "buildTime": "2025-12-11T20:49:07.808Z",
+  "count": 35,
+  "events": [
+    {
+      "name": "Missing Maps mapathon Žilina #20",
+      "url": "https://osmcal.org/event/4225/",
+      "date": {
+        "human": "11th December 17:00 – 20:00",
+        "human_short": "11th December",
+        "whole_day": false,
+        "start": "2025-12-11T17:00:00+01:00",
+        "end": "2025-12-11T20:00:00+01:00"
+      },
+      "location": {
+        "short": "Žilina, Region of Žilina, Slovakia",
+        "detailed": "GLOBESY s.r.o., 283/58, Framborská, Staré mesto, Žilina, Region of Žilina, Slovakia",
+        "coords": [
+          18.733828,
+          49.22709
+        ],
+        "venue": "GLOBESY s.r.o."
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/3747/",
+      "date": {
+        "human": "16th December 18:00 – 21:00 (Europe/London)",
+        "human_short": "16th December",
+        "whole_day": false,
+        "start": "2025-12-16T18:00:00+00:00",
+        "end": "2025-12-16T21:00:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps : Mapathon en ligne - CartONG [fr]",
+      "url": "https://osmcal.org/event/4045/",
+      "date": {
+        "human": "22nd December 18:00 – 20:00 (Europe/Paris)",
+        "human_short": "22nd December",
+        "whole_day": false,
+        "start": "2025-12-22T18:00:00+01:00",
+        "end": "2025-12-22T20:00:00+01:00"
+      }
+    },
+    {
+      "name": "OSM India×TomTom Online Mapathon",
+      "url": "https://osmcal.org/event/4273/",
+      "date": {
+        "human": "28th December 12:00 – 15:00",
+        "human_short": "28th December",
+        "whole_day": false,
+        "start": "2025-12-28T12:00:00+05:30",
+        "end": "2025-12-28T15:00:00+05:30"
+      },
+      "location": {
+        "short": "New Delhi, India",
+        "detailed": "online, Rajiv Chowk, Connaught Place, New Delhi, India",
+        "coords": [
+          77.219574,
+          28.632653
+        ],
+        "venue": "online"
+      }
+    },
+    {
+      "name": "OSM India - Monthly Online Mapathon",
+      "url": "https://osmcal.org/event/4112/",
+      "date": {
+        "human": "4th January 2026 12:00 – 14:00",
+        "human_short": "4th January",
+        "whole_day": false,
+        "start": "2026-01-04T12:00:00+05:30",
+        "end": "2026-01-04T14:00:00+05:30"
+      },
+      "location": {
+        "short": "New Delhi, India",
+        "detailed": "Jitsi Meet (online), Rajiv Chowk, Connaught Place, New Delhi, India",
+        "coords": [
+          77.219771,
+          28.632803
+        ],
+        "venue": "Jitsi Meet (online)"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4229/",
+      "date": {
+        "human": "6th January 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "6th January",
+        "whole_day": false,
+        "start": "2026-01-06T19:00:00+00:00",
+        "end": "2026-01-06T21:15:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4241/",
+      "date": {
+        "human": "20th January 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "20th January",
+        "whole_day": false,
+        "start": "2026-01-20T18:00:00+00:00",
+        "end": "2026-01-20T21:00:00+00:00"
+      }
+    },
+    {
+      "name": "OSM India - Monthly Online Mapathon",
+      "url": "https://osmcal.org/event/4113/",
+      "date": {
+        "human": "1st February 2026 12:00 – 14:00",
+        "human_short": "1st February",
+        "whole_day": false,
+        "start": "2026-02-01T12:00:00+05:30",
+        "end": "2026-02-01T14:00:00+05:30"
+      },
+      "location": {
+        "short": "New Delhi, India",
+        "detailed": "Jitsi Meet (online), Rajiv Chowk, Connaught Place, New Delhi, India",
+        "coords": [
+          77.219771,
+          28.632803
+        ],
+        "venue": "Jitsi Meet (online)"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4230/",
+      "date": {
+        "human": "3rd February 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "3rd February",
+        "whole_day": false,
+        "start": "2026-02-03T19:00:00+00:00",
+        "end": "2026-02-03T21:15:00+00:00"
+      }
+    },
+    {
+      "name": "Online Mapathon von ÄRZTE OHNE GRENZEN",
+      "url": "https://osmcal.org/event/4281/",
+      "date": {
+        "human": "11th February 2026 19:00 – 22:00 (Europe/Berlin)",
+        "human_short": "11th February",
+        "whole_day": false,
+        "start": "2026-02-11T19:00:00+01:00",
+        "end": "2026-02-11T22:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4242/",
+      "date": {
+        "human": "17th February 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "17th February",
+        "whole_day": false,
+        "start": "2026-02-17T18:00:00+00:00",
+        "end": "2026-02-17T21:00:00+00:00"
+      }
+    },
+    {
+      "name": "OSM India - Monthly Online Mapathon",
+      "url": "https://osmcal.org/event/4114/",
+      "date": {
+        "human": "1st March 2026 12:00 – 14:00",
+        "human_short": "1st March",
+        "whole_day": false,
+        "start": "2026-03-01T12:00:00+05:30",
+        "end": "2026-03-01T14:00:00+05:30"
+      },
+      "location": {
+        "short": "New Delhi, India",
+        "detailed": "Jitsi Meet (online), Rajiv Chowk, Connaught Place, New Delhi, India",
+        "coords": [
+          77.219771,
+          28.632803
+        ],
+        "venue": "Jitsi Meet (online)"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4231/",
+      "date": {
+        "human": "3rd March 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "3rd March",
+        "whole_day": false,
+        "start": "2026-03-03T19:00:00+00:00",
+        "end": "2026-03-03T21:15:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4243/",
+      "date": {
+        "human": "17th March 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "17th March",
+        "whole_day": false,
+        "start": "2026-03-17T18:00:00+00:00",
+        "end": "2026-03-17T21:00:00+00:00"
+      }
+    },
+    {
+      "name": "OSM India - Monthly Online Mapathon",
+      "url": "https://osmcal.org/event/4115/",
+      "date": {
+        "human": "5th April 2026 12:00 – 14:00",
+        "human_short": "5th April",
+        "whole_day": false,
+        "start": "2026-04-05T12:00:00+05:30",
+        "end": "2026-04-05T14:00:00+05:30"
+      },
+      "location": {
+        "short": "New Delhi, India",
+        "detailed": "Jitsi Meet (online), Rajiv Chowk, Connaught Place, New Delhi, India",
+        "coords": [
+          77.219771,
+          28.632803
+        ],
+        "venue": "Jitsi Meet (online)"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4232/",
+      "date": {
+        "human": "7th April 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "7th April",
+        "whole_day": false,
+        "start": "2026-04-07T19:00:00+01:00",
+        "end": "2026-04-07T21:15:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4244/",
+      "date": {
+        "human": "21st April 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "21st April",
+        "whole_day": false,
+        "start": "2026-04-21T18:00:00+01:00",
+        "end": "2026-04-21T21:00:00+01:00"
+      }
+    },
+    {
+      "name": "OSM India - Monthly Online Mapathon",
+      "url": "https://osmcal.org/event/4116/",
+      "date": {
+        "human": "3rd May 2026 12:00 – 14:00",
+        "human_short": "3rd May",
+        "whole_day": false,
+        "start": "2026-05-03T12:00:00+05:30",
+        "end": "2026-05-03T14:00:00+05:30"
+      },
+      "location": {
+        "short": "New Delhi, India",
+        "detailed": "Jitsi Meet (online), Rajiv Chowk, Connaught Place, New Delhi, India",
+        "coords": [
+          77.219771,
+          28.632803
+        ],
+        "venue": "Jitsi Meet (online)"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4233/",
+      "date": {
+        "human": "5th May 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "5th May",
+        "whole_day": false,
+        "start": "2026-05-05T19:00:00+01:00",
+        "end": "2026-05-05T21:15:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4245/",
+      "date": {
+        "human": "19th May 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "19th May",
+        "whole_day": false,
+        "start": "2026-05-19T18:00:00+01:00",
+        "end": "2026-05-19T21:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4234/",
+      "date": {
+        "human": "2nd June 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "2nd June",
+        "whole_day": false,
+        "start": "2026-06-02T19:00:00+01:00",
+        "end": "2026-06-02T21:15:00+01:00"
+      }
+    },
+    {
+      "name": "OSM India - Monthly Online Mapathon",
+      "url": "https://osmcal.org/event/4117/",
+      "date": {
+        "human": "7th June 2026 12:00 – 14:00",
+        "human_short": "7th June",
+        "whole_day": false,
+        "start": "2026-06-07T12:00:00+05:30",
+        "end": "2026-06-07T14:00:00+05:30"
+      },
+      "location": {
+        "short": "New Delhi, India",
+        "detailed": "Jitsi Meet (online), Rajiv Chowk, Connaught Place, New Delhi, India",
+        "coords": [
+          77.219771,
+          28.632803
+        ],
+        "venue": "Jitsi Meet (online)"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4246/",
+      "date": {
+        "human": "16th June 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "16th June",
+        "whole_day": false,
+        "start": "2026-06-16T18:00:00+01:00",
+        "end": "2026-06-16T21:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4235/",
+      "date": {
+        "human": "7th July 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "7th July",
+        "whole_day": false,
+        "start": "2026-07-07T19:00:00+01:00",
+        "end": "2026-07-07T21:15:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4247/",
+      "date": {
+        "human": "21st July 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "21st July",
+        "whole_day": false,
+        "start": "2026-07-21T18:00:00+01:00",
+        "end": "2026-07-21T21:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4236/",
+      "date": {
+        "human": "4th August 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "4th August",
+        "whole_day": false,
+        "start": "2026-08-04T19:00:00+01:00",
+        "end": "2026-08-04T21:15:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4248/",
+      "date": {
+        "human": "18th August 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "18th August",
+        "whole_day": false,
+        "start": "2026-08-18T18:00:00+01:00",
+        "end": "2026-08-18T21:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4237/",
+      "date": {
+        "human": "1st September 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "1st September",
+        "whole_day": false,
+        "start": "2026-09-01T19:00:00+01:00",
+        "end": "2026-09-01T21:15:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4249/",
+      "date": {
+        "human": "15th September 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "15th September",
+        "whole_day": false,
+        "start": "2026-09-15T18:00:00+01:00",
+        "end": "2026-09-15T21:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4238/",
+      "date": {
+        "human": "6th October 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "6th October",
+        "whole_day": false,
+        "start": "2026-10-06T19:00:00+01:00",
+        "end": "2026-10-06T21:15:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4250/",
+      "date": {
+        "human": "20th October 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "20th October",
+        "whole_day": false,
+        "start": "2026-10-20T18:00:00+01:00",
+        "end": "2026-10-20T21:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4239/",
+      "date": {
+        "human": "3rd November 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "3rd November",
+        "whole_day": false,
+        "start": "2026-11-03T19:00:00+00:00",
+        "end": "2026-11-03T21:15:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4251/",
+      "date": {
+        "human": "17th November 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "17th November",
+        "whole_day": false,
+        "start": "2026-11-17T18:00:00+00:00",
+        "end": "2026-11-17T21:00:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/4240/",
+      "date": {
+        "human": "1st December 2026 19:00 – 21:15 (Europe/London)",
+        "human_short": "1st December",
+        "whole_day": false,
+        "start": "2026-12-01T19:00:00+00:00",
+        "end": "2026-12-01T21:15:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/4252/",
+      "date": {
+        "human": "15th December 2026 18:00 – 21:00 (Europe/London)",
+        "human_short": "15th December",
+        "whole_day": false,
+        "start": "2026-12-15T18:00:00+00:00",
+        "end": "2026-12-15T21:00:00+00:00"
+      }
+    }
+  ]
+}

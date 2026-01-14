@@ -1,0 +1,8 @@
+title: "OpenStreetMap"
+icon: assets/images/icons/openstreetmap.svg
+icon_bg_color: "#9CC652"
+sub_heading: "OpenStreetMap is the volunteer-driven open data mapping platform which makes much of this possible, supported by the not-for-profit OpenStreetMap Foundation."
+button_one_url: "https://www.openstreetmap.org/"
+button_one_text: "OpenStreetMap"
+button_two_url: /learn-more
+button_two_text: "Learn more"

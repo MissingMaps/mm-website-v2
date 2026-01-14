@@ -1,0 +1,48 @@
+contrib:
+  title: "Příspěvky"
+  total_contributors: "Celkový počet přispěvatelů"
+  total_edits: "Celkový počet úprav"
+  building_edits: "Úpravy budov"
+  roads_km: "Silnice (km)"
+
+openstreetmap:
+  title: "OpenStreetMap"
+  sub_heading: "OpenStreetMap je otevřená mapová platforma poháněná dobrovolníky, která umožňuje velkou část této práce díky podpoře neziskové nadace OpenStreetMap Foundation."
+  button_one_text: "OpenStreetMap"
+  button_two_text: "Více informací"
+  button_two_url: "/cs/learn-more"
+
+nav_labels:
+  get_involved: "Zapojte se"
+  organize_event: "Uspořádat akci"
+  events_calendar: "Kalendář akcí"
+  blog: "Blog"
+  about: "O nás"
+
+  mapswipe: "MapSwipe"
+  hot_tasking_manager: "HOT Tasking Manager"
+  field_mapping: "Terénní mapování"
+  current_projects: "Aktuální projekty"
+
+  hosting_a_mapathon: "Uspořádat mapathon"
+  training_materials_checklists: "Materiály a kontrolní seznamy"
+  statistics_useful_links: "Statistiky a užitečné odkazy"
+
+  contact: "Kontakt"
+  buy_now: "Koupit"
+  terms_and_conditions: "Obchodní podmínky"
+  privacy_policy: "Zásady ochrany osobních údajů"
+
+footer:
+  footer_title: "Kontakt:"
+  contact_us: "Kontaktujte nás"
+  copyright: "© 2026 Missing Maps. Všechna práva vyhrazena."
+
+bottom:
+  terms: "Podmínky použití"
+  privacy: "Zásady ochrany osobních údajů"
+  legal_notice: "Právní upozornění"
+
+
+pagination:
+  page: "Page"

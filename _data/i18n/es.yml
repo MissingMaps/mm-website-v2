@@ -1,0 +1,47 @@
+contrib:
+  title: "Contribuciones"
+  total_contributors: "Total de colaboradores"
+  total_edits: "Total de ediciones"
+  building_edits: "Ediciones de edificios"
+  roads_km: "Carreteras (km)"
+
+openstreetmap:
+  title: "OpenStreetMap"
+  sub_heading: "OpenStreetMap es la plataforma de cartografía abierta impulsada por voluntarios que hace posible gran parte de este trabajo, con el apoyo de la fundación sin ánimo de lucro OpenStreetMap Foundation."
+  button_one_text: "OpenStreetMap"
+  button_two_text: "Más información"
+  button_two_url: "/es/learn-more"
+
+nav_labels:
+  get_involved: "Participa"
+  organize_event: "Organizar un evento"
+  events_calendar: "Eventos"
+  blog: "Blog"
+  about: "Acerca de"
+
+  mapswipe: "MapSwipe"
+  hot_tasking_manager: "Administrador de tareas HOT"
+  field_mapping: "Cartografía de campo"
+  current_projects: "Proyectos actuales"
+
+  hosting_a_mapathon: "Organizar un mapatón"
+  training_materials_checklists: "Materiales y listas de verificación"
+  statistics_useful_links: "Estadísticas y enlaces útiles"
+
+  contact: "Contacto"
+  buy_now: "Comprar"
+  terms_and_conditions: "Términos y condiciones"
+  privacy_policy: "Política de privacidad"
+
+footer:
+  footer_title: "Contacto:"
+  contact_us: "Contáctanos"
+  copyright: "© 2026 Missing Maps. Todos los derechos reservados."
+
+bottom:
+  terms: "Términos de uso"
+  privacy: "Política de privacidad"
+  legal_notice: "Aviso legal"
+
+pagination:
+  page: "Página"
