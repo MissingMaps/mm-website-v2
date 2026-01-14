@@ -1,0 +1,126 @@
+{% assign lang = page.lang | default: site.default_lang | default: "en" %}
+{% assign T = site.data.i18n[lang] | default: {} %}
+{% assign items = site.data.menu.main | sort: "weight" %}
+{% assign codes = site.languages | default: "en,fr,cs,es" | split: "," %}
+
+<div class="menu-main-mobile {% if site.menu.show_dropdown_items_in_mobile_menu %}nested{% endif %}"
+  id="menu-main-mobile">
+
+  <div class="menu-main-mobile-top">
+    <div id="close-overlay" class="menu-main-close">
+      <div class="hamburger"></div>
+    </div>
+  </div>
+
+  <div class="menu-main-mobile-center">
+    <ul class="menu">
+  {% for item in items %}
+    {%- comment -%} translated label (fallback to original name) {%- endcomment -%}
+    {% assign label = T.nav_labels[item.key] | default: item.name %}
+
+    {%- comment -%} build href with language prefix for local paths {%- endcomment -%}
+    {% assign href = item.url %}
+    {% if href and href != "#" and href contains "://" %}
+      {# absolute URL: leave as is #}
+    {% elsif href == "#" %}
+      {# anchor #}
+    {% else %}
+      {% if lang != site.default_lang %}
+        {% assign href = '/' | append: lang | append: item.url %}
+      {% endif %}
+    {% endif %}
+
+    {%- comment -%} Dropdown parent item {%- endcomment -%}
+    {% if item.child and item.child != empty %}
+      <li class="menu-item-{{ item.key }} menu-item-dropdown{% if item.url == page.url %} active {% endif %}">
+        <a href="{{ href | relative_url }}">{{ label }}</a>
+
+        <div class="dropdown">
+          <ul class="sub-menu">
+            {% for childitem in item.child %}
+              {%- comment -%} translated child label (fallback) {%- endcomment -%}
+              {% assign child_label = T.nav_labels[childitem.key] | default: childitem.name %}
+
+              {%- comment -%} build child href with the same rules {%- endcomment -%}
+              {% assign child_href = childitem.url %}
+              {% if child_href and child_href != "#" and child_href contains "://" %}
+                {# absolute URL: leave as is #}
+              {% elsif child_href == "#" %}
+                {# anchor #}
+              {% else %}
+                {% if lang != site.default_lang %}
+                  {% assign child_href = '/' | append: lang | append: childitem.url %}
+                {% endif %}
+              {% endif %}
+
+              <li class="{% if childitem.url == page.url %} active {% endif %}">
+                <a href="{{ child_href | relative_url }}">{{ child_label }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+
+    {%- comment -%} Normal single item {%- endcomment -%}
+    {% else %}
+      <li class="menu-item-{{ item.key }}{% if item.url == page.url %} active {% endif %}">
+        <a href="{{ href | relative_url }}">{{ label }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+
+      <!-- Lang Switcher -->
+      
+      {%- assign cur = page.url -%}
+      
+      {%- comment -%} Normalize current URL by removing any locale prefix (with & without trailing slash) {%- endcomment -%}
+      {%- assign codes = site.languages -%}
+      {%- if codes == nil or codes == empty -%}
+      {%- assign codes = "en,fr,cs,es" | split: "," -%}
+      {%- endif -%}
+      {%- assign cur_no_locale = cur -%}
+      {%- for raw in codes -%}
+      {%- assign code = raw | strip | downcase -%}
+      {%- assign with_slash = '/' | append: code | append: '/' -%}
+      {%- assign without_slash = '/' | append: code -%}
+      {%- assign cur_no_locale = cur_no_locale
+      | replace_first: with_slash, '/'
+      | replace_first: without_slash, '/' -%}
+      {%- endfor -%}
+      
+      <li class="menu-item-dropdown menu-lang-switcher">
+        <a class="lang-pill" type="button">
+          <img class="lang-icon" src="{{ '/assets/images/icons/menu-globe.svg' | relative_url }}" alt="">
+          {{ lang | upcase }}
+        </a>
+      
+        <div class="dropdown-menu">
+          {%- for raw in codes -%}
+          {%- assign code = raw | strip | downcase -%}
+          {%- if code == site.default_lang -%}
+          {%- assign switch_href = cur_no_locale -%}
+          {%- else -%}
+          {%- assign switch_href = '/' | append: code | append: cur_no_locale -%}
+          {%- endif -%}
+          <div class="dropdown-item-content">
+            <a href="{{ switch_href | relative_url }}" class="{% if code == lang %}active{% endif %} dropdown-item">
+              {{ code | upcase }}
+            </a>
+          </div>
+          {%- endfor -%}
+        </div>
+      </li>
+      <!-- -->
+    </ul>
+  </div>
+
+  <div class="menu-main-mobile-bottom">
+    {% if site.menu.show_social_media_in_mobile_menu %}
+    {% include framework/social.html limit=3%}
+    {% endif %}
+    {% if site.darkmode.enable_dark_mode and site.darkmode.show_dark_mode_toggle_in_mobile_menu %}
+    {% include framework/dark-mode-switcher.html %}
+    {% endif %}
+  </div>
+
+</div>

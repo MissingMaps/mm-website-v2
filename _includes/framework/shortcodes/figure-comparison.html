@@ -1,0 +1,27 @@
+{% assign link_1=include.link_1 %}
+{% assign link_2=include.link_2 %}
+
+<div class="row">
+  <div class="col-12 col-md-6">
+    <figure {% if include.full %} class="figure-full" {% endif %}>
+      {%- if link_1 -%} <a href="{{ include.link_1 | relative_url }}" target="{{ include.target_1 }}"> {%- endif -%}
+        <img src="{{ include.src_1 | relative_url }}" alt="{{ include.alt_1 }}">
+      {%- if link_1 -%} </a> {%- endif -%}
+      <figcaption>
+        <h4>{{ include.title_1 }}</h4>
+        <p>{{ include.caption_1 }}</p>
+      </figcaption>
+    </figure>
+  </div>
+  <div class="col-12 col-md-6">
+      <figure {% if include.full %} class="figure-full" {% endif %}>
+        {%- if link_2 -%} <a href="{{ include.link_2 | relative_url }}" target="{{ include.target_2 }}"> {%- endif -%}
+          <img src="{{ include.src_2 | relative_url }}" alt="{{ include.alt_2 }}">
+        {%- if link_2 -%} </a>{%- endif -%}
+        <figcaption>
+          <h4>{{ include.title_2 }}</h4>
+          <p>{{ include.caption_2 }}</p>
+        </figcaption>
+      </figure>
+  </div>
+</div>

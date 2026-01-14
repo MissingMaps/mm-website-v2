@@ -1,0 +1,40 @@
+<div class="row g-1">
+  <!-- Card 1 -->
+  <div class="col-12 col-md-4">
+    {%- if include.link_1 -%}<a href="{{ include.link_1 | relative_url }}" target="_blank">{%- endif -%}
+      <article class="hww-card hww-card--green">
+        <div class="hww-illustration" aria-hidden="true">
+          <img src="{{ include.card_1_image | relative_url }}" alt="">
+        </div>
+        <h3 class="pt-1">{{ include.card_1_title }}</h3>
+        {%- if include.card_1_text -%}<p class="pt-2">{{ include.card_1_text }}</p>{%- endif -%}
+      </article>
+    {%- if include.link_1 -%}</a>{%- endif -%}
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col-12 col-md-4">
+    {%- if include.link_2 -%}<a href="{{ include.link_2 | relative_url }}" target="_blank">{%- endif -%}
+      <article class="hww-card hww-card--peach">
+        <div class="hww-illustration" aria-hidden="true">
+          <img src="{{ include.card_2_image  | relative_url }}" alt="">
+        </div>
+        <h3 class="pt-1">{{ include.card_2_title }}</h3>
+        {%- if include.card_2_text -%}<p class="pt-2">{{ include.card_2_text }}</p>{%- endif -%}
+      </article>
+    {%- if include.link_2 -%}</a>{%- endif -%}
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col-12 col-md-4">
+    {%- if include.link_3 -%}<a href="{{ include.link_3 | relative_url }}" target="_blank">{%- endif -%}
+      <article class="hww-card hww-card--blue">
+        <div class="hww-illustration" aria-hidden="true">
+          <img src="{{ include.card_3_image | relative_url }}" alt="">
+        </div>
+        <h3 class="pt-1">{{ include.card_3_title }}</h3>
+        {%- if include.card_1_text -%}<p class="pt-2">{{ include.card_3_text }}</p>{%- endif -%}
+      </article>
+    {%- if include.link_3 -%}</a>{%- endif -%}
+  </div>
+</div>

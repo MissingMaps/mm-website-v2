@@ -1,0 +1,48 @@
+{% assign lang = page.lang | default: site.default_lang | default: "en" %}
+{% assign T = site.data.i18n[lang] | default: site.data.i18n.en | default: {} %}
+{% assign footerT = T.footer | default: {} %}
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-md-4">
+        {% if site.footer.footer_logo and site.footer.footer_logo != "" %}
+        <img src="{{ site.footer.footer_logo  | relative_url }}" class="" alt="Logo">
+        {% endif %}
+        <div class="footer-info mt-2">
+          {% if site.footer.footer_title and site.footer.footer_title != "" %}
+          <h4>{{ footerT.footer_title | default: site.footer.footer_title }}</h4>
+          {% endif %}
+
+          {% if site.footer.footer_link and site.footer.footer_link != "" %}
+          <a href="mailto:{{site.footer.footer_link}}">{{ site.footer.footer_link }}</a>
+          {% endif %}
+        </div>
+
+        {% if site.footer.enable_social_media_icons and site.data.social %}
+        {% include framework/social.html %}
+        {% endif %}
+        {% if site.darkmode.enable_dark_mode and site.darkmode.show_dark_mode_toggle_in_footer %}
+        {% include framework/dark-mode-switcher.html %}
+        {% endif %}
+      </div>
+
+      <div class="col-12 col-md-8 mt-gutter mt-md-0">
+        <div class="row justify-content-end">
+        </div>
+      </div>
+
+    </div>
+
+    {% if site.footer.enable_contact_details %}
+    <div class="row justify-content-end mt-2">
+      <div class="col-12 col-md-4">
+        <h3>{{ footerT.contact_us | default: "Contact Us" }}</h3>
+        {% include framework/contact.html contact=site.data.contact %}
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</div>

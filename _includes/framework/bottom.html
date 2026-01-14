@@ -1,0 +1,38 @@
+<div class="bottom bg-primary-bg">
+  <div class="container relative">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-12 col-md-auto">
+
+        {% assign lang = page.lang | default: site.default_lang | default: "en" %}
+        {% assign T = site.data.i18n[lang] | default: site.data.i18n.en | default: {} %}
+        {% assign footerT = T.footer | default: {} %}
+        {% assign copyright = footerT.copyright | default: site.bottom.copyright_text %}
+
+        {% if copyright and copyright != "" %}
+        <div class="copyright">{{ copyright }}</div>
+        {% endif %}
+
+        {% if site.bottom.show_rss_icon %}
+        <a class="feed" href="{{ " /feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+          <i class="fas fa-feed"></i>
+        </a>
+        {% endif %}
+      </div>
+
+      <div class="col-12 col-md-auto">
+        {% if site.bottom.enable_bottom_menu %}
+        {% include framework/menu-bottom.html %}
+        {% endif %}
+        {% if site.cookie_banner.enabled and site.cookie_banner.show_manage_cookies_at_bottom %}
+        <a href="#" data-cc="c-settings">Cookies</a>
+        {% endif %}
+      </div>
+
+      {% if site.darkmode.enable_dark_mode and site.darkmode.show_dark_mode_toggle_in_bottom %}
+      <div class="col-auto">
+        {% include framework/dark-mode-switcher.html %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

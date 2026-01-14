@@ -1,0 +1,39 @@
+{% assign lang = page.lang | default: site.default_lang | default: "en" %}
+{% assign T = site.data.i18n[lang] | default: site.data.i18n.en | default: {} %}
+{% assign osmT = T.openstreetmap | default: {} %}
+
+{% assign data = site.data.openstreetmap %}
+
+<div class="section openstreetmap">
+  <div class="container">
+    <div class="row bg-primary-bg rounded-4 p-2">
+      <div class="col-12 col-md-6 pb-3">
+        <div class="d-flex flex-wrap align-items-center gap-3">
+          <div class="homepage-icon" style="background: {{ data.icon_bg_color }};">
+            <img src="{{ data.icon | relative_url }}" alt="">
+          </div>
+          <h2>{{ osmT.title | default: data.title }}</h2>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="subheading pb-4">
+          {{ osmT.sub_heading | default: data.sub_heading }}
+        </div>
+
+        <div class="d-flex flex-wrap gap-2">
+          <a class="button btn-light" href="{{ (osmT.button_one_url | default: data.button_one_url) | relative_url }}">
+            {{ osmT.button_one_text | default: data.button_one_text }}
+            {% include icons/arrow-up.svg %}
+          </a>
+
+          <a class="button btn-outline-light"
+            href="{{ (osmT.button_two_url | default: data.button_two_url) | relative_url }}">
+            {{ osmT.button_two_text | default: data.button_two_text }}
+            {% include icons/arrow.svg %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

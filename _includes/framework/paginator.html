@@ -1,0 +1,98 @@
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  <ul>
+    {%- comment -%} Previous button {%- endcomment -%}
+    {% if paginator.previous_page %}
+    <li>
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
+        <i class="fa fa-chevron-left"></i>
+      </a>
+    </li>
+    {% endif %}
+
+    {%- assign total = paginator.total_pages -%}
+    {%- assign current = paginator.page -%}
+
+    {%- comment -%}
+    If there are only a few pages, show them all (no ellipsis).
+    {%- endcomment -%}
+    {% if total <= 7 %} {% for page in (1..total) %} {% if page==current %} <li class="active"><span>{{ page }}</span>
+      </li>
+      {% elsif page == 1 %}
+      <li><a href="{{ 'blog' | relative_url }}">{{ page }}</a></li>
+      {% else %}
+      <li>
+        <a href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', page }}">
+          {{ page }}
+        </a>
+      </li>
+      {% endif %}
+      {% endfor %}
+
+      {% else %}
+      {%- comment -%}
+      Windowed pagination:
+      - Always show 1 and last page
+      - Show current page ±2 (clamped)
+      - Ellipsis where pages are skipped
+      {%- endcomment -%}
+
+      {%- assign last_page = total -%}
+      {%- assign window_size = 2 -%}
+
+      {%- assign window_start = current | minus: window_size -%}
+      {% if window_start < 2 %} {%- assign window_start=2 -%} {% endif %} {%- assign window_end=current | plus:
+        window_size -%} {%- assign before_last=last_page | minus: 1 -%} {% if window_end> before_last %}
+        {%- assign window_end = before_last -%}
+        {% endif %}
+
+        {% if current == 1 %}
+        <li class="active"><span>1</span></li>
+        {% else %}
+        <li><a href="{{ 'blog' | relative_url }}">1</a></li>
+        {% endif %}
+
+        {% if window_start > 2 %}
+        <li class="ellipsis"><span>…</span></li>
+        {% endif %}
+
+        {% for page in (window_start..window_end) %}
+        {% if page == current %}
+        <li class="active"><span>{{ page }}</span></li>
+        {% else %}
+        <li>
+          <a href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', page }}">
+            {{ page }}
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+
+        {% if window_end < before_last %} <li class="ellipsis"><span>…</span></li>
+          {% endif %}
+
+          {% if last_page > 1 %}
+          {% if current == last_page %}
+          <li class="active"><span>{{ last_page }}</span></li>
+          {% else %}
+          <li>
+            <a href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', last_page }}">
+              {{ last_page }}
+            </a>
+          </li>
+          {% endif %}
+          {% endif %}
+          {% endif %}
+
+          {%- comment -%} Next button {%- endcomment -%}
+          {% if paginator.next_page %}
+          <li>
+            <a href="{{ site.baseurl }}{{ paginator.next_page_path }}">
+              <i class="fa fa-chevron-right"></i>
+            </a>
+          </li>
+          {% endif %}
+  </ul>
+</div>
+{% endif %}

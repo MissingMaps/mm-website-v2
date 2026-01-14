@@ -1,0 +1,35 @@
+{% assign lang = page.lang | default: site.default_lang | default: "en" %}
+{% assign T = site.data.i18n[lang] | default: site.data.i18n.en | default: {} %}
+{% assign contribT = T.contrib | default: {} %}
+
+{% assign data = site.data.contributions %}
+{% assign stats = site.data.contrib_stats %}
+
+<div class="section contributions bg-primary-bg">
+  <div class="container">
+    <div class="row pb-6">
+      <h3>{{ contribT.title | default: data.title }}</h3>
+    </div>
+
+    <div class="row gy-4">
+      {% for it in data.items %}
+      <div class="col-6 col-md-3">
+        <article class="contrib-card">
+          <div class="homepage-icon" style="background: {{ it.color }};">
+            <img src="{{ it.icon | relative_url }}" alt="">
+          </div>
+
+          <div class="contrib-text mt-1">
+            <div class="contrib-value">
+              {{ stats[it.key] | default: "—" }}
+            </div>
+            <div class="small-info-text">
+              {{ contribT[it.label] | default: it.label }}
+            </div>
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

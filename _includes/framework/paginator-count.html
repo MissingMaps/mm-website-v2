@@ -1,0 +1,11 @@
+{% assign lang = page.lang | default: site.default_lang | default: "en" %}
+{% assign T = site.data.i18n[lang] | default: site.data.i18n.en | default: {} %}
+
+{% if paginator and paginator.page != 1 %}
+{% assign page_label = T.pagination.page | default: "Page" %}
+<div class="col-12">
+  <div class="pagination-count">
+    <h3>{{ page_label }} {{ paginator.page }}</h3>
+  </div>
+</div>
+{% endif %}

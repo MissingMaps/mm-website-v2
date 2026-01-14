@@ -1,0 +1,11 @@
+{%- comment -%}
+Usage:
+  {% include i18n_url.liquid path=item.path lang=page.lang %}
+Outputs a localized URL like "/fr/apprendre/" or "/projects/"
+{%- endcomment -%}
+{%- assign __lang = include.lang | default: site.default_lang -%}
+{%- assign __prefix = '' -%}
+{%- unless __lang == site.default_lang -%}
+  {%- assign __prefix = '/' | append: __lang -%}
+{%- endunless -%}
+{{ __prefix | append: '/' | append: include.path | relative_url }}

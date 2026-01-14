@@ -1,0 +1,43 @@
+{%- comment -%}
+Params:
+- item: object with keys { title, url, date, banner, excerpt }
+Optional: item.read_more_label
+{%- endcomment -%}
+
+{%- assign p = include.item -%}
+{%- if p -%}
+
+{%- assign fallback_image = "assets/images/pages/current-projects.jpg" | relative_url -%}
+{%- assign card_image = p.banner | default: fallback_image -%}
+
+<div class="card card-post card-column card-has-thumbnail project-card">
+
+  <div class="card-thumbnail">
+    <a href="{{ p.url | relative_url }}">
+      <img src="{{ card_image }}" alt="{{ p.title | escape }}" loading="lazy" />
+    </a>
+  </div>
+
+  <div class="card-content">
+    <div class="card-title">
+      <h3>
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      </h3>
+    </div>
+
+    {% if p.excerpt %}
+    <div class="card-description">
+      <p>{{ p.excerpt }}</p>
+    </div>
+    {% endif %}
+
+    <div class="project-readmore">
+      <a href="{{ p.url | relative_url }}">
+        Read More
+        {% include icons/arrow-dark.svg %}
+      </a>
+    </div>
+
+  </div>
+</div>
+{%- endif -%}

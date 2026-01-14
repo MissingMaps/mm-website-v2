@@ -1,0 +1,14 @@
+{%- assign href = include.url | default: "" -%}
+<div class="col">
+  {%- if href != "" -%}
+  <a class="member-card d-flex align-items-center justify-content-center rounded-3 bg-white position-relative"
+    href="{{ href }}" target="_blank" rel="noopener noreferrer" aria-label="{{ include.title | escape }}">
+    <img class="member-logo-image" src="{{ include.img | relative_url }}" alt="{{ include.title | escape }}">
+  </a>
+  {%- else -%}
+  <div class="member-card d-flex align-items-center justify-content-center rounded-3 bg-white position-relative"
+    aria-label="{{ include.title | escape }}" aria-disabled="true">
+    <img class="member-logo-image" src="{{ include.img | relative_url }}" alt="{{ include.title | escape }}">
+  </div>
+  {%- endif -%}
+</div>

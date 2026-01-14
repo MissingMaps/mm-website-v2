@@ -1,0 +1,11 @@
+{%- assign video_id = include.id -%}
+{%- assign list_id = include.list -%}
+
+<iframe height="349" max-width="620px" width="100%" src="{% if video_id -%}
+         https://www.youtube-nocookie.com/embed/{{ video_id }}{% if list_id %}?list={{ list_id }}{% endif %}
+       {%- else -%}
+         https://www.youtube-nocookie.com/embed?listType=playlist&list={{ list_id }}
+       {%- endif %}" title="{{ include.title | default: 'YouTube video player' }}" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
