@@ -1,0 +1,70 @@
+---
+layout: default
+body_classes: page-blog
+---
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/title.html
+        title=page.title
+        description=page.description
+        image=page.image
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section pt-0">
+  <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-12">
+          <div class="row">
+            {% assign posts = site.posts %}
+            {% if paginator %}{% assign posts = paginator.posts %}{% endif %}
+            
+              {% if paginator %}
+                <div class="col-12">
+                  {% include framework/paginator-count.html %}
+                </div>
+              {% endif %}
+
+              {% for post in posts %}
+                <div class="col-12 col-lg-4 mb-3">
+                  {% include theme/cards/card-post.html
+                    date=post.date
+                    title=post.title
+                    description=post.excerpt
+                    thumbnail=post.banner 
+                    image=post.banner
+                    url=post.url
+                    authors=post.author
+                    categories=false
+                    show_read_more=false
+                  %}
+                </div>
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% if paginator %}
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          {% include framework/paginator-v2.html %}
+        </div>
+      </div>
+      {% endif %}
+      <div class="row justify-content-center pt-2">
+        <div class="col-auto feed-link">
+          <a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+            <span>RSS Feed</span>
+            <i class="fas fa-feed"></i>
+          </a>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+

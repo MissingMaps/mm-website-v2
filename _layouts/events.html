@@ -1,0 +1,166 @@
+---
+layout: default
+body_classes: page-basic page-events
+---
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/default-header.html
+        title=page.title
+        description=page.description
+        image=page.image
+        image_credit = page.image_credit
+        %}
+      </div>
+    </div>
+    <div class="row justify-content-center mt-4 mb-4">
+      <div class="col-12 col-lg-10 ">
+        <div class="content">
+          {% include framework/button-group.html buttons=page.buttons %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- comment -%}
+If the page has extra content, render it above the events list (same as basic.html).
+{%- endcomment -%}
+{% assign stripped = content | strip_newlines %}
+{% if stripped != "" %}
+<div class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <div class="content">{{ content }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{%- comment -%}
+Events section (pre-rendered from _data/osmcal.json) + client-side search
+{%- endcomment -%}
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+  
+    {% assign empty_array = "" | split: "" %}
+    {% assign events = site.data.osmcal.events | default: empty_array %}
+        
+      {% if events.size == 0 %}
+      <div class="col-12 col-lg-10 content pt-4">
+        <h3>{{ page.not_found }}</h3>
+      </div>
+    </div> <!-- Close row if --> 
+
+    {% else %}
+
+      <div class="col-12 col-lg-10">
+        <h2>{{ page.upcoming }}</h2>
+        <div class="pt-2">
+          <p>
+            {% assign updated = site.data.osmcal.buildTime | date: "%B %-d, %Y" %}
+            {{ page.last_update }} {{ updated }}
+          </p>
+        </div>
+      </div>
+    </div> <!-- Close row else -->
+        
+    <div class="row justify-content-center events pt-3">
+      <div class="col-12 col-lg-10">
+        <div class="row events align-items-stretch">
+          {% for ev in events %}
+          
+          {% assign name = ev.name | default: "Untitled event" %}
+          {% assign url = ev.url | default: "#" %}
+          {% assign date_human = ev.date.human | default: "Date: TBA" %}
+          
+          <div class="col-12 col-lg-6 mb-3 d-flex flex-column">
+            <a href="{{ url }}" target="_blank" rel="noopener" class="h-100">
+              <div class="event content h-100">
+                <h3>
+                  {{ name }}
+                  {% if ev.cancelled %}
+                  <span
+                    style="font-size:.8em; padding:.1em .4em; border:1px solid #c00; color:#c00; border-radius:.25em; margin-left:.5em;">
+                    Cancelled
+                  </span>
+                  {% endif %}
+                </h3>
+                <p class="date">
+                  {{ date_human }}
+                </p>
+                {% if ev.location %}
+                <p class="location">
+                  {{ ev.location.short }}
+                </p>
+                {% if ev.location.detailed %}
+                <p class="location">
+                  {{ ev.location.detailed }}
+                </p>
+                {% endif %}
+                {% endif %}
+              </div>
+            </a>
+          </div>
+          
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% endif %}
+  </div>
+
+        <!-- List 
+        <ul id="events" style="list-style:none; padding:0; margin:0;">
+          {% assign empty_array = "" | split: "" %}
+          {% assign events = site.data.osmcal.events | default: empty_array %}
+          {% if events.size == 0 %}
+          <li>No events available.</li>
+          {% else %}
+          {% for ev in events %}
+          {% assign name = ev.name | default: "Untitled event" %}
+          {% assign url = ev.url | default: "#" %}
+          {% assign date_human = ev.date.human | default: "Date: TBA" %}
+          {% assign place = "" %}
+          {% if ev.location and ev.location.short %}
+          {% assign place = " · " | append: ev.location.short %}
+          {% endif %}
+
+          <li class="event content" data-name="{{ name | downcase }}">
+            <h3>
+              <a href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a>
+              {% if ev.cancelled %}
+              <span
+                style="font-size:.8em; padding:.1em .4em; border:1px solid #c00; color:#c00; border-radius:.25em; margin-left:.5em;">
+                Cancelled
+              </span>
+              {% endif %}
+            </h3>
+            <p class="date">
+              {{ date_human }}
+            </p>
+            {% if ev.location %}
+            <p class="location">
+              {{ ev.location.short }}
+            </p>
+              {% if ev.location.detailed %}
+              <p class="location">
+                {{ ev.location.detailed }}
+              </p>
+              {% endif %}
+            {% endif %}
+          </li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+
+        -->
+      </div>
+    </div>
+  </div>
+</div>

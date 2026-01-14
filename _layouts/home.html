@@ -1,0 +1,366 @@
+---
+layout: default
+body_classes: page-home
+---
+
+<div class="section pb-8">
+  <div class="container">
+    <div class="row justify-content-center pb-12 pt-12 pb-md-8 pt-mb-8">
+      <div class="col-12 col-md-10 col-lg-6 text-center">
+        <h1>{{ page.title}}</h1>
+        <div class="subheading pt-2 pb-4">{{ page.description}}</div>
+        {% if page.header_button_url %}
+        <div class="d-inline-flex flex-wrap gap-1 gap-md-2">
+          <a class="button btn-dark" href="{{ page.header_button_url | relative_url }}">
+            {{ page.header_button_label }}
+            {% include icons/arrow.svg %}
+          </a>
+          {% if page.header_button_two_url %}
+            <a class="button btn-outline-dark" href="{{ page.header_button_two_url | relative_url }}">{{ page.header_button_two_label }}</a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 hero-img">
+        <img class="img-fluid d-block d-md-none" src="{{ page.image_mobile | relative_url }}" alt="Hero Image" loading="lazy" decoding="async">
+        <img class="img-fluid d-none d-md-block" src="{{ page.image| relative_url }}" alt="Hero Image" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section how-we-work pb-8 pb-mb-12 pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 pb-2 pb-md-6">
+        <h2>
+        {{ page.section_2_title }}
+        </h2>
+      </div>
+    </div>
+    <div class="row g-1">
+      <!-- Card 1 -->
+      <div class="col-12 col-md-4">
+        <article class="hww-card hww-card--blue">
+          <div class="hww-step small-info-text">STEP 1</div>
+          <div class="hww-illustration" aria-hidden="true">
+            <img src="{{ page.step_1_image | relative_url }}" alt="">
+          </div>
+          <h3 class="pt-1 pb-2">{{ page.step_1_title }}</h3>
+          <p>{{ page.step_1_text }}</p>
+        </article>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-md-4">
+        <article class="hww-card hww-card--peach">
+          <div class="hww-step small-info-text">STEP 2</div>
+          <div class="hww-illustration" aria-hidden="true">
+            <img src="{{ page.step_2_image | relative_url }}" alt="">
+          </div>
+          <h3 class="pt-1 pb-2">{{ page.step_2_title }}</h3>
+          <p>{{ page.step_2_text }}</p>
+        </article>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-md-4">
+        <article class="hww-card hww-card--green">
+          <div class="hww-step small-info-text">STEP 3</div>
+          <div class="hww-illustration" aria-hidden="true">
+            <img src="{{ page.step_3_image | relative_url }}" alt="">
+          </div>
+          <h3 class="pt-1 pb-2">{{ page.step_3_title }}</h3>
+          <p>{{ page.step_3_text }}</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- How to participate -->
+<div class="section how-to-participate pt-2 pb-2 pb-md-6">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 pb-2 pb-md-6">
+        <h2>
+          {{ page.section_3_title }}
+        </h2>
+      </div>
+    </div>
+    <!-- Participate 1 -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="htp-card htp-card--peach p-1 rounded-4">
+          <div class="row align-items-stretch">
+            <!-- media -->
+            <div class="col-12 col-md-6">
+              <div class="htp-media h-100 rounded-3 overflow-hidden">
+                <img src="{{ page.participate_1_image | relative_url }}" class="w-100 h-100 object-fit-cover d-block"
+                  alt="">
+                  {%- if page.participate_1_credit -%}
+                  <div class="credit-badge">
+                    <span>{{ page.participate_1_credit }}</span>
+                  </div>
+                  {%- endif -%}
+              </div>
+            </div>
+    
+            <!-- copy -->
+            <div class="col-12 col-md-6 p-2 pe-md-5">
+              <div class="htp-copy h-100 d-flex flex-column justify-content-between">
+                <h3 class="mb-3">{{ page.participate_1_title }}</h3>
+                <div>
+                  <div class="mb-3">{{ page.participate_1_text | markdownify }}</div>
+                  {% if page.participate_1_buttons %}
+                  <div class="d-flex flex-wrap gap-1 gap-md-2">
+                    {% for btn in page.participate_1_buttons %}
+                    <a class="button {% if forloop.first %}btn-dark{% else %}btn-outline-dark{% endif %}" href="{{ btn.url | relative_url }}">{{ btn.label }}</a>
+                    {% endfor %}
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.htp-card -->
+      </div>
+    </div>
+
+    <!-- Participate 2 -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="htp-card htp-card--green p-1 rounded-4">
+          <div class="row align-items-stretch">
+            <!-- media -->
+            <div class="col-12 col-md-6 order-md-2">
+              <div class="htp-media h-100 rounded-3 overflow-hidden">
+                <img src="{{ page.participate_2_image | relative_url }}" class="w-100 h-100 object-fit-cover d-block"
+                  alt="">
+                {%- if page.participate_2_credit -%}
+                  <div class="credit-badge">
+                    <span>{{ page.participate_2_credit }}</span>
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+    
+            <!-- copy -->
+            <div class="col-12 col-md-6 order-md-1 p-2 pe-md-5">
+              <div class="htp-copy h-100 d-flex flex-column justify-content-between">
+                <h3 class="mb-3">{{ page.participate_2_title }}</h3>
+                <div>
+                  <div class="mb-3">{{ page.participate_2_text | newline_to_br }}</div>
+                  {% if page.participate_2_buttons %}
+                  <div class="d-flex flex-wrap gap-1 gap-md-2">
+                    {% for btn in page.participate_2_buttons %}
+                    <a class="button {% if forloop.first %}btn-dark{% else %}btn-outline-dark{% endif %}" href="{{ btn.url | relative_url }}">{{ btn.label }}</a>
+                    {% endfor %}
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Participate 3 -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="htp-card htp-card--blue p-1 rounded-4">
+          <div class="row align-items-stretch">
+            <!-- media -->
+            <div class="col-12 col-md-6">
+              <div class="htp-media h-100 rounded-3 overflow-hidden">
+                <img src="{{ page.participate_3_image | relative_url }}" class="w-100 h-100 object-fit-cover d-block"
+                  alt="">
+                  {%- if page.participate_3_credit -%}
+                  <div class="credit-badge">
+                    <span>{{ page.participate_3_credit }}</span>
+                  </div>
+                  {%- endif -%}
+              </div>
+            </div>
+    
+            <!-- copy -->
+            <div class="col-12 col-md-6 pt-2 p-2 pe-md-5">
+              <div class="htp-copy h-100 d-flex flex-column justify-content-between">
+                <h3 class="mb-3">{{ page.participate_3_title }}</h3>
+                <div>
+                  <div class="mb-3">{{ page.participate_3_text | newline_to_br }}</div>
+                  {% if page.participate_3_buttons %}
+                  <div class="d-flex flex-wrap gap-1 gap-md-2">
+                    {% for btn in page.participate_3_buttons %}
+                    <a class="button {% if forloop.first %}btn-dark{% else %}btn-outline-dark{% endif %}" href="{{ btn.url | relative_url }}">{{ btn.label }}</a>
+                    {% endfor %}
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% assign cards = site.posts | sort: 'date' | reverse %}
+{% assign limit = page.posts.limit | default: 6 %}
+{% assign sort_by = page.posts.sort | default: 'date' %}
+{% assign columns =  page.posts.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = cards | sort: 'weight' %}
+{% endif %}
+
+{% if cards.size > 0 %}
+
+<div class="section home-blog bg-base-bg-2">
+  <div class="container">
+    <div class="row align-items-stretch ">
+      <div class="col-12 col-md-6">
+        <h2 class="mb-4">
+          {{ page.posts_heading }}
+        </h2>
+        <div class="subheading mb-3">
+          {{ page.posts_sub_heading }}
+        </div>
+        {% if page.posts_button_url %}
+          <a class="button btn-dark btn-white-arrow" href="{{ page.posts_button_url | relative_url }}">
+            {{ page.posts_button_label }}
+            {% include icons/arrow.svg %}
+          </a>
+        {% endif %}
+      </div>
+      <div class="col-md-6 d-none d-md-block posts-image">
+        <img src="{{ '/assets/images/home/learn.svg' | relative_url }}" class="object-fit-contain d-block ms-auto" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section home-blog bg-base-bg-2 pt-0">
+  <div class="container">
+    <div class="row g-1">
+
+      {% for card in cards limit: limit %}
+
+        {% assign categories = "" %}
+        {% assign authors = "" %}
+        {% if page.posts.show_categories %}
+          {% assign categories = card.categories %}
+        {% endif %}
+        {% if page.posts.show_authors %}
+          {% assign authors = card.authors %}
+        {% endif %}
+
+        <div class="col-12 col-md-4 {{ columns }}{% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mb-3 mb-md-6">
+          {% include theme/cards/card-post.html 
+            title=card.title 
+            description=card.excerpt
+            thumbnail=card.banner
+            image=card.banner
+            authors=card.author
+            date=card.date
+            url=card.url 
+          %}
+        </div>
+      {% endfor %}
+
+      {% include framework/grid-footer.html 
+        view_more_button_text=page.posts.view_more_button_text
+        view_more_button_link=page.posts.view_more_button_link
+        align="center"
+        icon=""
+      %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="section current-projects">
+  <div class="container">
+    <div class="row gap-6 gap-md-0">
+      <div class="col-12 col-md-6 pe-8">
+        <h2 class="mb-4">
+          {{ page.projects_label }}
+        </h2>
+        <div class="subheading mb-3">
+          {{ page.projects_sub_heading }}
+        </div>
+        {% if page.projects_button_url %}
+        <a class="button btn-dark btn-white-arrow" href="{{ page.projects_button_url | relative_url }}">{{ page.projects_button_label }}</a>
+        {% endif %}
+      </div>
+      <div class="col-12 col-md-6">
+        {%- assign featured = site.projects | where_exp: 'p','p.featured' | first -%}
+        {%- assign proj = featured -%}
+        {%- unless proj -%}
+        {%- assign proj = site.projects | sort: 'date' | reverse | first -%}
+        {%- endunless -%}
+        {% include sections/project-card.html item=proj %}
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contributions Image-->
+<div class="section contributions-img pb-0 pt-0">
+  <div class="h-100 overflow-hidden">
+    <img src="{{ page.contributions_image | relative_url }}" class="w-100 h-100 object-fit-cover d-block" alt="">
+  </div>
+</div>
+{% include sections/contributions.html %}
+
+<div class="section bg-base-bg-4">
+  
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12">
+        <h2 class="mb-2">
+          {{ page.about_us }}
+        </h2>
+        <div class="subheading">
+          {{ page.about_us_sub }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h4>
+          {{ page.founders }}
+        </h4>
+      </div>
+    </div>
+  </div>
+  {% include sections/members-grid.html items=site.data.founders %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h4>
+          {{ page.members }}
+        </h4>
+      </div>
+    </div>
+  </div>
+  {% include sections/members-grid.html items=site.data.members %}
+
+{% include sections/openstreetmap.html %}
+</div>
+
+{% if site.newsletter.mailchimp.form_action_url and site.newsletter.mailchimp.form_action_url != '' %}
+<div class="section section-base-bg-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/subscribe.html %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

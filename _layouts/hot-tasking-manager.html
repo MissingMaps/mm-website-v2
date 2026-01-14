@@ -1,0 +1,208 @@
+---
+layout: default
+body_classes: page-basic
+---
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/default-header.html
+        title=page.title
+        description=page.description
+        image=page.image
+        image_credit = page.image_credit
+        %}
+      </div>
+    </div>
+    <div class="row justify-content-center mt-4 mb-4">
+      <div class="col-12 col-lg-10 ">
+        <div class="content">
+          <ul class="page-nav">
+            <li>
+              <a href="#first">
+              {% include icons/arrow-dark.svg %}
+              {{ page.nav_1 }} 
+              </a>
+            </li>
+            <li>
+              <a href="#advanced">
+                {% include icons/arrow-dark.svg %}
+                {{ page.nav_2 }}
+              </a>
+            </li>
+            <li>
+              <a href="#validation">
+                {% include icons/arrow-dark.svg %}
+                {{ page.nav_3 }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ======== SECTION 1: FIRST STEPS ========== -->
+<div class="section mt-0 pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        <h1 id="first">{{ page.first_steps_heading }}</h1> 
+        {{ page.first_steps_intro | markdownify }}
+      </div>
+    </div>
+    <div class="row justify-content-center mt-2 g-4 align-items-stretch">
+      <div class="col-12 col-lg-5 content d-flex flex-column">
+        <h3>{{ page.fs_step1_title }}</h3>
+        {{ page.fs_step1_body | markdownify }}
+        <div class="mt-auto">
+          {% include framework/shortcodes/youtube.html id=page.fs_step1_video_id %}
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 content d-flex flex-column">
+        <h3>{{ page.fs_step2_title }}</h3>
+        {{ page.fs_step2_body | markdownify }}
+        <div class="mt-auto">
+          {% include framework/shortcodes/youtube.html id=page.fs_step2_video_id %}
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 content d-flex flex-column">
+        <h3>{{ page.fs_step3_title }}</h3>
+        {{ page.fs_step3_body | markdownify }}
+        <div class="mt-auto">
+          {% include framework/shortcodes/youtube.html id=page.fs_step3_video_id %}
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 content d-flex flex-column">
+        <h3>{{ page.fs_step4_title }}</h3>
+        {{ page.fs_step4_body | markdownify }}
+        <div class="mt-auto">
+          {% include framework/shortcodes/youtube.html id=page.fs_step4_video_id %}
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 pt-2 pb-8">
+          {% include framework/button.html
+          text=page.fs_guide_button_text
+          url=page.fs_guide_button_url
+          external=true
+          outline=true
+          %}
+      </div>
+      <div class="col-12 col-lg-10">
+          {% include framework/shortcodes/column-with-image.html
+          heading=page.fs_start_mapping_heading
+          text=page.fs_start_mapping_text
+          button_url=page.fs_start_mapping_button_url
+          button_text=page.fs_start_mapping_button_text
+          button_external=true
+          image=page.fs_start_mapping_image
+          image_credit=page.fs_start_mapping_image_credit
+          %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ====== SECTION 1.1: More resources ======= -->
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        <h2>{{ page.fs_more_training_heading }}</h2>
+        {{ page.fs_more_training_intro | markdownify }}
+      </div>
+    </div>
+    <div class="row justify-content-center g-4">
+      <div class="col-12 col-lg-5 content">
+        <h3>{{ page.fs_webinar_1_title }}</h3>
+        {% include framework/shortcodes/youtube.html
+        id=page.fs_webinar_1_video_id
+        list=page.fs_webinar_playlist_id
+        %}
+      </div>
+      <div class="col-12 col-lg-5 content">
+        <h3>{{ page.fs_webinar_2_title }}</h3>
+        {% include framework/shortcodes/youtube.html
+        id=page.fs_webinar_2_video_id
+        list=page.fs_webinar_playlist_id
+        %}
+      </div>
+      <div class="col-12 col-lg-10">
+        {{ page.fs_more_training_links | markdownify }}
+        <div class="col-12 col-lg-10 pt-2">
+          {% include framework/button.html
+          text=page.learn_OSM_button_text
+          url=page.learn_OSM_button_url
+          external=true
+          outline=true
+          %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ====== SECTION 2: ADVANCED MAPPING ======= -->
+<div class="section mt-0 bg-base-bg-2">
+  <div class="container">
+    <div class="row row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        <h1 id="advanced">{{ page.advanced_heading }}</h1>
+        {{ page.advanced_intro | markdownify }}
+      </div>
+    </div>
+    <div class="row row justify-content-center mt-2 g-4">
+      <div class="col-12 col-lg-5 content">
+        <h3>{{ page.advanced_webinar_1_title }}</h3>
+        {% include framework/shortcodes/youtube.html
+        id=page.advanced_webinar_1_video_id
+        %}
+      </div>
+      <div class="col-12 col-lg-5 content">
+        <h3>{{ page.advanced_webinar_2_title }}</h3>
+        {% include framework/shortcodes/youtube.html
+        id=page.advanced_webinar_2_video_id
+        %}
+      </div>
+      <div class="col-12 col-lg-10 mt-2">
+        {{ page.advanced_more_resources | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ====== SECTION 3: VALIDATION ======= -->
+<div class="section mt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        <h1 id="validation">{{ page.validation_heading }}</h1>
+        {{ page.validation_intro | markdownify }}
+        <h2>{{ page.validation_be_validator_heading }}</h2>
+        
+        <h3>{{ page.validation_step1_title }}</h3>
+        {{ page.validation_step1_body | markdownify }}
+        
+        <h3>{{ page.validation_step2_title }}</h3>
+        {{ page.validation_step2_body | markdownify }}
+        
+        <p>{{ page.validation_step2_note | markdownify }}</p>
+        
+        <p>{{ page.validation_webinar_intro | markdownify }}</p>
+        {% include framework/shortcodes/youtube.html
+        id=page.validation_webinar_video_id
+        %}
+        
+        <h3>{{ page.validation_step3_title }}</h3>
+        {{ page.validation_step3_body | markdownify }}
+        
+        <h3>{{ page.validation_resources_heading }}</h3>
+        {{ page.validation_resources_body | markdownify }}
+        
+        {{ page.validation_closing | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>

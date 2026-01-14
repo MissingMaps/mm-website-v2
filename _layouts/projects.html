@@ -1,0 +1,66 @@
+---
+layout: default
+body_classes: page-blog
+---
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/default-header.html
+        title=page.title
+        description=page.description
+        image=page.image
+        image_credit=page.image_credit
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12">
+        <div class="row">
+
+          {%- comment -%}
+          Show up to 12 projects:
+          1) Featured project first (first found where featured=true)
+          2) Then newest projects by date (excluding featured)
+          {%- endcomment -%}
+
+          {%- assign featured = site.projects | where_exp: "p","p.featured" | first -%}
+
+          {%- assign rest = site.projects | sort: "date" | reverse -%}
+          {%- if featured -%}
+          {%- assign rest = rest | where_exp: "p","p.url != featured.url" -%}
+          {%- endif -%}
+
+          {%- assign projects = rest | slice: 0, 12 -%}
+          {%- if featured -%}
+          {%- assign projects = projects | unshift: featured | slice: 0, 12 -%}
+          {%- endif -%}
+
+          {% for project in projects %}
+          <div class="col-12 col-lg-4 mb-3">
+            {% assign project_image = project.banner | default: "assets/images/pages/current-projects.jpg" %}
+
+            {% include theme/cards/card-post.html
+            title=project.title
+            date=project.date
+            description=project.excerpt
+            thumbnail=project_image
+            image=project.banner
+            url=project.url
+            categories=false
+            show_read_more=false
+            %}
+          </div>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

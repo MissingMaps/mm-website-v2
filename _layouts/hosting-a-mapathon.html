@@ -1,0 +1,168 @@
+---
+layout: default
+body_classes: page-basic
+---
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/default-header.html
+        title=page.title
+        description=page.description
+        image=page.image
+        image_credit=page.image_credit
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Intro -->
+<div class="section mt-0 pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        {{ page.intro | markdownify }}
+      </div>
+    </div>
+    <div class="row justify-content-center mt-2 g-4 align-items-stretch">
+      <div class="col-12 col-lg-5 content d-flex flex-column">
+        <h3>{{ page.video_1_title }}</h3>
+        <div class="mt-auto">
+          {% include framework/shortcodes/youtube.html id=page.video_1_id %}
+        </div>
+      </div>
+    
+      <div class="col-12 col-lg-5 content d-flex flex-column">
+        <h3>{{ page.video_2_title }}</h3>
+        <div class="mt-auto">
+          {% include framework/shortcodes/youtube.html id=page.video_2_id %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MapSwipe -->
+<div class="section mt-0 bg-base-bg-2">
+  <div class="container">
+    <div class="row justify-content-center align-items-stretch">
+      <div class="col-12 col-lg-5 pb-4 pb-lg-0 h-100 content">
+        <div class="ham-mapswipe-image rounded-3 position-relative">
+          <img src="{{ page.mapswipe_image | relative_url }}" alt="Mapswipe Logo">
+          {%- if mapswipe_image_credit -%}
+          <div class="credit-badge">
+            <span>{{ mapswipe_image_credit }}</span>
+          </div>
+          {%- endif -%}
+        </div>
+      </div>
+      <div class="ham-mapswipe-content col-12 col-lg-5 content">
+        
+        <h2 class="mb-3">{{ page.mapswipe_heading }}</h2>
+
+        {%- assign mapswipe_body = page.mapswipe_body
+        | replace: '[[MAPSWIPE_TOOLKIT_URL]]', page.mapswipe_toolkit_url
+        | replace: '[[MAPSWIPE_FAQ_URL]]', page.mapswipe_faq_url
+        -%}
+        {{ mapswipe_body | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 
+<div class="section mt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+
+        {% include framework/shortcodes/column-with-image.html
+        heading=page.resources_heading
+        text=page.resources_text
+        image=page.resources_image
+        image_credit=page.resources_image_credit
+        color=page.resources_color
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<div class="section mt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        <h3> {{ page.resources_heading }}</h3>
+        {{ page.resources_text | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section mt-0 pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div id="register" class="col-12 col-lg-10">
+
+        {%- assign register_body = page.register_body
+        | replace: '[[REGISTER_URL]]', page.register_url
+        | replace: '[[OSMCAL_URL]]', page.osmcal_url
+        | replace: '[[EVENTS_URL]]', page.events_url
+        -%}
+
+        {% include framework/shortcodes/column-with-image.html
+        heading=page.register_heading
+        heading_size="h2"
+        text=page.register_body
+        button_text=page.register_button_text
+        button_url=page.register_button_url
+        button_external=true
+        image=page.resources_image
+        image_credit=page.resources_image_credit
+        color=page.resources_color
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Register -->
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        <!-- 
+        <h2 id="register">{{ page.register_heading }}</h2>
+
+        {%- assign register_body = page.register_body
+        | replace: '[[REGISTER_URL]]', page.register_url
+        | replace: '[[OSMCAL_URL]]', page.osmcal_url
+        | replace: '[[EVENTS_URL]]', page.events_url
+        -%}
+        {{ register_body | markdownify }}
+
+        <div class="pt-2">
+          {% include framework/button.html
+          text=page.register_button_text
+          url=page.register_url
+          external=true
+          %}
+        </div>
+      -->
+        <h3>{{ page.large_heading }}</h3>
+        {{ page.large_body | markdownify }}
+
+        <h3 class="mt-4">{{ page.tips_heading }}</h3>
+        <ul>
+          {%- for tip in page.tips -%}
+          {%- assign tip_text = tip
+          | replace: '[[INFO_EMAIL]]', page.info_email
+          | replace: '[[MAPSWIPE_PAGE]]', page.mapswipe_page
+          -%}
+          <li>{{ tip_text | markdownify }}</li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

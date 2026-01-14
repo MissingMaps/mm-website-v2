@@ -1,0 +1,117 @@
+---
+layout: default
+body_classes: page-basic
+---
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/default-header.html
+        title=page.title
+        description=page.description
+        image=page.image
+        image_credit=page.image_credit
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Intro -->
+<div class="section mt-0 pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        {{ page.intro | markdownify }}
+      </div>
+    </div>
+    <div class="row justify-content-center g-4 align-items-stretch">
+      <div class="col-12 col-lg-5 content d-flex flex-column mt-0">
+        <figure class="figure-full" >
+            <img src="{{ page.fig_src_1 | relative_url }}" alt="{{ page.fig_alt_1 }}">
+          <figcaption>
+            <h4>{{ page.fig_title_1 }}</h4>
+            <p>{{ page.fig_caption_1 }}</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-12 col-lg-5 content d-flex flex-column mt-0">
+        <figure class="figure-full">
+          <img src="{{ page.fig_src_2 | relative_url }}" alt="{{ page.fig_alt_2 }}">
+          <figcaption>
+            <h4>{{ page.fig_title_2 }}</h4>
+            <p>{{ page.fig_caption_2 }}</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-12 col-lg-10 content">
+          {{ page.explore_text | markdownify }}
+      </div>
+      <div class="col-12 col-lg-10 content mt-0">
+          {% include framework/button.html 
+            text=page.mapswipe_button_text 
+            url=page.mapswipe_button_url 
+            external=true %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Start Mapping -->
+<div class="section mt-0 bg-base-bg-2">
+  <div class="container">
+    <div class="row justify-content-center align-items-stretch">
+      <div class="start-mapping-content col-12 col-lg-5 content pb-4 pb-lg-0">
+        <h2 class="mb-3">{{ page.start_mapping_heading }}</h2>
+        {{ page.start_mapping_text | markdownify }}
+        {% if page.button_row %}
+          <div class="mt-3">
+          {% include framework/button-group.html buttons=page.button_row %}
+          </div>
+        {% endif %}
+      </div>
+      <div class="col-12 col-lg-5 h-100 content">
+        <div class="start-mapping-image rounded-3 position-relative">
+          <img src="{{ page.start_mapping_img | relative_url }}" alt="Start Mapping Image">
+          {%- if page.start_mapping_credit -%}
+          <div class="credit-badge">
+            <span>{{ page.start_mapping_credit }}</span>
+          </div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Organize Event -->
+<div class="section mt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        <h2>{{ page.organize_event_title}}</h2>
+
+        {%- assign organize_body = page.organize_event_body
+        | replace: '[[TOOLKIT_URL]]', page.organize_event_toolkit_url
+        | replace: '[[FAQ_URL]]', page.organize_event_faq_url
+        -%}
+        {{ organize_body | markdownify }}
+      </div>
+      <div class="col-12 col-lg-10 content pt-8">
+        {% include framework/shortcodes/column-with-image.html
+        heading=page.support_heading
+        text=page.support_text
+        button_url=page.support_button_url
+        button_text=page.support_button_text
+        button_external=true
+        image=page.support_image
+        image_credit=page.support_image_credit
+        color=page.support_color
+        min_height="300px"
+        %}
+      </div>
+    </div>
+  </div>
+</div>

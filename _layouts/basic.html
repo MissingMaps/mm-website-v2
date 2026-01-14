@@ -1,0 +1,53 @@
+---
+layout: default
+body_classes: page-basic
+---
+
+<div class="section pb-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      {% if page.image and page.image != "" %}
+        <div class="col-12">
+          <div class="title-image rounded-3 overflow-hidden">
+            <img {% if page.title %} alt="{{ page.title }}" {% endif %} src="{{ page.image | relative_url }}" />
+            {%- if page.image_credit -%}
+              <div class="credit-badge">
+                <span>{{ page.image_credit }}</span>
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+      {% endif %}
+      <div class="col-12 col-lg-10 mt-4">
+        <div class="title">
+
+          {% if page.title %}
+          <div class="title-heading">
+            <h1>{{ page.title }}</h1>
+          </div>
+          {% endif %}
+
+          {% if page.description %}
+          <div class="title-description">
+            <p>{{ page.description | markdownify }}</p>
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% assign content = content | strip_newlines %}
+{% if content != "" %}
+<div class="section ">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <div class="content">{{ content | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
