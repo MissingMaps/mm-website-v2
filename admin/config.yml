@@ -1,0 +1,117 @@
+site_url: "https://monikalauri.github.io/MissingMaps"
+
+backend:
+  name: github
+  repo: "monikalauri/MissingMaps"
+  branch: main
+  base_url: "https://decap-oauth.monika-laurinaviciute.workers.dev/"
+  auth_endpoint: "auth"   # optional, but I like making it explicit
+
+media_folder: "assets/uploads"
+public_folder: "/MissingMaps/assets/uploads"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "collections/_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+
+      - { label: "Title", name: "title", widget: "string" }
+
+      # Banner can be an uploaded image OR an external URL:
+      - label: "Banner"
+        name: "banner"
+        widget: "string"
+        required: false
+        hint: "Paste an image URL (https://...) OR upload an image and paste its path."
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: true
+
+      - { label: "Author", name: "author", widget: "string", required: false }
+
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
+
+      - { label: "Published", name: "published", widget: "boolean", default: true, required: false }
+
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+
+      - label: "Permalink"
+        name: "permalink"
+        widget: "string"
+        required: false
+        default: "/blog/:year/:month/:day/:title/"
+        hint: "Optional. Default: /blog/:year/:month/:day/:title/. If needed for translations, add a language prefix e.g. /fr/blog/:year/:month/:day/:title/."
+
+      - label: "Language"
+        name: "lang"
+        widget: "select"
+        options: ["en", "fr", "cs", "es"]
+        default: "en"
+      
+      - label: "Post ID"
+        name: "postID"
+        widget: "string"
+        required: false
+        hint: "Optional. Internal identifier (e.g. MM-2023-annual-report-highlights-Cameroon)."
+
+      - { label: "Body", name: "body", widget: "markdown" }
+  
+  - name: "projects"
+    label: "Projects"
+    folder: "collections/_projects"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+
+      - { label: "Title", name: "title", widget: "string" }
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: true
+
+      - label: "Banner"
+        name: "banner"
+        widget: "string"
+        required: false
+        hint: "Optional. Paste an image URL or a relative path."
+
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
+
+      - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
+
+      - { label: "Published", name: "published", widget: "boolean", default: true, required: false }
+
+      - label: "Language"
+        name: "lang"
+        widget: "select"
+        options: ["en", "fr", "cs", "es"]
+        default: "en"
+
+      - label: "Permalink"
+        name: "permalink"
+        widget: "string"
+        required: false
+        default: "/projects/:year/:month/:day/:title/"
+        hint: "Optional. Default: /projects/:year/:month/:day/:title/. If needed, add language prefix (e.g. /fr/projects/:year/:month/:day/:title/)."
+
+      - { label: "Body", name: "body", widget: "markdown" }
