@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/satoshi/Satoshi-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Italic */
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* fira-mono-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fira-mono/fira-mono-v14-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
