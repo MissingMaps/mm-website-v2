@@ -6,7 +6,7 @@ permalink: "/fr/training-checklists/"
 description: |-
   Découvrez tout ce dont vous avez besoin pour organiser un événement Missing Maps réussi !
 
-image: "assets/images/pages/Training-Materials.png"
+image: "assets/images/pages/Training-Materials.webp"
 ---
 
 - **[Guide pas à pas pour organiser un mapathon](https://drive.google.com/drive/folders/1vV9-MbQwIxvfDncC78HAEy-Mb6E4JlE9?usp=sharing)** : Accédez au guide complet pour planifier et organiser un mapathon.

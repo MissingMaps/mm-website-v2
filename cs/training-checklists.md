@@ -6,7 +6,7 @@ permalink: "/cs/training-checklists/"
 description: |-
   Prozkoumejte vše, co potřebujete k uspořádání úspěšné akce Missing Maps!
 
-image: "assets/images/pages/Training-Materials.png"
+image: "assets/images/pages/Training-Materials.webp"
 ---
 
 - **[Podrobný návod k pořádání mapathonu](https://drive.google.com/drive/folders/1vV9-MbQwIxvfDncC78HAEy-Mb6E4JlE9?usp=sharing)**: Kompletní průvodce plánováním a realizací mapathonu.

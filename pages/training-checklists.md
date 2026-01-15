@@ -5,7 +5,7 @@ permalink: "/training-checklists/"
 description: |-
   Explore everything you need to host a successful Missing Maps event!
 
-image: "assets/images/pages/Training-Materials.png"
+image: "assets/images/pages/Training-Materials.webp"
 ---
 - **[Step-by-Step Guide to Hosting a Mapathon](https://drive.google.com/drive/folders/1vV9-MbQwIxvfDncC78HAEy-Mb6E4JlE9?usp=sharing):** Access the complete guide to planning and running a mapathon
 
