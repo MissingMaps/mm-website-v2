@@ -1,0 +1,197 @@
+# -------------------
+# Jekyll Config
+# --------------------
+url: "https://monikalauri.github.io"
+baseurl: "/MissingMaps"
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-environment-variables
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  per_page: 9
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+# paginate: 9
+# paginate_path: "/blog/page/:num"
+
+# Collections
+collections_dir: collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Pages
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      weight: 999
+  - scope:
+      path: category
+    values:
+      layout: category
+  - scope:
+      path: "pages"
+    values:
+      permalink: /:basename/
+  - scope:
+      path: "images"
+    values:
+      image: true
+
+# SCSS
+sass:
+  style: compact
+
+# Excludes
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - netlify.toml
+
+# Languages 
+
+languages: [en, fr, cs, es]
+default_lang: en
+
+# -------------------
+# Theme Config
+# --------------------
+title: "Missing Maps"
+category_dir: 'category'
+
+colors:
+  #light-mode colors
+  primary_bg: "#0C2E45" #dark blue
+  primary_bg_2: "#0D6697" #medium blue
+  primary_bg_3: "#0D6697"
+  primary_text: "#0C2E45" #dark blue
+  base_bg: "#ffffff"
+  base_bg_2: "#F1F9FE" #lighter blue
+  base_bg_3: "#E2F2FC" #medium light blue
+  base_bg_4: "#EEF2F4" #light gray bg
+  base_text: "#0C2E45" #main dark blue
+  base_text_2: "#637885" #gray text
+  logo_text: "#191a1a"
+  menu_text: "#191a1a"
+
+  # dark-mode not enabled all colors the same
+  primary_bg_dark: "#0C2E45" #dark blue
+  primary_bg_2_dark: "#0D6697"
+  primary_bg_3_dark: "#0D6697"
+  primary_text_dark: "#0C2E45"
+  base_bg_dark: "#ffffff"
+  base_bg_2_dark: "#F1F9FE"
+  base_bg_3_dark: "#E2F2FC"
+  base_bg_4_dark: "#EEF2F4" #light gray bg
+  base_text_dark: "#0C2E45"
+  base_text_2_dark: "#637885"
+  logo_text_dark: "#191a1a"
+  menu_text_dark: "#191a1a"
+
+fonts:
+  use_google_fonts: false # will use external google_fonts url below
+  google_fonts_url: #
+  use_self_hosted_fonts: true # font files must be placed in /assets/fonts folder and the @font-face definitions must be added to /assets/css/fonts.css
+  heading: "Satoshi"
+  base: "Satoshi"
+  monospace: "Fira Mono"
+  logo: "Satoshi"
+
+logo:
+ # logo_text:
+  logo_image: assets/images/logo/logo.svg
+  logo_image_mobile: assets/images/logo/logo.svg
+  logo_image_invert: assets/images/logo/logo.svg
+  logo_image_invert_mobile: assets/images/logo/logo.svg
+  logo_image_desktop_height: "40px"
+  logo_image_desktop_width: "100px"
+  logo_image_mobile_height: "30px"
+  logo_image_mobile_width: "100px"
+  show_logo_image_on_mobile: true
+  show_logo_image_on_desktop: true
+  show_logo_text_on_mobile: false
+
+header: 
+  fixed: true
+
+open_graph:
+  meta_opengraph_type: "website"
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@TheMissingMaps"
+  meta_twitter_creator: "@TheMissingMaps"
+
+darkmode:
+  enable_dark_mode: false
+  show_dark_mode_toggle_in_header: false 
+  show_dark_mode_toggle_in_bottom: false # displays the dark mode toggle switch in the footer and allows the user to manually change the mode
+  show_dark_mode_toggle_in_mobile_menu: false # displays the dark mode toggle switch in the footer and allows the user to manually change the mode
+
+cookie_banner:
+  enabled: false
+  show_manage_cookies_at_bottom: false
+
+analytics:
+  google_analytics_id: "" # G-XXXXXXXXXX
+  gtm_id: "" # GTM-XXXXXXXX
+  plausible_data_domain: "" # example: mywebsite.com
+  umami_data_website_id: "" # example: "ddd14336-5fb0-4cdd-8f32-e1bfa906cc2b"
+  umami_src: "" # "https://analytics.eu.umami.is/script.js"
+
+comments:
+  commento:
+    enabled: false # you must have a commento account and be on the correct domain. does not work locally.
+  disqus:
+    shortname: "" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
+
+newsletter:
+  mailchimp:
+    form_action_url: ""
+    form_title: ""
+
+contact_form: 
+  use_netlify_form: false
+  use_formspree_form: false
+  formspree_endpoint: ""
+  netlify_form_name: ""
+
+menu: 
+  show_dropdown_items_in_mobile_menu: false
+  show_social_media_in_mobile_menu: true
+
+footer:
+  enable_footer: true # show/hide the entire footer
+  footer_title: "Contact:"
+  footer_link: "info@hotosm.org"
+  enable_social_media_icons: true
+  enable_menu_footer_primary: false
+  enable_menu_footer_secondary: false
+  enable_menu_footer_tertiary: false
+  footer_primary_menu_title: ""
+  footer_secondary_menu_title: ""
+  footer_tertiary_menu_title: ""
+  footer_logo: assets/images/logo/logo_white.svg
+
+bottom:
+  enable_bottom: true # show/hide the entire bottom (below the footer)
+  enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
+  copyright_text: "© 2026 Missing Maps. All rights reserved."
+  show_rss_icon: true

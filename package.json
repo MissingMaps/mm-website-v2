@@ -1,0 +1,8 @@
+{
+  "name": "jekyll-osmcal-fetch",
+  "type": "module",
+  "scripts": {
+    "fetch:osmcal": "node assets/js/fetch-osmcal-events.js",
+    "fetch:contrib-stats": "node assets/js/fetch-contrib-stats.js"
+  }
+}
