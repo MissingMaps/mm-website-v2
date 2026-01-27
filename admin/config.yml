@@ -1,14 +1,14 @@
-site_url: "https://monikalauri.github.io/MissingMaps"
+site_url: "https://www.missingmaps.org/"
 
 backend:
   name: github
-  repo: "monikalauri/MissingMaps"
+  repo: "MissingMaps/mm-website-v2"
   branch: main
-  base_url: "https://decap-oauth.monika-laurinaviciute.workers.dev/"
-  auth_endpoint: "auth"   # optional, but I like making it explicit
+  base_url: "https://decap-oauth.themissingmaps1.workers.dev"
+  auth_endpoint: "auth"
 
 media_folder: "assets/uploads"
-public_folder: "/MissingMaps/assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
   - name: "posts"

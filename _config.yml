@@ -1,8 +1,8 @@
 # -------------------
 # Jekyll Config
 # --------------------
-url: "https://monikalauri.github.io"
-baseurl: "/MissingMaps"
+url: "https://www.missingmaps.org"
+baseurl: ""
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
