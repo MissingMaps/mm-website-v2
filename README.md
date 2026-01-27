@@ -1,5 +1,3 @@
----
-
 # Missing Maps Website v2
 
 This repository contains the next-generation Missing Maps website built with **Jekyll**, multilingual content support, and **Decap CMS** for content editing. The site is deployed via **GitHub Pages** and served at **[https://www.missingmaps.org](https://www.missingmaps.org)**.
@@ -66,7 +64,7 @@ Design tokens, colors, fonts, logos, and header/footer behavior are defined in `
 
 Key theme features:
 
-* Custom color palette 
+* Custom color palette for light mode
 * Self-hosted Satoshi font family
 * Fixed header navigation
 * Open Graph + Twitter metadata
@@ -90,73 +88,70 @@ Fonts are stored in:
 
 # 📝 Content Structure
 
-This site is organized around **Jekyll collections**, **static pages**, and **language-aware routing**.
+Content is organized into **Jekyll collections, static pages, and language-specific directories**.
 
 ```
 collections/
-  _posts/      → Blog posts
-  _projects/   → Project pages
-pages/ → English (default) static pages (Markdown)
-_data/ → Menus, settings, translations, structured content
-assets/ → Images, uploads, CSS, JS, fonts
+  _posts/        → Blog posts (multilingual via front-matter + i18n)
+  _projects/     → Project pages
+pages/            → English static pages (default language)
+cs/               → Czech static pages
+fr/               → French static pages
+es/               → Spanish static pages
+_data/
+  i18n/           → Translation strings (YAML)
+assets/            → Images, uploads, CSS, JS, fonts
 ```
 
-Permalinks:
+### Permalinks
 
-* Blog: `/blog/{slug}/`
+* Blog posts: `/blog/{slug}/`
 * Projects: `/projects/{slug}/`
+* Pages: `/{page-slug}/` (default language)
+* Translated pages: `/{lang}/{page-slug}/`
 
-## Languages & Translations
+---
 
-Languages enabled:
-- `en` (default)
-- `fr`
-- `cs`
-- `es`
+# 🌐 Languages & Internationalization (i18n)
 
-### Translation files
+The site supports **four languages**:
 
-Translations live in one of the following locations (depending on feature/module):
+| Code | Language          |
+| ---- | ----------------- |
+| `en` | English (default) |
+| `fr` | French            |
+| `cs` | Czech             |
+| `es` | Spanish           |
 
-1) **Data-based translations (recommended for UI strings):**
+## Translation Files
+
+UI strings and navigation labels are stored in:
+
 ```
 _data/i18n/
-en.yml
-fr.yml
-cs.yml
-es.yml
+  en.yml
+  fr.yml
+  cs.yml
+  es.yml
 ```
 
-2) **Language folders (used for localized pages and routes):**
-   
+These files contain key/value translation mappings used across templates and components.
+
+## Page & Collection Localization
+
+* **English content** lives in `pages/` and `collections/`
+* **Translated pages** live in language folders (`/fr`, `/cs`, `/es`)
+* Blog posts and projects can use front-matter fields for localized content, or language-specific files depending on workflow.
+
+## Default Language Behavior
+
+```yaml
+languages: [en, fr, cs, es]
+default_lang: en
 ```
-fr/
-cs/
-es/
-```
 
-### How content is organized by language
-
-- **English (default)** content lives in:
-  - `pages/` (Markdown files)
-  - `collections/_posts/` and `collections/_projects/`
-
-- **Translated pages** are typically created inside the language folders:
-  - `fr/...`
-  - `cs/...`
-  - `es/...`
-
-- **Shared content types** (blog/projects) remain in collections and are rendered with language-aware templates and i18n labels.
-
-### Adding a new language
-
-1. Add the language code to `_config.yml`:
-   - `languages: [en, fr, cs, es, xx]`
-2. Add a translation file:
-   - `_data/i18n/xx.yml`
-3. (Optional) Create a language folder for localized pages:
-   - `xx/`
-4. Ensure menu labels exist for the new language in the i18n file.
+* English pages are served at the root (`/about/`)
+* Other languages are prefixed (`/fr/about/`, `/cs/about/`, `/es/about/`)
 
 ---
 
@@ -213,99 +208,116 @@ The legacy site repository (`missingmaps.github.io`) remains online to serve his
 
 ---
 
-# 🤖 GitHub Actions Workflows
+# 🤖 GitHub Actions & CI/CD
 
-This repository includes CI/CD automation for building, testing, and deploying the site.
+At the moment, this repository uses **GitHub Pages default Jekyll builds** (Deploy from Branch).
+No custom GitHub Actions workflows are configured yet.
 
-## 📦 deploy.yml — Build & Deploy Pipeline
+If needed in the future, GitHub Actions can be added to:
 
-**Triggers:**
-
-* Push to main/master/publish branches
-* Pull requests
-
-**Features:**
-
-* Ruby and Node.js environment setup
-* Dependency caching for faster builds
-* Jekyll build pipeline
-* Multilingual site generation (4 languages)
-* Automated deployment to GitHub Pages
-* Build artifact retention for debugging
+* Lock Ruby and Node versions
+* Run multilingual build validation
+* Add linting and content checks
+* Deploy via a dedicated `publish` branch
 
 ---
 
-## 🧪 test.yml — Pull Request Validation
+# 🔁 Dependencies & Update Policy
 
-**Triggers:** Pull requests
+This project intentionally **pins Ruby and gem versions** in `Gemfile` to avoid compatibility surprises across contributors and CI.
 
-**Checks:**
+Current Ruby & gem versions (pinned):
 
-* Translation YAML validation
-* Language directory structure checks
-* Content generation tests for all languages
-* Feed (RSS/XML) generation validation
-* Asset exclusion checks
-* Translation completeness verification
+```ruby
+source "https://rubygems.org"
+ruby "3.4.1"
 
----
-
-## 🔒 security.yml — Security & Dependency Monitoring
-
-**Triggers:**
-
-* Weekly schedule (Sundays)
-* Dependency file changes
-* Manual workflow dispatch
-
-**Features:**
-
-* NPM security audit
-* Ruby bundler-audit scanning
-* Outdated dependency reporting
-* Code quality linting
-* Automated vulnerability alerts
-  n
-
----
-
-# 🔁 Dependabot Configuration
-
-Automated dependency updates are configured in:
-
-```
-.github/dependabot.yml
+gem "jekyll", "= 4.4.1"
+gem "jekyll-environment-variables", "= 1.0.1"
+gem "jekyll-paginate-v2", "= 3.0.0"
+gem "webrick", "= 1.9.1"
+gem "csv", "= 3.3.5"
 ```
 
-Update schedule:
+### Weekly API updates
 
-* **NPM packages:** Weekly (grouped PRs)
-* **Ruby gems:** Weekly with security priority
-* **GitHub Actions:** Weekly updates
+Even though Ruby dependencies are pinned, the project may rely on **external APIs / data feeds** that are refreshed regularly.
 
-PR management:
-
-* Auto-assigned to maintainers
-* Grouped by dev vs production dependencies
+* API/data updates are reviewed/updated **weekly**
+* When changing API integrations, validate output locally before pushing
 
 ---
 
 # 🌱 Branch Strategy
 
-| Branch            | Purpose                                  |
-| ----------------- | ---------------------------------------- |
-| `publish`         | Production deployment to missingmaps.org |
-| `main` / `master` | Development branch                       |
-| Feature branches  | PR testing and review                    |
+Current branch setup:
+
+| Branch | Purpose                           |
+| ------ | --------------------------------- |
+| `main` | Production and development branch |
+
+At the moment, the project uses a **single-branch workflow**. If the project grows, a recommended future strategy is:
+
+* `main` → development
+* `publish` → production deployment
+* `feature/*` → individual feature branches with Pull Requests
 
 ---
 
 # 📊 Monitoring & Maintenance
 
-* GitHub Actions status badges in README
-* Automated CI failure notifications
-* Security vulnerability alerts
-* Build artifacts retained for debugging (30 days)
+Current setup (single-branch, Pages deploy):
+
+* Verify the GitHub Pages build/deploy result after merges to `main`
+* Run a local build (`bundle exec jekyll serve`) before opening a PR or merging
+* Validate translation YAML files in `_data/i18n/` when editing labels
+
+---
+
+# 🔄 Updating Ruby & Jekyll Dependencies Safely
+
+This project pins Ruby and gem versions to ensure reproducible builds. If dependencies need to be updated, follow this process carefully.
+
+## 1) Update gems locally
+
+```bash
+bundle update
+```
+
+To update a specific gem only:
+
+```bash
+bundle update jekyll
+bundle update jekyll-paginate-v2
+```
+
+## 2) Verify the site builds
+
+```bash
+bundle exec jekyll build
+bundle exec jekyll serve
+```
+
+Check that:
+
+* The site builds without warnings or errors
+* Pagination works
+* Multilingual routes load correctly
+* No Liquid template errors appear
+
+## 3) Commit lockfile changes
+
+If using `Gemfile.lock`, commit it together with the Gemfile:
+
+```bash
+git add Gemfile Gemfile.lock
+git commit -m "Update Ruby/Jekyll dependencies"
+```
+
+## 4) Deploy cautiously
+
+* Test via the GitHub Pages preview URL before switching production domain
+* Avoid updating Ruby and major Jekyll versions during active campaigns
 
 ---
 
@@ -339,5 +351,3 @@ For technical issues or maintainership questions:
 
 **Missing Maps Tech Team**
 Email: [info@hotosm.org](mailto:info@hotosm.org)
-
----
