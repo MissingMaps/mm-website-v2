@@ -10,7 +10,7 @@ openstreetmap:
   sub_heading: "OpenStreetMap je otevřená mapová platforma poháněná dobrovolníky, která umožňuje velkou část této práce díky podpoře neziskové nadace OpenStreetMap Foundation."
   button_one_text: "OpenStreetMap"
   button_two_text: "Více informací"
-  button_two_url: "/cs/learn-more"
+  button_two_url: "/cs/about"
 
 nav_labels:
   get_involved: "Zapojte se"

@@ -10,7 +10,7 @@ openstreetmap:
   sub_heading: "OpenStreetMap est la plateforme de cartographie ouverte, portée par des bénévoles, qui rend une grande partie de ce travail possible, avec le soutien de la fondation à but non lucratif OpenStreetMap Foundation."
   button_one_text: "OpenStreetMap"
   button_two_text: "En savoir plus"
-  button_two_url: "/fr/learn-more"
+  button_two_url: "/fr/about"
 
 nav_labels:
   get_involved: "S’impliquer"
