@@ -10,9 +10,9 @@ show_social_media_in_title: false
 meta_title: Missing Maps
 meta_description: "Missing Maps es un proyecto que utiliza imágenes satelitales y OpenStreetMap para cartografiar zonas afectadas por desastres y crisis."
 
-header_button_url: /events
+header_button_url: /es/events
 header_button_label: "Eventos"
-header_button_two_url: /projects
+header_button_two_url: /es/projects
 header_button_two_label: "Proyectos"
 
 section_2_title: "Cómo trabajamos"
@@ -37,18 +37,18 @@ participate_1_text: |-
 participate_1_image: "/assets/images/home/participate1.jpg"
 participate_1_buttons:
   - label: "Únete a un mapatón"
-    url: "/events/"
+    url: "/es/events/"
   - label: "Tasking Manager"
-    url: "/hot-tasking-manager/"
+    url: "/es/hot-tasking-manager/"
   - label: "MapSwipe"
-    url: "/mapswipe/"
+    url: "/es/mapswipe/"
 
 participate_2_title: "Organiza un mapatón"
 participate_2_text: "Organizar mapatones es una excelente forma de crear una comunidad de mapeo. También es un entorno de aprendizaje ideal, donde las personas nuevas pueden aprender de la experiencia de otras mientras contribuyen a un objetivo común. Los mapatones son organizados por grupos e individuos en todo el mundo."
 participate_2_image: "/assets/images/home/participate2.jpg"
 participate_2_buttons:
   - label: "Organizar un mapatón"
-    url: "/organize-an-event/"
+    url: "/es/organize-an-event/"
 
 participate_3_title: "Mapea tu comunidad"
 participate_3_text: "Muchas organizaciones utilizan OSM para informar sus programas. OSM es ideal para recopilar datos de campo y empoderar a las comunidades. Si te interesa crear y usar datos de herramientas de mapeo abierto en tu trabajo, explora la sección de cartografía de campo."
@@ -56,12 +56,12 @@ participate_3_image: "/assets/images/home/participate3.jpg"
 participate_3_credit: "Crédito: Maria Jimena Henao Salgado, Universidad Nacional de Colombia, tomada en Cartagena, Colombia"
 participate_3_buttons:
   - label: "Cartografía de campo"
-    url: "/get-involved/"
+    url: "/es/field-mapping/"
 
 posts_heading: "Conoce nuestro trabajo"
 posts_sub_heading: "Missing Maps es un colectivo de organizaciones que utilizan y desarrollan herramientas de mapeo abierto para servir mejor a las comunidades de todo el mundo. Si quieres saber más sobre nuestras actividades, visita el blog de Missing Maps."
 
-posts_button_url: /blog
+posts_button_url: /es/blog
 posts_button_label: "Leer el blog"
 
 posts:
@@ -73,7 +73,7 @@ posts:
 
 projects_label: "Proyectos actuales"
 projects_sub_heading: "Aquí puedes explorar las campañas prioritarias actuales de Missing Maps. Elige la que se adapte a tu nivel y empieza a mapear."
-projects_button_url: /projects
+projects_button_url: /es/projects
 projects_button_label: "Proyectos"
 
 contributions_image: "/assets/images/home/map.svg"

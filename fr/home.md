@@ -41,9 +41,9 @@ participate_1_buttons:
   - label: "Participer à un mapathon"
     url: "/fr/events/"
   - label: "Tasking Manager"
-    url: "/hot-tasking-manager/"
+    url: "/fr/hot-tasking-manager/"
   - label: "MapSwipe"
-    url: "/mapswipe/"
+    url: "/fr/mapswipe/"
 
 participate_2_title: "Organiser un mapathon"
 participate_2_text: "Organiser des mapathons est un excellent moyen de créer une communauté de cartographes. C’est également un environnement d’apprentissage idéal, où les nouveaux contributeurs peuvent apprendre des plus expérimentés tout en contribuant à un objectif commun. Les mapathons sont organisés par des groupes et des individus partout dans le monde."
@@ -58,7 +58,7 @@ participate_3_image: "/assets/images/home/participate3.jpg"
 participate_3_credit: "Crédit : Maria Jimena Henao Salgado, Universidad Nacional de Colombia, photo prise à Carthagène, Colombie"
 participate_3_buttons:
   - label: "Cartographie de terrain"
-    url: "/fr/get-involved/"
+    url: "/fr/field-mapping/"
 
 posts_heading: "Découvrir notre travail"
 posts_sub_heading: "Missing Maps est un collectif d’organisations qui développent et utilisent des outils de cartographie ouverte au service des communautés à travers le monde. Pour en savoir plus sur nos activités, consultez le blog Missing Maps."

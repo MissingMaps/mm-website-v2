@@ -56,7 +56,7 @@ participate_3_image: "/assets/images/home/participate3.jpg"
 participate_3_credit: "Credit: Maria Jimena Henao Salgado, Universidad Nacional de Colombia, taken in Cartagena, Colombia"
 participate_3_buttons:
   - label: "Field mapping"
-    url: "/get-involved/"
+    url: "/field-mapping/"
 
 posts_heading: "Learn about our work"
 posts_sub_heading: "Missing Maps is a collective of organizations using and growing open mapping tools to best serve communities all over the world. If you want to read more about our activities, check out the Missing Maps blog."
