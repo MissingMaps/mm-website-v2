@@ -1,0 +1,82 @@
+name: Build and deploy Jekyll site
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+  schedule:
+    # Every Monday at 06:00 UTC (adjust if you want a different day/time)
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4.1
+          bundler-cache: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      
+      - name: Install Node dependencies (if any)
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          fi
+
+      - name: Fetch OSMCal events
+        run: |
+          if [ -f package.json ]; then
+            npm run fetch:osmcal
+          else
+            echo "No package.json found, skipping OSMCal fetch."
+          fi
+          
+      - name: Fetch contribution stats
+        run: |
+            if [ -f package.json ]; then
+              npm run fetch:contrib-stats
+            else
+              echo "No package.json found, skipping OSMCal fetch."
+            fi
+
+      - name: Install dependencies
+        run: bundle install --deployment --without development test
+
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site/
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
