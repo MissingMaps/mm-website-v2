@@ -2,7 +2,7 @@
 layout: post
 title: "Remote Mapping in Malawi: Supporting Field Operations"
 postID: Malawi-MSF-Cholera-and-Cyclone-Freddy-Response
-banner: https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_banner.jpeg
+banner: https://missingmaps.github.io/img/images/missingmaps-blog_20230601_malawi_banner.jpeg
 date: 2023-06-02
 author: Jana Bauerová, Sophie Gélinas-Gagné and Alexis Huart
 excerpt: "Malawi was experiencing the worst cholera epidemic in 20 years, so MSF sent an emergency team and activated Missing Maps. When a cyclone hit in March, OSM data was also invaluable for assessment."
@@ -53,7 +53,7 @@ Two GIS specialists have been deployed to Malawi to support the MSF emergency re
 OpenStreetMap base maps created through remote mapping projects and mapped during mapathons around the world were used in many operational applications.
   
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cholera_reponse_LilongweCity_watsan_excerpt.jpeg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230601_malawi_cholera_reponse_LilongweCity_watsan_excerpt.jpeg">
 <p class="caption">Map used for a field survey on water access safety in Lilongwe. Malawi 2023 © MSF
 </p>
 </figure>
@@ -70,7 +70,7 @@ The cholera response activities were structured around two pillars, as illustrat
 2. WASH activities within communities – identifying and, as and when required, repairing water distribution points, dispensing chlorine, donations for future repairs, etc.
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cholera_response.jpeg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230601_malawi_cholera_response.jpeg">
 <p class="caption"> Mother and her child at a Cholera Treatment Centre. Malawi 2023 © MSF
 </p>
 </figure>
@@ -86,7 +86,7 @@ To date, the epidemic is still ongoing although the number of reported cases has
 In Malawi, the seasonal occurrence of tropical cyclones in February-March has become increasingly apparent, potentially linked to the presence of climate change. The devastating aftermath of Tropical Storm Ana in 2022 prompted [disaster response mapping](https://reliefweb.int/map/malawi/malawi-phalombe-district-cyclone-ana-impact-map-31-january-2022). This year, Tropical Cyclone Freddy made a second landfall in Malawi and Mozambique in March 2023, triggering widespread flooding and devastating landslides.
   
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_landslides.jpeg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230601_malawi_landslides.jpeg">
 <p class="caption">The 2nd landfall of Cyclone Freddy caused extensive floods in Phalombe District. Malawi 2023 © MSF
 </p>
 </figure>
@@ -98,7 +98,7 @@ During the Humanitarian Open Mapping Community Working Group meeting in February
 The data gathered through these mapping efforts was used in conducting a needs assessment in Phalombe/Nkulambe, near the border of Malawi and Mozambique, where huge landslides and flash floods heavily damaged entire villages and critical infrastructure. The digitalisation of buildings allowed [MSF](https://www.facebook.com/doctorswithoutborderscanada/?brand_redir=104857837889022) to combine the OpenStreetMap (OSM) data with floods and landslide data in maps estimating the impacted zones/buildings (see map cut-out below).
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_landslides_potential_building_damage.png">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230601_malawi_landslides_potential_building_damage.png">
 <p class="caption"> Malawi 2023 © MSF
 </p>
 </figure>
@@ -106,7 +106,7 @@ The data gathered through these mapping efforts was used in conducting a needs a
 In addition, the team prioritized the verification and collection of field-specific data that couldn't be extracted solely from satellite imagery. To accomplish this, they hired a motorbike driver familiar with the area and adept at reading maps. This driver transported the team to various locations, allowing them to cross-reference village names obtained from a database with information provided by local residents. Subsequently, GIS specialist Alexis Huart incorporated the verified field data, encompassing village names, residential areas, and road segments, into the OSM database.
   
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cyclone_freddy_impact.jpeg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230601_malawi_cyclone_freddy_impact.jpeg">
 <p class="caption">The Nkulambe health centre two weeks after the Cyclone hit. Malawi 2023 © MSF
 </p>
 </figure>
@@ -118,7 +118,7 @@ Due to the destruction of the only public healthcare centre in the area by the c
 For more severe cases, MSF helped facilitate referrals to larger hospitals, initially through helicopter transport and later via ambulance. Additionally, due to the lack of a maternity ward in the existing functional clinics, MSF set up maternity services in our clinic. Water and sanitation activities were also undertaken to repair damaged water pipes and boreholes, distribute chlorine, set up hand-wash stations and latrines.
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cyclone_freddy_MSF_WaterRepairs.jpeg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230601_malawi_cyclone_freddy_MSF_WaterRepairs.jpeg">
 <p class="caption">Using all means of transport for water repairs. Malawi 2023 © MSF
 </p>
 </figure>

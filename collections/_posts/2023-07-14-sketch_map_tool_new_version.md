@@ -2,7 +2,7 @@
 layout: post
 title: Participatory Mapping taken one step further - The new version of the Sketch Map Tool
 postID: new-version-sketch-map-tool
-banner: https://www.missingmaps.org/img/images/missingmaps-blog-20230714_community_mapping.jpeg
+banner: https://missingmaps.github.io/img/images/missingmaps-blog-20230714_community_mapping.jpeg
 date: 2023-07-14
 author: Melanie Eckle and Alec Schulze-Eckle
 excerpt: The Heidelberg Institute for Geoinformation Technology team recently launched a new version of the Skecth Map Tool - an easy-to-use tool for participatory sketch mapping through offline data collection, digitization and georeferencing of local spatial knowledge.
@@ -49,7 +49,7 @@ In more technical terms, the tool will start the automatic georeferencing of the
 This step requires hardly any technical knowledge and avoids much manual work and thus valuable time. In addition, the analysis of the recorded data and a simple link to other data sources such as satellite data or flood models is made possible. The Sketch Map Tool offers a way to bridge the gap between local knowledge and experience and more abstract geographic simulations and modelling.
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog-20230714_map.png">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog-20230714_map.png">
 <p class="caption">Sketch Map of Risk Areas from a project in Colombia (Letzner 2023)</p>
 </figure>
 
@@ -60,21 +60,21 @@ The Sketch Map Tool can be used by local stakeholders to engage communities in g
 The development of the first prototypes of the Sketch Map Tool started over four years ago in the [Waterproofing data project](https://www.geog.uni-heidelberg.de/gis/waterproofing.html) to support the collection of flood risk perception in two vulnerable Brazilian communities.
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog-20230714_group.png">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog-20230714_group.png">
 <p class="caption">Brazil (Klonner 2019)</p>
 </figure>
 
 Since then, the tool has been tested in different contexts and projects around the world including Germany, Mozambique and Madagascar. In Mozambique, for example, users recorded flood areas and regions with increased crime using the Sketch Map Tool in workshops. The collected data was used in disaster risk reduction projects by the German Red Cross and [Mozambique Red Cross Society](https://piroi.croix-rouge.fr/piroi/members-of-piroi/mozambique-red-cross-society/?lang=en).
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog-20230714_double.png">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog-20230714_double.png">
 <p class="caption">Mozambique (György 2022)</p>
 </figure>
 
 Currently, our former HeiGIT intern Kimon Letzner explores the potential and limitations of the Sketch Map Tool in the scope of his Master’s studies at Lund University. His focus is on the community mapping process in the context of the [Enhanced Vulnerability and Capacity Assessment (EVCA)](https://communityengagementhub.org/resource/evca-guide/) in the International Red Cross Red Crescent Movement based on a project with the [Colombian Red Cross National Society](https://www.cruzrojacolombiana.org/).
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog-20230714_community_mapping.jpeg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog-20230714_community_mapping.jpeg">
 <p class="caption">Community mapping (Letzner 2023)</p>
 </figure>
 

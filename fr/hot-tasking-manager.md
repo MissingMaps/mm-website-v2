@@ -11,7 +11,7 @@ description: |-
   Le Tasking Manager permet à de nombreuses personnes de travailler simultanément sur une même zone, garantissant ainsi que les projets puissent être réalisés rapidement et efficacement grâce à une collaboration à distance coordonnée.
   Et vous aussi, vous pouvez contribuer !
 
-image: "assets/images/pages/hot-tasking-manager.jpg"
+image: "assets/images/pages/hot-tasking-manager.webp"
 nav_1: "Premiers pas"
 nav_2: "Cartographie avancée"
 nav_3: "Validation"

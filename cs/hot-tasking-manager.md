@@ -11,7 +11,7 @@ description: |-
   Tasking Manager umožňuje mnoha lidem pracovat současně na stejné oblasti, což zajišťuje, že projekty mohou být dokončeny rychle a efektivně díky koordinované vzdálené spolupráci.
   Přispět můžete i vy!
 
-image: "assets/images/pages/hot-tasking-manager.jpg"
+image: "assets/images/pages/hot-tasking-manager.webp"
 nav_1: "První kroky"
 nav_2: "Pokročilé mapování"
 nav_3: "Validace"

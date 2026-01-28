@@ -2,7 +2,7 @@
 layout: post
 title: "Geodata guiding health interventions in IDP camps around Goma"
 postID: DRC-MSF-Health-Intervention
-banner: https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC_banner.JPEG
+banner: https://missingmaps.github.io/img/images/missingmaps-blog_20230619_DRC_banner.JPEG
 date: 2023-06-19
 author: Jana Bauerová
 excerpt: "Amidst the ongoing conflict and displacement crisis in the Democratic Republic of Congo, utilizing geodata contributes to an effective evaluation of the situation, understanding the extent of displacement in a setting where estimating the number and spread of population is never an easy task."
@@ -21,7 +21,7 @@ Since March 2022, around one million of people have fled the upsurge of heavy fi
 MSF teams are working in several displacement sites close to Goma, including Kanyaruchinya, Munigi, Rusayo, Eloime, Shabindu, Bulengo, Lushagala, Nzulu, ake and Shasha. The MSF teams first responded urgently to cholera and measles outbreaks in several sites, by providing medical care, building latrines and showers, and bringing thousands of liters of drinkable water for disease prevention. Today, MSF is additionally providing free medical services related to paediatric care and support for sexual violence survivors.
   
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC1_GISspecialist.JPEG">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230619_DRC1_GISspecialist.JPEG">
 <p class="caption">GIS Specialist and Public Health Analyst preparing for a field survey, DRC 2023. © MSF
 </p>
 </figure>
@@ -35,7 +35,7 @@ The difficulty for establishing water and sanitation measures or a vaccination p
 *“This type of mapping was challenging in the beginning. First task open, I was stunned by how many tents had been constructed in such a small area. With more and more mapped tents, I got more comfortable with the precision and speed of the mapping. The overwhelming feeling that I am sitting comfortably at home and mapping this area remotely, while people there are forced to live completely different lives, is still with me,”* shared an expert mapper, who goes by the OSM name anthaas.
   
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC2_Map_BulengoCamp.png">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230619_DRC2_Map_BulengoCamp.png">
 <p class="caption">Rapid map of Bulengo Camp © MSF
 </p>
 </figure>
@@ -43,7 +43,7 @@ The difficulty for establishing water and sanitation measures or a vaccination p
 With this base map data, a field survey could be organized. The tools used for the survey have been QGIS, Kobo collect, OSMAnd, and the RStudio Statistical Software package, all free and open-source tools. The mapping of the shelters of the camp was followed by spatial sampling. Employing the QGIS software, Oluwaseyi Ojo, the Geographic Information Systems (GIS) intern at the Manson Unit based at the MSF UK, randomly selected a specific number of buildings in each camp that would be represented by points, and grouped and named the selected buildings for easy usage for the surveyors in OsmAnd. Using QGIS, he also produced rapid reference maps. 
   
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC3_Map_SurveySampling.jpg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230619_DRC3_Map_SurveySampling.jpg">
 <p class="caption">MSF used the buildings mapped by the Missing Maps volunteers to conduct a random survey sampling of several IDP camps.  © MSF
 </p>
 </figure>
@@ -55,7 +55,7 @@ The geodata sample was shared with the GIS specialist and the Public Health Anal
 The interviewers for the survey had been trained during two days to navigate through the camps to the selected shelters in OsmAnd, a map and navigation app using the OSM map database that can function offline. They would collect information in Kobo collect, when interviewing the residents. There were various challenges with the field survey approach. “We realized there was a shift from the satellite image to the reality”, recounted the MSF Public health data analyst Georgios Karanapagos, “The initial training assumed a perfect system, that the map was perfect, the mobile was perfect... ”
   
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC4_ScreenshotOSM.jpg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230619_DRC4_ScreenshotOSM.jpg">
 <p class="caption">Screenshot of OSMAnd © MSF
 </p>
 </figure>
@@ -63,7 +63,7 @@ The interviewers for the survey had been trained during two days to navigate thr
 However, there was a limited precision of the mobile devices. There could be an offset of about seven meters, so one dot on the screen could be matched with three different huts. In a randomly built camp, the navigation was trying to find ways, or streets, within this structure. So, as a surveyor, you might be only a hundred meters away from a point, but it would let you make a huge detour through a supposed “street” to get there. “We would try to tell the interviewers, look, this is a bunch of shelters, you can just walk past them and go directly to the point,” recalled Georgios.
   
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC5_Surveyor.jpg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20230619_DRC5_Surveyor.jpg">
 <p class="caption">Surveyor, DRC 2023.  © MSF
 </p>
 </figure>

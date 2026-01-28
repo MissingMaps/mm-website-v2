@@ -2,7 +2,7 @@
 layout: post
 title: "Interviews from International Women’s Day 2022"
 postID: 2022-03-30-IWD-Interviews
-banner: "https://www.missingmaps.org/img/images/missingmaps-blog_20220331_banner.jpg"
+banner: "https://missingmaps.github.io/img/images/missingmaps-blog_20220331_banner.jpg"
 date: 2022-03-30
 author: Jana Bauerová and Melanie Chabot
 excerpt: Read about the inspirations, passions and wisdom behind three all star OSM mappers
@@ -21,7 +21,7 @@ Missing Maps is sustained by a wonderful community of volunteer mappers. These m
 ## Jana Trtíková, Olomouc, Czech Republic
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20220331_Jana.jpg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20220331_Jana.jpg">
 <p class="caption"></p>
 </figure>
 
@@ -40,7 +40,7 @@ The main reason was practicality. In the the Faculty of Science building, where 
 ## Sarah Wise, London, UK
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20220331_Sarah.JPG">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20220331_Sarah.JPG">
 <p class="caption"></p>
 </figure>
 
@@ -67,7 +67,7 @@ On a less heartfelt note, regular mapping reminds me of how deeply weird spatial
 ## Jess Cahill, London, UK
 
 <figure>
-<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20220331_Jess.jpg">
+<img src="https://missingmaps.github.io/img/images/missingmaps-blog_20220331_Jess.jpg">
 <p class="caption"></p>
 </figure>
 
