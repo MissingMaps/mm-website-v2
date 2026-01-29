@@ -50,7 +50,7 @@ participate_2_text: "Organiser des mapathons est un excellent moyen de créer un
 participate_2_image: "/assets/images/home/participate2.jpg"
 participate_2_buttons:
   - label: "Organiser un mapathon"
-    url: "/fr/organize-an-event/"
+    url: "/fr/hosting-a-mapathon/"
 
 participate_3_title: "Cartographier votre communauté"
 participate_3_text: "De nombreuses organisations utilisent OpenStreetMap pour orienter leurs programmes. OSM est un excellent outil pour collecter des données de terrain tout en renforçant l’autonomie des communautés locales. Si vous souhaitez créer et utiliser des données issues de la cartographie ouverte dans votre travail, explorez la section dédiée à la cartographie de terrain."

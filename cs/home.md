@@ -48,7 +48,7 @@ participate_2_text: "Pořádání mapathonů je skvělý způsob, jak budovat ma
 participate_2_image: "/assets/images/home/participate2.jpg"
 participate_2_buttons:
   - label: "Uspořádat mapathon"
-    url: "/cs/organize-an-event/"
+    url: "/cs/hosting-a-mapathon/"
 
 participate_3_title: "Mapujte svou komunitu"
 participate_3_text: "Mnoho organizací využívá OSM při plánování svých programů. OSM je skvělý nástroj pro sběr terénních dat a posilování místních komunit. Pokud vás zajímá vytváření a využívání otevřených mapových dat ve vaší práci, prozkoumejte sekci terénního mapování."

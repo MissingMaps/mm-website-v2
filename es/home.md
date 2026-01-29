@@ -48,7 +48,7 @@ participate_2_text: "Organizar mapatones es una excelente forma de crear una com
 participate_2_image: "/assets/images/home/participate2.jpg"
 participate_2_buttons:
   - label: "Organizar un mapatón"
-    url: "/es/organize-an-event/"
+    url: "/es/hosting-a-mapathon/"
 
 participate_3_title: "Mapea tu comunidad"
 participate_3_text: "Muchas organizaciones utilizan OSM para informar sus programas. OSM es ideal para recopilar datos de campo y empoderar a las comunidades. Si te interesa crear y usar datos de herramientas de mapeo abierto en tu trabajo, explora la sección de cartografía de campo."

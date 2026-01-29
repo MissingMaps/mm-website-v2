@@ -48,7 +48,7 @@ participate_2_text: "Organising mapathons is a fantastic way to build a communit
 participate_2_image: "/assets/images/home/participate2.jpg"
 participate_2_buttons:
   - label: "Host a Mapathon"
-    url: "/organize-an-event/"
+    url: "/hosting-a-mapathon/"
 
 participate_3_title: "Map your community"
 participate_3_text: "Many organizations are using OSM to inform their programs. OSM is great for collecting field data while empowering communities. If you are interested in creating and using data from open mapping tools in your work, explore the field mapping section."
