@@ -15,7 +15,7 @@ buttons:
     url: "https://osmcal.org/event/add/"
     external: true
   - label: "Jak zaregistrovat událost"
-    url: "/hosting-a-mapathon/#register"
+    url: "/cs/hosting-a-mapathon/#register"
     outline: true
     svg_icon: icons/arrow-dark.svg
 
