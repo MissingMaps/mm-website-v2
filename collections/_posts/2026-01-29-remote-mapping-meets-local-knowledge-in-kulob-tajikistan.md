@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remote mapping meets local knowledge in Kulob, Tajikistan  "
-banner: ""
+banner: /assets/uploads/field-papers-kulob.png
 date: 2026-01-30
 author: Maria Longley
 excerpt: ""
@@ -29,7 +29,7 @@ Tuberculosis (TB) is an infectious disease caused by bacteria that most often af
 The active case finding used computer-aided detection coupled with chest radiography (CAD4TB) at different sites. This is a mobile, digital X-ray system that can analyse a chest X-ray in less than a minute and can help identify individuals who need to go to a health centre for confirmatory testing. 
 
 ![Fig x An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ](/assets/uploads/msf356922_medium.jpg "Fig x An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ")
-</br>*Fig x An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF*  
+*Fig x An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF*  
 
 From the beginning of the project, mapping diagnosed TB patients was seen as an important part to inform screening, prevention, and educational activities to curtail transmission.  
 
