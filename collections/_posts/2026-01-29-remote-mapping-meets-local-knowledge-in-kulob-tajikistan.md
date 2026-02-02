@@ -31,13 +31,13 @@ Tuberculosis (TB) is an infectious disease caused by bacteria that most often af
 
 ![Fig 1 The map highlights the Kulob District in the southwest of Tajikistan. ](/assets/uploads/kulob_district.png "Fig 1 The map highlights the Kulob District in the southwest of Tajikistan. ")
 
-Fig 1 The map highlights the Kulob District in the southwest of Tajikistan. 
+*Fig 1: The map highlights the Kulob District in the southwest of Tajikistan.* 
 
 The active case finding used computer-aided detection coupled with chest radiography (CAD4TB) at different sites. This is a mobile, digital X-ray system that can analyse a chest X-ray in less than a minute and can help identify individuals who need to go to a health centre for confirmatory testing. 
 
 ![Fig 2 An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ](/assets/uploads/msf356922_medium.jpg "Fig 2 An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ")
 
-Fig 2 An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  
+*Fig 2: An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF*  
 
 From the beginning of the project, mapping diagnosed TB patients was seen as an important part to inform screening, prevention, and educational activities to curtail transmission.  
 
@@ -55,13 +55,17 @@ We ran a remote mapping campaign of the Kulob district on the HOT Tasking M
 
 ![Fig 3 Before and after screenshots that show new data on OSM @OpensStreetMap contributors ](/assets/uploads/before_after.png "Fig 3 Before and after screenshots that show new data on OSM @OpensStreetMap contributors ")
 
-Fig 3 Before and after screenshots that show new data on OSM @OpensStreetMap contributors 
+*Fig 3: Before and after screenshots that show new data on OSM @OpensStreetMap contributors* 
 
 Subsequently, the team in Kulob used [Field Papers](https://fieldpapers.org/) to draw the outlines of neighbourhoods in the city. It is a tool for easily creating a printable map of OSM data that permits sketching onto it. The hand-drawn paper maps were photographed and sent back to me for digitisation. 
 
 ![Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.](/assets/uploads/field-papers-kulob.png "Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.")
 
-Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.
+<p class="caption">
+Fig 4: One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.
+</p>
+
+
 
 During follow-up visits to TB patients, MSF health teams collected GPS locations at their homes, as well as their addresses. This was another important source of information for our work to understand which streets and houses belong to which neighbourhood. These are the sorts of things that are unclear from a satellite image and impossible to determine without local knowledge. 
 
@@ -77,7 +81,7 @@ By the end of an hour and a half, my cold cup of tea sits next to me, and w
 
 ![Fig 5 Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan. ](/assets/uploads/maria-and-nash.png "Fig 5 Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan. ")
 
-*Fig 5 Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan.* 
+*Fig 5: Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan.* 
 
 The result of this process is a map of the neighbourhoods of Kulob city and the outlying districts ready for the analysis of the spread of TB cases. This will also be a useful map for the local health promotion teams as they do their regular work. 
 
@@ -87,7 +91,7 @@ As fun and important as is it to create updated maps, the spatial analysis 
 
 ![Fig 6 A map showing the annual rate of TB per 100,000 people. ](/assets/uploads/tjk_khatlonregion_kulob_a1p_26092025_page-0001.jpg "Fig 6 A map showing the annual rate of TB per 100,000 people. ")
 
-*Fig 6 A map showing the annual rate of TB per 100,000 people.* 
+*Fig 6: A map showing the annual rate of TB per 100,000 people.* 
 
 The names of neighbourhoods and street were shared on OpenStreetMap, ready and available for whoever needs it next. [See for yourself](https://www.openstreetmap.org/#map=13/37.90513/69.79897) what this looks like in Kulob.  This close collaboration combined local knowledge with remote mapping, enabling accurate patient origin mapping and opportunities for targeted screening planning. 
 
