@@ -1,10 +1,15 @@
 ---
 layout: post
 title: "Remote mapping meets local knowledge in Kulob, Tajikistan  "
-banner: /assets/uploads/field-papers-kulob.png
+banner: assets/uploads/kulob_header.png
 date: 2026-01-30
 author: Maria Longley
-excerpt: ""
+excerpt: Remote mapping and local knowledge came together in Kulob, Tajikistan,
+  to fill critical gaps in neighbourhood-level map data for a tuberculosis
+  project. Through remote sessions and hand-drawn maps, MSF teams in Kulob
+  helped turn local knowledge into neighbourhood boundaries that had never been
+  mapped before. The result is a map that supports tuberculosis screening and
+  analysis and will continue to be useful for health teams working in the city.
 published: true
 categories:
   - MSF
@@ -24,12 +29,11 @@ Together, we are creating new map data to use in the analysis a Tubercul
 
 Tuberculosis (TB) is an infectious disease caused by bacteria that most often affects the lungs. Tajikistan faces a high TB burden and the Kulob City of the Khatlon Region in southern Tajikistan with the four surrounding Jamoats (sub-districts), have one of the highest numbers of TB rates in the country. MSF initiated Zero TB project to demonstrate the feasibility of TB elimination, of which active case finding is a part. This public health strategy serves to proactively identify individuals with active TB disease who have not sought care themselves.
 
-*Fig x The map highlights the Kulob District in the southwest of Tajikistan.* 
+![Fig 1 The map highlights the Kulob District in the southwest of Tajikistan. ](/assets/uploads/kulob_district.png "Fig 1 The map highlights the Kulob District in the southwest of Tajikistan. ")
 
 The active case finding used computer-aided detection coupled with chest radiography (CAD4TB) at different sites. This is a mobile, digital X-ray system that can analyse a chest X-ray in less than a minute and can help identify individuals who need to go to a health centre for confirmatory testing. 
 
-![Fig x An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ](/assets/uploads/msf356922_medium.jpg "Fig x An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ")
-*Fig x An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF*  
+![Fig 2 An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ](/assets/uploads/msf356922_medium.jpg "Fig 2 An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ")
 
 From the beginning of the project, mapping diagnosed TB patients was seen as an important part to inform screening, prevention, and educational activities to curtail transmission.  
 
@@ -43,16 +47,15 @@ Health Catchment Areas are geographic regions that a health facility will dra
 
 This research project tapped into a rich network of expertise and experience, and a wide set of tools. It was a collaboration between the public health specialist, the GIS team, epidemiologists and TB advisors from MSF UK, and the MSF health team in Kulob, Tajikistan.  
 
-We ran a remote mapping campaign of the Kulob district on the HOT Tasking Manager. We invited the Missing Maps volunteers to map residential areas, roads, and waterways on OpenStreetMap (OSM). Digitising satellite imagery provided a great launchpad for further refining our maps.  
+We ran a remote mapping campaign of the Kulob district on the HOT Tasking Manager. We invited the Missing Maps volunteers to map residential areas, roads, and waterways on [OpenStreetMap](https://www.openstreetmap.org/) (OSM). Digitising satellite imagery provided a great launchpad for further refining our maps.  
 
-![](/assets/uploads/screenshot-4-2025-02-05-142527.png)
-![](/assets/uploads/screenshot-4-2025-05-08-115247.png)
-*Both and after screenshots that show new data on OSM @OpensStreetMap contributors* 
+![Fig 3 Before and after screenshots that show new data on OSM @OpensStreetMap contributors ](/assets/uploads/before_after.png "Fig 3 Before and after screenshots that show new data on OSM @OpensStreetMap contributors ")
 
-Subsequently, the team in Kulob used Field Papers to draw the outlines of neighbourhoods in the city. It is a tool for easily creating a printable map of OSM data that permits sketching onto it. The hand-drawn paper maps were photographed and sent back to me for digitisation. 
+Subsequently, the team in Kulob used [Field Papers](https://fieldpapers.org/) to draw the outlines of neighbourhoods in the city. It is a tool for easily creating a printable map of OSM data that permits sketching onto it. The hand-drawn paper maps were photographed and sent back to me for digitisation. 
 
-![](/assets/uploads/field-papers-kulob.png)
-*Fig x One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.*
+![Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.](/assets/uploads/field-papers-kulob.png "TITLE TITLE TITLE TITLE TITLE ")
+
+Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.
 
 During follow-up visits to TB patients, MSF health teams collected GPS locations at their homes, as well as their addresses. This was another important source of information for our work to understand which streets and houses belong to which neighbourhood. These are the sorts of things that are unclear from a satellite image and impossible to determine without local knowledge. 
 
@@ -66,19 +69,21 @@ Slowly, our map takes form, as we shift the boundary to include or exclude sp
 
 By the end of an hour and a half, my cold cup of tea sits next to me, and we are ready to stop for the day. This joint work requires a lot of concentration, and we space the calls over several weeks. Over the course of the calls, the team members share little titbits of information about the buildings we see, correct my attempts at pronouncing place names in Tajik, and offer to take me to the striking amphitheatre we can see on the satellite imagery, should I ever find myself in Kulob.  
 
-![](/assets/uploads/shared-image-11-.jpg)
-*Fig x Maria digitising the field papers from Kulob, Tajikistan.* 
+![Fig 5 Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan. ](/assets/uploads/maria-and-nash.png "Fig 5 Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan. ")
+
+*Fig 5 Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan.* 
 
 The result of this process is a map of the neighbourhoods of Kulob city and the outlying districts ready for the analysis of the spread of TB cases. This will also be a useful map for the local health promotion teams as they do their regular work. 
 
 ## Using the map 
 
-As fun and important as is it to create updated maps, the spatial analysis was an important part of the project as well. The research project retrospectively analysed medical data collected between January 2022 and December 2024. The geolocation data was integrated with population data to help identify TB transmission hotspots and calculate case notification rates. Further analysis by epidemiologists and TB experts was presented alongside our maps at the Regional Workshop on WHO Guidelines which was a capacity-building workshop in Kazakhstan in 2025 for twelve TB high-priority countries of the WHO European Region.  
+As fun and important as is it to create updated maps, the spatial analysis was an important part of the project as well. The research project retrospectively analysed medical data collected between January 2022 and December 2024. The geolocation data was integrated with population data to help identify TB transmission hotspots and calculate case notification rates. Further analysis by epidemiologists and TB experts was presented alongside our maps at the [Regional Workshop on WHO Guidelines](https://www.who.int/europe/news-room/events/item/2025/04/28/default-calendar/joint-regional-workshop-on-the-implementation-of-new-who-guidelines-on-tuberculosis-and-drug-resistant-tuberculosis) which was a capacity-building workshop in Kazakhstan in 2025 for twelve TB high-priority countries of the WHO European Region.  
 
 ![](/assets/uploads/tjk_khatlonregion_kulob_a1p_26092025_page-0001.jpg)
-*Fig 3. A map showing the annual rate of TB per 100,000 people.* 
 
-The names of neighbourhoods and street were shared on OpenStreetMap, ready and available for whoever needs it next. See for yourself what this looks like in Kulob.  This close collaboration combined local knowledge with remote mapping, enabling accurate patient origin mapping and opportunities for targeted screening planning. 
+*Fig 6 A map showing the annual rate of TB per 100,000 people.* 
+
+The names of neighbourhoods and street were shared on OpenStreetMap, ready and available for whoever needs it next. [See for yourself](https://www.openstreetmap.org/#map=13/37.90513/69.79897) what this looks like in Kulob.  This close collaboration combined local knowledge with remote mapping, enabling accurate patient origin mapping and opportunities for targeted screening planning. 
 
 ## Moving from remote base-mapping to integrating local knowledge 
 
