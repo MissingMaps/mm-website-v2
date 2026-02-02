@@ -243,7 +243,7 @@ gem "csv", "= 3.3.5"
 
 Even though Ruby dependencies are pinned, the project may rely on **external APIs / data feeds** that are refreshed regularly.
 
-* API/data updates are reviewed/updated **weekly**
+* API/data updates are reviewed/updated **weekly every Monday at 06:00 UTC**
 * When changing API integrations, validate output locally before pushing
 
 ---
