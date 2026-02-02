@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remote mapping meets local knowledge in Kulob, Tajikistan  "
-banner: assets/uploads/kulob_header.png
+banner: /assets/uploads/kulob_header.png
 date: 2026-01-30
 author: Maria Longley
 excerpt: Remote mapping and local knowledge came together in Kulob, Tajikistan,
@@ -31,9 +31,13 @@ Tuberculosis (TB) is an infectious disease caused by bacteria that most often af
 
 ![Fig 1 The map highlights the Kulob District in the southwest of Tajikistan. ](/assets/uploads/kulob_district.png "Fig 1 The map highlights the Kulob District in the southwest of Tajikistan. ")
 
+Fig 1 The map highlights the Kulob District in the southwest of Tajikistan. 
+
 The active case finding used computer-aided detection coupled with chest radiography (CAD4TB) at different sites. This is a mobile, digital X-ray system that can analyse a chest X-ray in less than a minute and can help identify individuals who need to go to a health centre for confirmatory testing. 
 
 ![Fig 2 An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ](/assets/uploads/msf356922_medium.jpg "Fig 2 An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  ")
+
+Fig 2 An MSF nurse is registering a villager who came for screening to a temporary X-ray facility set up by the project staff in Zarbdor village, Kulob, Tajikistan. (c) Kamola Rasulova/MSF  
 
 From the beginning of the project, mapping diagnosed TB patients was seen as an important part to inform screening, prevention, and educational activities to curtail transmission.  
 
@@ -51,9 +55,11 @@ We ran a remote mapping campaign of the Kulob district on the HOT Tasking M
 
 ![Fig 3 Before and after screenshots that show new data on OSM @OpensStreetMap contributors ](/assets/uploads/before_after.png "Fig 3 Before and after screenshots that show new data on OSM @OpensStreetMap contributors ")
 
+Fig 3 Before and after screenshots that show new data on OSM @OpensStreetMap contributors 
+
 Subsequently, the team in Kulob used [Field Papers](https://fieldpapers.org/) to draw the outlines of neighbourhoods in the city. It is a tool for easily creating a printable map of OSM data that permits sketching onto it. The hand-drawn paper maps were photographed and sent back to me for digitisation. 
 
-![Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.](/assets/uploads/field-papers-kulob.png "TITLE TITLE TITLE TITLE TITLE ")
+![Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.](/assets/uploads/field-papers-kulob.png "Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.")
 
 Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.
 
@@ -79,7 +85,7 @@ The result of this process is a map of the neighbourhoods of Kulob city and
 
 As fun and important as is it to create updated maps, the spatial analysis was an important part of the project as well. The research project retrospectively analysed medical data collected between January 2022 and December 2024. The geolocation data was integrated with population data to help identify TB transmission hotspots and calculate case notification rates. Further analysis by epidemiologists and TB experts was presented alongside our maps at the [Regional Workshop on WHO Guidelines](https://www.who.int/europe/news-room/events/item/2025/04/28/default-calendar/joint-regional-workshop-on-the-implementation-of-new-who-guidelines-on-tuberculosis-and-drug-resistant-tuberculosis) which was a capacity-building workshop in Kazakhstan in 2025 for twelve TB high-priority countries of the WHO European Region.  
 
-![](/assets/uploads/tjk_khatlonregion_kulob_a1p_26092025_page-0001.jpg)
+![Fig 6 A map showing the annual rate of TB per 100,000 people. ](/assets/uploads/tjk_khatlonregion_kulob_a1p_26092025_page-0001.jpg "Fig 6 A map showing the annual rate of TB per 100,000 people. ")
 
 *Fig 6 A map showing the annual rate of TB per 100,000 people.* 
 
