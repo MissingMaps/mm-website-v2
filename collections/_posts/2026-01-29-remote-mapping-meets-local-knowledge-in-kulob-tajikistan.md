@@ -77,7 +77,8 @@ By the end of an hour and a half, my cold cup of tea sits next to me, and w
 
 ![Fig 5 Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan. ](/assets/uploads/maria-and-nash.png "Fig 5 Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan. ")
 
-*Fig 5: Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan.* 
+*Fig 5: Maria and Nash Naufal digitising the field papers from Kulob, Tajikistan.* *Health Promotion Officer 
+Askar Usmonov and Driver Mechanic Murod Abilov provide advice from Kulob.*
 
 The result of this process is a map of the neighbourhoods of Kulob city and the outlying districts ready for the analysis of the spread of TB cases. This will also be a useful map for the local health promotion teams as they do their regular work. 
 
