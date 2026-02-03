@@ -62,6 +62,8 @@ Subsequently, the team in Kulob used [Field Papers](https://fieldpapers.org/) 
 ![Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.](/assets/uploads/field-papers-kulob.png "Fig 4 One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.")
 
 *Fig 4: One page of the finished Field Papers that highlights the approximate boundaries of Kulob City neighbourhoods.*
+
+
 \
 During follow-up visits to TB patients, MSF health teams collected GPS locations at their homes, as well as their addresses. This was another important source of information for our work to understand which streets and houses belong to which neighbourhood. These are the sorts of things that are unclear from a satellite image and impossible to determine without local knowledge. 
 
