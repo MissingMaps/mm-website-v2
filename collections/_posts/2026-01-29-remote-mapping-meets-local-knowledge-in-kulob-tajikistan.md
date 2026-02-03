@@ -2,7 +2,7 @@
 layout: post
 title: "Remote mapping meets local knowledge in Kulob, Tajikistan  "
 banner: /assets/uploads/kulob_header.png
-date: 2026-01-30
+date: 2026-02-03
 author: Maria Longley
 excerpt: Remote mapping and local knowledge came together in Kulob, Tajikistan,
   to fill critical gaps in neighbourhood-level map data for a tuberculosis
