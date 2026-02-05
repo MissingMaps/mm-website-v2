@@ -47,7 +47,7 @@ collections:
 
       - label: "Categories"
         name: "categories"
-        widget: "string"
+        widget: "text"
         required: false
         hint: "IMPORTANT: Please paste categories inside [] and seperate them with commas (,) Example [field mapping, MSF, africa]"
 
