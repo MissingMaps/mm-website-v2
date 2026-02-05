@@ -11,10 +11,7 @@ excerpt: Remote mapping and local knowledge came together in Kulob, Tajikistan,
   mapped before. The result is a map that supports tuberculosis screening and
   analysis and will continue to be useful for health teams working in the city.
 published: true
-categories:
-  - MSF
-  - Tajikistan
-  - Field Mapping
+categories: [MSF, Tajikistan, field mapping] 
 permalink: /blog/:year/:month/:day/:title/
 lang: en
 postID: Remote-mapping-meets-local-knowledge-in-Kulob

@@ -3,10 +3,10 @@ lang: cs
 layout: projects
 permalink: "/cs/projects/"
 body_classes: page-projects
-title: "Proyectos actuales"
+title: "Aktuální projekty"
 description: |-
-  Aquí puedes explorar las campañas prioritarias actuales de Missing Maps.
-  Elige la que mejor se adapte a tu nivel y ¡empieza a mapear!
+  Zde můžeš prozkoumat aktuální prioritní kampaně Missing Maps.
+  Vyber si tu, která nejlépe odpovídá tvé úrovni, a začni mapovat!
 
 image: "assets/images/pages/current-projects-header.webp"
 image_credit: "Edgar Lima / MSF"
