@@ -83,8 +83,6 @@ Chápeme, že aktivity Missing Maps jsou často organizovány komunitami, ať u�
 
 ## MISSING MAPS CZ&SK 
  
-I v Česku a na Slovensku funguje silná a aktivní komunita Missing Maps, která už několik let propojuje lidi se společnou vášní pro humanitární mapováni. Společně pořádáme mapathony, setkání a další akce, kde se potkávají začátečníci i zkušení mappeři. Jen v roce 2025 bylo v Česku a na Slovensku uspořádáno celkem 28 mapathonů 
-</br>Missing Maps CZ&SK úzce spolupracuje s Lékaři bez hranic a významně jim pomáhá mapovat oblasti, kde organizace působí. Přidejte se k nám i vy a mapujte s námi, aby si pomoc našla cestu. 
-</br>Aktuální informace o plánovaných akcích a další novinky najdete ve [facebookové skupině Missing Maps Česko a Slovensko](https://www.facebook.com/groups/missingmapscz) a nebo [discord serveru naši komunity](https://discord.gg/k6Gk9EkK). 
+I v Česku a na Slovensku funguje silná a aktivní komunita Missing Maps, která už několik let propojuje lidi se společnou vášní pro humanitární mapováni. Společně pořádáme mapathony, setkání a další akce, kde se potkávají začátečníci i zkušení mappeři. Jen v roce 2025 bylo v Česku a na Slovensku uspořádáno celkem 28 mapathonů. Missing Maps CZ&SK úzce spolupracuje s Lékaři bez hranic a významně jim pomáhá mapovat oblasti, kde organizace působí. Přidejte se k nám i vy a mapujte s námi, aby si pomoc našla cestu. Aktuální informace o plánovaných akcích a další novinky najdete ve [facebookové skupině Missing Maps Česko a Slovensko](https://www.facebook.com/groups/missingmapscz) a nebo [discord serveru naši komunity](https://discord.gg/k6Gk9EkK). 
 
 {% include framework/shortcodes/figure.html src="assets/images/pages/about.jpg" alt="Fotografie Missing Maps" %}
