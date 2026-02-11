@@ -6,12 +6,15 @@ date: 2026-02-03
 author: Maria Longley
 excerpt: Remote mapping and local knowledge came together in Kulob, Tajikistan,
   to fill critical gaps in neighbourhood-level map data for a tuberculosis
-  project. Through remote sessions and hand-drawn maps, MSF teams in Kulob
-  helped turn local knowledge into neighbourhood boundaries that had never been
-  mapped before. The result is a map that supports tuberculosis screening and
-  analysis and will continue to be useful for health teams working in the city.
+  project. Through remote sessions and hand-drawn maps, MSF teams turned local
+  knowledge into neighbourhood boundaries that had never been mapped before. The
+  result is a map that supports tuberculosis screening and analysis and will
+  continue to be useful for health teams working in the city.
 published: true
-categories: [MSF, Tajikistan, field mapping] 
+categories:
+  - MSF
+  - Tajikistan
+  - field mapping
 permalink: /blog/:year/:month/:day/:title/
 lang: en
 postID: Remote-mapping-meets-local-knowledge-in-Kulob
