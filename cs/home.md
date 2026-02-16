@@ -34,7 +34,7 @@ participate_1_text: |-
 
   Pokud ve vašem jazyce nebo časovém pásmu žádné události nenajdete, můžete začít mapovat kdykoliv — navštivte stránku Zapojit se a vyberte si mapovací nástroj. Nové akce jsou přidávány pravidelně.
 
-participate_1_image: "/assets/images/home/participate1.jpg"
+participate_1_image: "/assets/images/home/participate1.webp"
 participate_1_buttons:
   - label: "Připojit se k mapathonu"
     url: "/cs/events/"
@@ -45,14 +45,14 @@ participate_1_buttons:
 
 participate_2_title: "Uspořádejte mapathon"
 participate_2_text: "Pořádání mapathonů je skvělý způsob, jak budovat mapovací komunitu. Je to také ideální vzdělávací prostředí, kde se noví mappeři mohou učit od zkušenějších a zároveň přispívat ke společnému cíli. Mapathony pořádají skupiny i jednotlivci po celém světě."
-participate_2_image: "/assets/images/home/participate2.jpg"
+participate_2_image: "/assets/images/home/participate2.webp"
 participate_2_buttons:
   - label: "Uspořádat mapathon"
     url: "/cs/hosting-a-mapathon/"
 
 participate_3_title: "Mapujte svou komunitu"
 participate_3_text: "Mnoho organizací využívá OSM při plánování svých programů. OSM je skvělý nástroj pro sběr terénních dat a posilování místních komunit. Pokud vás zajímá vytváření a využívání otevřených mapových dat ve vaší práci, prozkoumejte sekci terénního mapování."
-participate_3_image: "/assets/images/home/participate3.jpg"
+participate_3_image: "/assets/images/home/participate3.webp"
 participate_3_credit: "Zdroj: Maria Jimena Henao Salgado, Universidad Nacional de Colombia, pořízeno v Cartageně, Kolumbie"
 participate_3_buttons:
   - label: "Terénní mapování"

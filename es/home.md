@@ -34,7 +34,7 @@ participate_1_text: |-
 
   Si no encuentras eventos en tu idioma o zona horaria, puedes empezar a mapear en cualquier momento — visita la página Participa y elige una herramienta de mapeo. ¡Se añaden nuevos eventos con regularidad!
 
-participate_1_image: "/assets/images/home/participate1.jpg"
+participate_1_image: "/assets/images/home/participate1.webp"
 participate_1_buttons:
   - label: "Únete a un mapatón"
     url: "/es/events/"
@@ -45,14 +45,14 @@ participate_1_buttons:
 
 participate_2_title: "Organiza un mapatón"
 participate_2_text: "Organizar mapatones es una excelente forma de crear una comunidad de mapeo. También es un entorno de aprendizaje ideal, donde las personas nuevas pueden aprender de la experiencia de otras mientras contribuyen a un objetivo común. Los mapatones son organizados por grupos e individuos en todo el mundo."
-participate_2_image: "/assets/images/home/participate2.jpg"
+participate_2_image: "/assets/images/home/participate2.webp"
 participate_2_buttons:
   - label: "Organizar un mapatón"
     url: "/es/hosting-a-mapathon/"
 
 participate_3_title: "Mapea tu comunidad"
 participate_3_text: "Muchas organizaciones utilizan OSM para informar sus programas. OSM es ideal para recopilar datos de campo y empoderar a las comunidades. Si te interesa crear y usar datos de herramientas de mapeo abierto en tu trabajo, explora la sección de cartografía de campo."
-participate_3_image: "/assets/images/home/participate3.jpg"
+participate_3_image: "/assets/images/home/participate3.webp"
 participate_3_credit: "Crédito: Maria Jimena Henao Salgado, Universidad Nacional de Colombia, tomada en Cartagena, Colombia"
 participate_3_buttons:
   - label: "Cartografía de campo"

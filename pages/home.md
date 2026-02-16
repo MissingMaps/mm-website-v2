@@ -34,7 +34,7 @@ participate_1_text: |-
   
   If you don’t see any events in your language or time, you can still start mapping anytime — visit our Get Involved page and choose a mapping tool. New events are added regularly!
 
-participate_1_image: "/assets/images/home/participate1.jpg"
+participate_1_image: "/assets/images/home/participate1.webp"
 participate_1_buttons:
   - label: "Join a Mapathon"
     url: "/events/"
@@ -45,14 +45,14 @@ participate_1_buttons:
 
 participate_2_title: "Organise a mapathon"
 participate_2_text: "Organising mapathons is a fantastic way to build a community of mappers. It is also a great learning environment, where new mappers can learn from the experiences of others while contributing to a shared goal. Mapathons are organised by groups and individuals all over the world."
-participate_2_image: "/assets/images/home/participate2.jpg"
+participate_2_image: "/assets/images/home/participate2.webp"
 participate_2_buttons:
   - label: "Host a Mapathon"
     url: "/hosting-a-mapathon/"
 
 participate_3_title: "Map your community"
 participate_3_text: "Many organizations are using OSM to inform their programs. OSM is great for collecting field data while empowering communities. If you are interested in creating and using data from open mapping tools in your work, explore the field mapping section."
-participate_3_image: "/assets/images/home/participate3.jpg"
+participate_3_image: "/assets/images/home/participate3.webp"
 participate_3_credit: "Credit: Maria Jimena Henao Salgado, Universidad Nacional de Colombia, taken in Cartagena, Colombia"
 participate_3_buttons:
   - label: "Field mapping"

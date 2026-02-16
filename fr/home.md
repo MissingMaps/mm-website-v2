@@ -36,7 +36,7 @@ participate_1_text: |-
 
   Consultez le calendrier des événements pour découvrir les prochains mapathons Missing Maps. Si aucun événement n’est disponible dans votre langue ou votre fuseau horaire, vous pouvez commencer à cartographier à tout moment grâce aux outils disponibles sur notre page « S’impliquer ».
 
-participate_1_image: "/assets/images/home/participate1.jpg"
+participate_1_image: "/assets/images/home/participate1.webp"
 participate_1_buttons:
   - label: "Participer à un mapathon"
     url: "/fr/events/"
@@ -47,14 +47,14 @@ participate_1_buttons:
 
 participate_2_title: "Organiser un mapathon"
 participate_2_text: "Organiser des mapathons est un excellent moyen de créer une communauté de cartographes. C’est également un environnement d’apprentissage idéal, où les nouveaux contributeurs peuvent apprendre des plus expérimentés tout en contribuant à un objectif commun. Les mapathons sont organisés par des groupes et des individus partout dans le monde."
-participate_2_image: "/assets/images/home/participate2.jpg"
+participate_2_image: "/assets/images/home/participate2.webp"
 participate_2_buttons:
   - label: "Organiser un mapathon"
     url: "/fr/hosting-a-mapathon/"
 
 participate_3_title: "Cartographier votre communauté"
 participate_3_text: "De nombreuses organisations utilisent OpenStreetMap pour orienter leurs programmes. OSM est un excellent outil pour collecter des données de terrain tout en renforçant l’autonomie des communautés locales. Si vous souhaitez créer et utiliser des données issues de la cartographie ouverte dans votre travail, explorez la section dédiée à la cartographie de terrain."
-participate_3_image: "/assets/images/home/participate3.jpg"
+participate_3_image: "/assets/images/home/participate3.webp"
 participate_3_credit: "Crédit : Maria Jimena Henao Salgado, Universidad Nacional de Colombia, photo prise à Carthagène, Colombie"
 participate_3_buttons:
   - label: "Cartographie de terrain"

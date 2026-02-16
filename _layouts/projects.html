@@ -44,7 +44,7 @@ body_classes: page-blog
 
           {% for project in projects %}
           <div class="col-12 col-lg-4 mb-3">
-            {% assign project_image = project.banner | default: "assets/images/pages/current-projects.jpg" %}
+            {% assign project_image = project.banner | default: "assets/images/pages/current-projects.webp" %}
 
             {% include theme/cards/card-post.html
             title=project.title
