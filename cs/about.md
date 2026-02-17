@@ -19,8 +19,6 @@ image: "assets/images/pages/about-cover.jpg"
 
 - Podporovat [OpenStreetMap](https://www.openstreetmap.org/) a humanitární organizace při rozvoji technologií, dovedností, pracovních postupů a komunit.
 
-- Rozvíjet a rozšiřovat nástroj [MapSwipe](https://mapswipe.org/en/) a další nástroje pro zlepšení mapových dat pro krizovou připravenost a reakci po celém světě.
-
 # Etika
 ## Lidé
 Lidé mají vždy přednost před daty. Všechny aktivity Missing Maps zohledňují nejlepší zájmy a práva komunit i jednotlivců před přidáním dat do OSM.
