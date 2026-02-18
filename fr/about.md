@@ -19,8 +19,6 @@ image: "assets/images/pages/about-cover.jpg"
 
 - Soutenir [OpenStreetMap](https://www.openstreetmap.org/) et les organisations humanitaires dans le développement de technologies, de compétences, de méthodes de travail et de communautés.
 
-- Développer et faire évoluer [MapSwipe](https://mapswipe.org/en/) et d’autres outils pour améliorer les données cartographiques au service de la préparation et de la réponse aux crises dans le monde entier.
-
 # Éthique
 ## Les personnes
 Les personnes passent toujours avant les données. Toutes les activités de Missing Maps tiennent compte des intérêts et des droits des communautés et des individus avant l’ajout de données à OSM.
