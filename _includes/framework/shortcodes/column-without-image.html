@@ -1,0 +1,58 @@
+{% assign heading=include.heading %}
+{% assign heading_size=include.heading_size %}
+{% assign text=include.text %}
+{% assign button_text=include.button_text %}
+{% assign button_url=include.button_url %}
+{% assign button_external=include.button_external %}
+{% assign image=include.image %}
+{% assign color=include.color | default: "blue" %}
+{% assign image_credit=include.image_credit %}
+{% assign min_height=include.min_height %}
+{% assign has_image = image and image != "" %}
+
+<div class="htp-card--{{ color }} p-1 rounded-4 column-with-img">
+  <div class="row align-items-stretch">
+    <div class="col-12 {% if has_image %}col-md-6 pe-md-5{% endif %} d-flex flex-column p-2 content">
+      {% if heading_size == 'h2' %}
+        <h2 class="mb-3">{{ heading }}</h2>
+      {% else %}
+        <h3 class="mb-3">{{ heading }}</h3>
+      {% endif %}
+
+      <div>
+        {{ text | markdownify }}
+
+        {%- if button_text -%}
+          <div class="pt-3">
+            {% include framework/button.html text=button_text url=button_url external=button_external %}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+
+    {% if has_image %}
+      <div class="col-12 col-md-6">
+        <div class="column-image rounded-3 position-relative"
+             style="background-image: url('{{ image | relative_url }}');
+             {%- if min_height -%}
+               min-height: {{ min_height }};
+             {%- endif -%}
+             ">
+          {%- if image_credit -%}
+            <div class="credit-badge">
+              <span>{{ image_credit }}</span>
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+.column-with-img,
+.column-with-img .content {
+  height: auto !important;
+  min-height: 0 !important;
+}
+</style>
