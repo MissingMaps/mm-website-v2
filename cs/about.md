@@ -85,7 +85,7 @@ Chápeme, že aktivity Missing Maps jsou často organizovány komunitami, ať u�
   button_url=page.start_mapping_button_url
   button_text=page.start_mapping_button_text
   button_external=true
-  color="yellow"
+  color="beige"
 %}
 
 {% include framework/shortcodes/figure.html src="assets/images/pages/about.jpg" alt="Fotografie Missing Maps" %}
