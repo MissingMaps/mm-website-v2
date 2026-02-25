@@ -7,10 +7,13 @@ description: |-
 
 image: "assets/images/pages/Training-Materials.webp"
 ---
-- **[Step-by-Step Guide to Hosting a Mapathon](https://drive.google.com/drive/folders/1vV9-MbQwIxvfDncC78HAEy-Mb6E4JlE9?usp=sharing):** Access the complete guide to planning and running a mapathon
+- **[Step-by-Step Guide to Hosting a Mapathon](https://drive.google.com/drive/folders/1vV9-MbQwIxvfDncC78HAEy-Mb6E4JlE9?usp=sharing):** Access the complete guide to planning and running a mapathon.
 
 
-- **[MapSwipe Event Toolkit](https://docs.google.com/document/d/1OW3rh6I8F-CbUSasihPpc7oiDz8dGaM92XRKlrpTlb8/edit?tab=t.0) and [FAQs](https://drive.google.com/drive/u/1/folders/16eObDgzo8ozcKQQgewVTq1Z7kr01pZy8):** Everything you need to run a MapSwipe mapping event, including instructions and tips
+- **[JOSM tips and troubleshooting](https://drive.google.com/drive/folders/1blxl2qAC5IwgOUjlEvf5upKqdtm1HfuC?usp=sharing)**: JOSM installation guide and tips how to solve possible JOSM issues.
+
+
+- **[MapSwipe Event Toolkit](https://docs.google.com/document/d/1OW3rh6I8F-CbUSasihPpc7oiDz8dGaM92XRKlrpTlb8/edit?tab=t.0) and [FAQs](https://drive.google.com/drive/u/1/folders/16eObDgzo8ozcKQQgewVTq1Z7kr01pZy8):** Everything you need to run a MapSwipe mapping event, including instructions and tips.
 
 
 - **[Checklists](https://drive.google.com/drive/folders/1ln5nWoTCsYDnMYJys2rGXlYT8Fz-fkU2?usp=sharing):** Download planning and event-day checklists to stay organized and ensure nothing is missed.

@@ -11,6 +11,8 @@ image: "assets/images/pages/Training-Materials.webp"
 
 - **[Guía paso a paso para organizar un mapatón](https://drive.google.com/drive/folders/1vV9-MbQwIxvfDncC78HAEy-Mb6E4JlE9?usp=sharing)**: Accede a la guía completa para planificar y llevar a cabo un mapatón.
 
+- **[Solución de problemas y consejos sobre JOSM](https://drive.google.com/drive/folders/1blxl2qAC5IwgOUjlEvf5upKqdtm1HfuC?usp=sharing)**: Material de formación sobre JOSM y consejos para resolver posibles problemas con JOSM.
+
 - **[Kit de eventos MapSwipe](https://docs.google.com/document/d/1OW3rh6I8F-CbUSasihPpc7oiDz8dGaM92XRKlrpTlb8/edit?tab=t.0) y [Preguntas frecuentes](https://drive.google.com/drive/u/1/folders/16eObDgzo8ozcKQQgewVTq1Z7kr01pZy8)**: Todo lo que necesitas para organizar un evento de MapSwipe, incluyendo instrucciones y consejos.
 
 - **[Listas de verificación](https://drive.google.com/drive/folders/1ln5nWoTCsYDnMYJys2rGXlYT8Fz-fkU2?usp=sharing)**: Descarga listas de planificación y del día del evento para mantenerte organizado y no olvidar nada.

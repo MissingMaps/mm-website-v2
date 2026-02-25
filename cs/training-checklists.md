@@ -11,6 +11,8 @@ image: "assets/images/pages/Training-Materials.webp"
 
 - **[Podrobný návod k pořádání mapathonu](https://drive.google.com/drive/folders/1vV9-MbQwIxvfDncC78HAEy-Mb6E4JlE9?usp=sharing)**: Kompletní průvodce plánováním a realizací mapathonu.
 
+- **[Řešení problémů a tipy pro JOSM](https://drive.google.com/drive/folders/1blxl2qAC5IwgOUjlEvf5upKqdtm1HfuC?usp=sharing)**: Školicí materiály pro JOSM a tipy, jak řešit možné problémy s JOSM.
+
 - **[MapSwipe Event Toolkit](https://docs.google.com/document/d/1OW3rh6I8F-CbUSasihPpc7oiDz8dGaM92XRKlrpTlb8/edit?tab=t.0) a [FAQ](https://drive.google.com/drive/u/1/folders/16eObDgzo8ozcKQQgewVTq1Z7kr01pZy8)**: Vše, co potřebujete k uspořádání MapSwipe akce, včetně pokynů a tipů.
 
 - **[Kontrolní seznamy](https://drive.google.com/drive/folders/1ln5nWoTCsYDnMYJys2rGXlYT8Fz-fkU2?usp=sharing)**: Stáhněte si plánovací a akční checklisty, abyste měli vše pod kontrolou.
