@@ -16,7 +16,7 @@ async function fetchOsmcalEvents() {
     const response = await fetch('https://osmcal.org/api/v2/events/', {
       headers: {
         'Accept': 'application/json',
-        'Client-App': 'your-jekyll-site/1.0.0'
+        'Client-App': 'missing-maps-website/2.0'
       }
     });
 
