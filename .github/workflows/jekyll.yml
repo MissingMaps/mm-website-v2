@@ -5,8 +5,8 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
   schedule:
-    # Every Monday at 06:00 UTC (adjust if you want a different day/time)
-    - cron: "0 6 * * 1"
+    # Every day at 06:00 UTC (adjust if you want a different day/time)
+    - cron: "0 6 * * *"
 
 permissions:
   contents: read

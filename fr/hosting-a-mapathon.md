@@ -44,7 +44,7 @@ register_body: |-
   2. Incluez « **Missing Maps** » ou « **Mapathon** » dans le nom de l’événement (par exemple : « Mapathon Missing Maps de janvier à Prague »)
   3. Renseignez les autres informations et **enregistrez l’événement**
 
-  Votre événement devrait apparaître dans quelques instants sur [OSMCal](https://osmcal.org/) et dans le [Calendrier des événements](/fr/events/) du **site Web Missing Maps** après la prochaine mise à jour hebdomadaire du lundi.
+  Votre événement devrait apparaître dans quelques instants sur [OSMCal](https://osmcal.org/) et le lendemain dans le [Calendrier des événements](/fr/events/) sur le **site Web Missing Maps**.
 
 register_button_text: "Enregistrer votre événement"
 register_button_url: "https://osmcal.org/event/add/"
