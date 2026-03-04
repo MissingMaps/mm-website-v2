@@ -41,10 +41,10 @@ register_body: |-
   **Cómo registrarlo:**
 
   1. Haz clic en el botón [«Registrar tu evento»](https://osmcal.org/event/add/)
-  2. Incluye “**Missing Maps**” o “**Mapatón**” en el nombre del evento (por ejemplo: “Mapatón Missing Maps de enero en Praga”)
+  2. Incluye “**Missing Maps**” o “**Mapathon**” en el nombre del evento (por ejemplo: “Mapatón Missing Maps de enero en Praga”)
   3. Completa el resto de los datos y **guarda el evento**
 
-  Tu evento debería aparecer en unos momentos en [OSMCal](https://osmcal.org/) y en el [Calendario de eventos](/es/events/) de la **página web Missing Maps** tras la próxima actualización semanal del lunes.
+  Tu evento debería aparecer en unos momentos en [OSMCal](https://osmcal.org/) y al día siguiente en el [Calendario de eventos](/es/events/) de la **página web Missing Maps**.
 
 register_button_text: "Registrar tu evento"
 register_button_url: "https://osmcal.org/event/add/"

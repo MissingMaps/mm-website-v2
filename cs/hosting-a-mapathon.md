@@ -44,7 +44,7 @@ register_body: |-
   2. Uveďte „**Missing Maps**“ nebo „**Mapathon**“ v názvu akce (např. „Lednový Missing Maps mapathon v Praze“)
   3. Vyplňte ostatní údaje a **uložte akci**
 
-  Vaše akce by se měla během několika okamžiků objevit na [OSMCal](https://osmcal.org/) a v [Kalendáři Akcí](/cs/events/) na **webu Missing Maps** po pravidelné pondělní aktualizaci.
+  Vaše akce by se měla během několika okamžiků objevit na [OSMCal](https://osmcal.org/) a následující den v [Kalendáři Akcí](/cs/events/) na **webu Missing Maps**.
 
 register_button_text: "Registrovat akci"
 register_button_url: "https://osmcal.org/event/add/"
