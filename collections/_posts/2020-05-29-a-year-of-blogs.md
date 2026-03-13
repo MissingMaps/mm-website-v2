@@ -1,18 +1,20 @@
 ---
 layout: post
-title: "'Developing baseline health facility data with Healthsites' – A Year of Blogs – May 2020"
-postID: a-year-of-blogs-may2020
+title: "'Developing baseline health facility data with Healthsites' – A Year of
+  Blogs – May 2020"
 banner: https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20200529_banner.jpg
 date: 2020-05-29
 author: Mark Herringer
-excerpt: "In this article we concentrate on Human Centered Design and how you can help us to build a platform that meets the needs of the people using it."
+excerpt: In this article we concentrate on Human Centered Design and how you can
+  help us to build a platform that meets the needs of the people using it.
 published: true
-categories: [healthsites, Year-of-Blogs]
+categories:
+  - healthsites
+  - Year-of-Blogs
 permalink: /blog/:year/:month/:day/:title/
 lang: en
+postID: a-year-of-blogs-may2020
 ---
-
-
 # Human Centered Design to drive the development of baseline health facility data with Healthsites – A Year of Blogs – May 2020
 
 <figure>
@@ -33,11 +35,10 @@ A Human Centered Design approach to design drives the requirements and functiona
 Let’s look at some tangible examples, one from chatting with an expectant mother and one from a conversation with a civil servant working for a health ministry:
 
 1. **As a** pregnant mom expecting twins **I would like to** know where the nearest emergency care facility is **so that I can**  plan for potential complications during childbirth.
-1. **As a** pregnant mom **I would like to** know where the nearest birthing center is **so that I can** plan for the birth of my child.
-1. **As a** ministry of health data administrator, **I want to** know how long it takes citizens to get to health facilities **so that I can** optimize access to health care.
-1. **As a** ministry of health data administrator, **I want to** know the geographic coordinates of health facilities **so that I can** perform a spatial analysis.
-1. **As a** PATH health data administrator, **I want to** know where the operational clinics are **so that I can** plan a vaccination rollout campaign.
-
+2. **As a** pregnant mom **I would like to** know where the nearest birthing center is **so that I can** plan for the birth of my child.
+3. **As a** ministry of health data administrator, **I want to** know how long it takes citizens to get to health facilities **so that I can** optimize access to health care.
+4. **As a** ministry of health data administrator, **I want to** know the geographic coordinates of health facilities **so that I can** perform a spatial analysis.
+5. **As a** PATH health data administrator, **I want to** know where the operational clinics are **so that I can** plan a vaccination rollout campaign.
 
 Collating these stories from users of the platform for different persona’s in the healthcare environment provides us with an understanding  of what problems need to be solved and what data are needed to solve them.
 
@@ -45,7 +46,7 @@ Collating these stories from users of the platform for different persona’s in 
 
 When we deconstruct user stories, we can understand what kind of information is needed to support the story. Taking our examples above we can see:
 
-| **Who                                 | What                                                   | Why**                                              |
+| \*\*Who                               | What                                                   | Why\*\*                                            |
 | ------------------------------------- | ------------------------------------------------------ | -------------------------------------------------- |
 | Pregnant mom                          | Emergency care                                         | plan for potential complications during childbirth |
 | Pregnant mom                          | know where the nearest birthing center is              | plan for the birth of my child                     |
@@ -69,6 +70,7 @@ The user stories above tell us the following baseline health facility attributes
 [Healthsites schema](https://wiki.openstreetmap.org/wiki/Global_Healthsites_Mapping_Project#Complete)
 
 # Open data policy development
+
 In this context stakeholders in the health cluster can define open data policies that support these user stories and improve base line health facility data.
 
 In a three day workshop ‘ Developing a Strategic Agenda around Outbreak and Humanitarian Data Collection and Analytics’ held at the Wellcome Trust between 20-22 March 2019 the following recommendations were established:
@@ -85,9 +87,8 @@ The COVID-19 pandemic is generating new user stories. These need to be understoo
 
 *As both TB and COVID-19 share similar clinical presentation (cough, fever, shortness of breath etc.) and are transmitted through respiratory droplets and aerosols, a combined strategy needs to be applied. This would utilise resources effectively while providing both short term and long term benefits. - [Impact of COVID-19 intervention on TB testing in South Africa.](https://www.nicd.ac.za/wp-content/uploads/2020/05/Impact-of-Covid-19-interventions-on-TB-testing-in-South-Africa-10-May-2020.pdf)*
 
-## Healthsites invites local practitioners to [make contact](https://healthsites.io/contact/) and help define user stories that drive the development of baseline health facility data where it is needed most.
+## Healthsites invites local practitioners to [make contact](https://healthsites.io/contact) and help define user stories that drive the development of baseline health facility data where it is needed most.
 
-
-The Healthsites team  
-[https://healthsites.io/](https://healthsites.io/)  
+The Healthsites team\
+<https://healthsites.io/>\
 [@sharehealthdata](https://twitter.com/sharehealthdata)
