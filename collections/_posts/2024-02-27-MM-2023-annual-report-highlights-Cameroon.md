@@ -1,15 +1,23 @@
 ---
 layout: post
-title: "Missing Maps 2023 annual report & highlights from Cameroon"
-postID: MM-2023-annual-report-highlights-Cameroon
+title: Missing Maps 2023 annual report & highlights from Cameroon
 banner: https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20240227_Gathering_Group.jpg
 date: 2024-02-27
 author: Jorieke Vyncke and Jana Bauerová
-excerpt: The State of the Map Africa 2023 provided a space for a hybrid Missing Maps annual meeting on the edges of the conference in Yaoundé, as well as the first-ever Missing Maps annual report with highlights, successes and challenges.
+excerpt: The State of the Map Africa 2023 provided a space for a hybrid Missing
+  Maps annual meeting on the edges of the conference in Yaoundé, as well as the
+  first-ever Missing Maps annual report with highlights, successes and
+  challenges.
 published: true
-categories: [state of the map, conference, africa, gathering, annual report]
+categories:
+  - state of the map
+  - conference
+  - africa
+  - gathering
+  - annual report
 permalink: /blog/:year/:month/:day/:title/
 lang: en
+postID: MM-2023-annual-report-highlights-Cameroon
 ---
 
 The beginning of December members from different Missing Maps organisations came together in Yaoundé, Cameroon to host the annual Missing Maps meeting and to attend the State of the Map Africa conference.
@@ -29,7 +37,7 @@ We therefore want to thank the organising committee, sponsors and participants t
 
 Prior to the State of the Map conference we hosted at the same venue the Missing Maps annual meeting which was a great way to regroup on priorities, and acknowledge and celebrate achievements amongst member organisations. With members from four different organisations joining in person, and representatives of 10 member organisations joining online, the discussions were intense and productive at the same time as we discussed year 9 of our collaboration.Topics on the table for discussion included the perception of Missing Maps by the public, 10-years celebration, and the engagement of youth in Missing Maps.
 
-One outcome from our annual meeting we would love to share with the whole Missing Maps community. We wrote for the first time ever a Missing Maps annual report: [MM Annual Report 2023](https://drive.google.com/file/d/1Fi87_lxtBJLscgLeEnD8LYuyxQYT7oDG/view?usp=drive_link)
+One outcome from our annual meeting we would love to share with the whole Missing Maps community. We wrote for the first time ever a Missing Maps annual report: [MM Annual Report 2023](https://drive.google.com/file/d/1FszrGzzO5UoQZGkIOtWwAE2qF3jSRGyg/view?usp=drive_link)
 
 The report gives a summary of the 2023 Missing Maps activities, successes, challenges and plans for the upcoming year per member organisation. At the end it gives you as well some successful collaboration highlights between Missing Maps member organisations.
 
