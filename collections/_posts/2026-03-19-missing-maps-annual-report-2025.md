@@ -13,7 +13,7 @@ This report **(see [PDF](https://drive.google.com/file/d/1JwxkVMnDRgHyL3CxISgeGO
 
 [Missing Maps](https://www.missingmaps.org/) is an initiative led by a collective of organizations working towards a common goal of creating accessible map data in areas where humanitarian organizations are operating. Each member organization carries out their own mapping activities with their wider communities guided by shared ethics. 
 
-Missing Maps would be nothing without this collaboration of participating organizations, communities and individuals. To achieve this goal, Missing Maps member organizations grow a global community of mappers to support those living in places at risk, or affected by disasters and crises. [OpenStreetMap](http://httpsosm.org) (OSM) is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit OpenStreetMap Foundation. 
+Missing Maps would be nothing without this collaboration of participating organizations, communities and individuals. To achieve this goal, Missing Maps member organizations grow a global community of mappers to support those living in places at risk, or affected by disasters and crises. [OpenStreetMap](https://www.osm.org) (OSM) is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit OpenStreetMap Foundation. 
 
 #### Missing Maps member organizations in 2025:
 
