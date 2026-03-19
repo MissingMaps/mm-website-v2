@@ -15,6 +15,8 @@ This report **(see [PDF](https://drive.google.com/file/d/1JwxkVMnDRgHyL3CxISgeGO
 
 Missing Maps would be nothing without this collaboration of participating organizations, communities and individuals. To achieve this goal, Missing Maps member organizations grow a global community of mappers to support those living in places at risk, or affected by disasters and crises. [OpenStreetMap](http://httpsosm.org) (OSM) is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit OpenStreetMap Foundation. 
 
+![](/assets/uploads/missing-maps-gathering-group-photo-nov-2025.jpeg "Missing Maps members together at the Missing Maps Gathering in Edinburgh, November 2025")
+
 #### Missing Maps member organizations in 2025:
 
 3iS / ADF Haiti / American Red Cross / British Red Cross / Canadian Red Cross / Cadasta / CartONG / Crowd2Map Tanzania  / George Washington Department of Geography / German Red Cross / healthsites.io / Heidelberg Institute for Geoinformation Technology (HeiGIT) / Heidelberg University /  Humanitarian OpenStreetMap Team (HOT) / IFRC / Kenya Red Cross / Map Kibera / Médecins Sans Frontières (MSF) / Netherlands Red Cross / Spanish Red Cross / YouthMappers
