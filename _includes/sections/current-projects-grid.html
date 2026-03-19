@@ -1,0 +1,30 @@
+{%- assign items = include.items | default: site.data.current-projects -%}
+{%- assign categories = "TM,MapRoulette,MapSwipe" | split: "," -%}
+
+{%- if items and items.size > 0 -%}
+<section class="current-projects pt-2 pb-4">
+  <div class="container">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-1">
+
+      {% for category in categories %}
+        {% for item in items %}
+          {% unless item.title %}
+            {% continue %}
+          {% endunless %}
+
+          {% if item.category == category %}
+            {% include sections/current-projects-card.html
+              title=item.title
+              description=item.description
+              url=item.url
+              bg=item.bg
+              img=item.img
+            %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+{%- endif -%}

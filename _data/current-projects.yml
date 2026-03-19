@@ -1,0 +1,52 @@
+# === Category definitions YAML anchors (do not remove) ===
+- &TM
+  category: TM
+  bg: danger
+  img: /assets/images/pages/HOTTM_logo.png
+
+- &MR
+  category: MapRoulette
+  bg: success
+  img: /assets/images/pages/MapRoulette_logo.png
+
+- &MS
+  category: MapSwipe
+  bg: warning
+  img: /assets/images/pages/MapSwipe_logo_2.png
+
+# === PROJECTS ===
+
+- <<: *TM
+  title: Kenya Floods 2026 mapping campaign
+  url: https://tasks.hotosm.org/explore?campaign=Kenya+Floods+2026&omitMapResults=1&action=any
+  description: Kenya Floods 2026 mapping campaign
+
+- <<: *TM
+  title: Cyclone Gezani 2026 mapping campaign
+  url: https://tasks.hotosm.org/explore?campaign=Cyclone+Gezani+2026&omitMapResults=1&status=PUBLISHED%2CARCHIVED%2CDRAFT
+  description: Cyclone Gezani 2026 mapping campaign
+
+- <<: *TM
+  title: "MSF - Missing Maps: Roads in Bamyan, Afghanistan"
+  url: https://tasks.hotosm.org/explore?campaign=Bamyan+Province+Afghanistan&omitMapResults=1&action=any
+  description: "MSF - Missing Maps: Roads in Bamyan, Afghanistan"
+
+- <<: *TM
+  title: "MSF - Missing Maps: Residential Areas in South Rutshuru, Democratic Republic of the Congo"
+  url: https://tasks.hotosm.org/explore?campaign=NorthKivu&omitMapResults=1&action=any
+  description: "MSF - Missing Maps: Residential Areas in South Rutshuru, Democratic Republic of the Congo"
+
+- <<: *MR
+  title: "MSF - Missing Maps: place points, Chad (2)"
+  url: https://maproulette.org/browse/challenges/54267
+  description: "MSF - Missing Maps: place points, Chad (2)"
+
+- <<: *MR
+  title: "MSF - Missing Maps: Road network, Indonesia (1)"
+  url: https://maproulette.org/browse/challenges/54353
+  description: "MSF - Missing Maps: Road network, Indonesia (1)"
+
+- <<: *MS
+  title: MapSwipe projects
+  url: https://web.mapswipe.org/#/en/projects
+  description: MapSwipe
