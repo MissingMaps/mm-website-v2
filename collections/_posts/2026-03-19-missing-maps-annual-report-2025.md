@@ -3,6 +3,8 @@ layout: post
 title: Missing Maps Annual Report 2025
 banner: assets/uploads/missing-maps-gathering-group-photo-nov-2025.jpeg
 date: 2026-03-19
+excerpt: Our annual report provides an overview of activities undertaken by
+  Missing Maps member organizations between September 2024 and October 2025.
 published: true
 permalink: /blog/:year/:month/:day/:title/
 lang: en
