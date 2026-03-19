@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Missing Maps Annual Report 2025
-banner: assets/uploads/missing-maps-gathering-group-photo-nov-2025.jpeg
+banner: /assets/uploads/missing-maps-gathering-group-photo-nov-2025.jpeg
 date: 2026-03-19
 excerpt: Our annual report provides an overview of activities undertaken by
   Missing Maps member organizations between September 2024 and October 2025.
@@ -9,8 +9,6 @@ published: true
 permalink: /blog/:year/:month/:day/:title/
 lang: en
 ---
-![Missing Maps members together at the Missing Maps Gathering in Edinburgh, November 2025](/assets/uploads/missing-maps-gathering-group-photo-nov-2025.jpeg "Missing Maps members together at the Missing Maps Gathering in Edinburgh, November 2025")
-
 This report **(see [PDF](https://drive.google.com/file/d/1JwxkVMnDRgHyL3CxISgeGOtF_-GGsLZs/view?usp=sharing))** provides an overview of activities undertaken by Missing Maps member organizations between September 2024 and October 2025. It  highlights key successes and challenges, as well as plans for the year 2026. These updates were presented at the Missing Maps Annual Gathering held in Edinburgh (United Kingdom) on November 12 and 13, 2025.
 
 [Missing Maps](https://www.missingmaps.org/) is an initiative led by a collective of organizations working towards a common goal of creating accessible map data in areas where humanitarian organizations are operating. Each member organization carries out their own mapping activities with their wider communities guided by shared ethics. 
