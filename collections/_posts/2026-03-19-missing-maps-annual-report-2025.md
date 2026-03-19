@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Missing Maps Annual Report 2025
+banner: assets/uploads/missing-maps-gathering-group-photo-nov-2025.jpeg
 date: 2026-03-20
 published: false
 permalink: /blog/:year/:month/:day/:title/
