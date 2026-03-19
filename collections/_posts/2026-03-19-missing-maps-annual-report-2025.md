@@ -18,3 +18,5 @@ Missing Maps would be nothing without this collaboration of participating organi
 #### Missing Maps member organizations in 2025:
 
 3iS / ADF Haiti / American Red Cross / British Red Cross / Canadian Red Cross / Cadasta / CartONG / Crowd2Map Tanzania  / George Washington Department of Geography / German Red Cross / healthsites.io / Heidelberg Institute for Geoinformation Technology (HeiGIT) / Heidelberg University /  Humanitarian OpenStreetMap Team (HOT) / IFRC / Kenya Red Cross / Map Kibera / Médecins Sans Frontières (MSF) / Netherlands Red Cross / Spanish Red Cross / YouthMappers
+
+assets/uploads/missing-maps-gathering-discussion-nov-2025.jpeg
