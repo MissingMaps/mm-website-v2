@@ -7,11 +7,16 @@
   margin-bottom: 0;
 }
 
+.current-projects .member-title {
+  margin-top: 0;
+}
+
 .current-projects .member-card {
   text-decoration: none;
 }
 
-.current-projects .member-title {
+.current-projects .member-title,
+.current-projects .member-description {
   color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
@@ -36,7 +41,8 @@
     background-color: #f9a825; // MS yellow
   }
 
-  .project--ms .member-title {
+  .project--ms .member-title,
+  .project--ms .member-description {
     color: #1a1a1a;
   }
 }
