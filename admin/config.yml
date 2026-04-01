@@ -121,7 +121,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "testing123"
-    label: "Testing123 Add New Project"
+    label: "testing123 Projects"
     folder: "collections/_testing123"
     create: true
     slug: "{{slug}}"
