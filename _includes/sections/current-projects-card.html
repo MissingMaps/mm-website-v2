@@ -1,0 +1,30 @@
+{%- assign href = include.url | default: "" -%}
+{%- assign category_class = include.category | downcase | prepend: "project--" -%}
+
+<div class="col d-flex">
+  <a
+    class="member-card {{ category_class }} d-flex flex-column align-items-center justify-content-start rounded-3 position-relative p-1 text-center h-100"
+    href="{{ href }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="{{ include.title | escape }}"
+  >
+
+    <img
+      class="member-logo-image mb-1"
+      src="{{ include.img | relative_url }}"
+      alt="{{ include.title | escape }}"
+    >
+
+    <h3 class="member-title mb-1">
+      {{ include.title }}
+    </h3>
+
+    {% if include.description %}
+      <p class="member-description mb-0">
+        {{ include.description }}
+      </p>
+    {% endif %}
+
+  </a>
+</div>

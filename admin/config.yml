@@ -119,3 +119,36 @@ collections:
         hint: "Optional. Default: /projects/:year/:month/:day/:title/. If needed, add language prefix (e.g. /fr/projects/:year/:month/:day/:title/)."
 
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "testing123"
+    label: "testing123 Projects"
+    folder: "collections/_testing123"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - label: Project name
+        name: title
+        widget: string
+
+      - label: Mapping tool
+        name: category
+        widget: select
+        options:
+          - label: HOT Tasking Manager
+            value: TM
+          - label: MapRoulette
+            value: MR
+          - label: MapSwipe
+            value: MS
+        default: TM
+
+      - label: Project URL
+        name: external_url
+        widget: string
+
+      - label: Short description
+        name: excerpt
+        widget: text
+        required: false
