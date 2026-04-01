@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "MapSwipe"
+title: "Mapswipe projects"
 category: MS
-external_url: https://tasks.hotosm.org/projects/33963
+external_url: https://web.mapswipe.org/#/en/projects
 excerpt: ""
 permalink: /projects/:year/:month/:day/:title/
 ---

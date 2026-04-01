@@ -3,7 +3,7 @@ layout: basic
 title: "Current Projects"
 permalink: "/current-projects/"
 description: |-
-  Here you can explore the current priority Missing Maps campaigns. Choose the one that matches your skill level to start mapping!
+  Here you can find the current Missing Maps priority projects. Happy mapping!
 
 image: "assets/images/pages/current-projects.webp"
 image_credit: "Edgar Lima / MSF"

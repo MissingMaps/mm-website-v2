@@ -14,16 +14,13 @@
 
           {% if item.category == category %}
 
-            {%- comment -%} Category → styling mapping {%- endcomment -%}
+            {%- comment -%} Category → logo mapping {%- endcomment -%}
             {% case category %}
               {% when "TM" %}
-                {% assign bg = "danger" %}
                 {% assign img = "/assets/images/pages/HOTTM_logo.png" %}
               {% when "MR" %}
-                {% assign bg = "success" %}
                 {% assign img = "/assets/images/pages/MapRoulette_logo.png" %}
               {% when "MS" %}
-                {% assign bg = "warning" %}
                 {% assign img = "/assets/images/pages/mapswipe-logo.png" %}
             {% endcase %}
 
@@ -31,8 +28,8 @@
               title=item.title
               description=item.excerpt
               url=item.external_url
-              bg=bg
               img=img
+              category=item.category
             %}
 
           {% endif %}

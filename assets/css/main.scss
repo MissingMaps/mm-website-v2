@@ -48,8 +48,7 @@ html[data-bs-theme='dark'] {
 }
 
 @import 'style';
+@import "sections/current-projects";
 
-.current-projects .member-logo-image {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
+

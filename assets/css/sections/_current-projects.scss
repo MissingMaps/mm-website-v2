@@ -1,0 +1,45 @@
+/* ======================================
+   Current projects cards
+   ====================================== */
+
+.current-projects .member-logo-image {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.current-projects .member-card {
+  text-decoration: none;
+}
+
+.current-projects .member-title {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.current-projects .member-card:hover .member-title {
+  text-decoration: underline;
+}
+
+.current-projects {
+
+  .project--tm {
+    background-color: #d71920; // TM red
+  }
+
+  .project--mr {
+    background-color: #2e7d32; // MR green
+  }
+
+  .project--ms {
+    background-color: #f9a825; // MS yellow
+  }
+
+  .project--ms .member-title {
+    color: #1a1a1a;
+  }
+}
+
+
+

@@ -1,9 +1,9 @@
 {%- assign href = include.url | default: "" -%}
-{%- assign bg_class = include.bg | prepend: "bg-" -%}
+{%- assign category_class = include.category | downcase | prepend: "project--" -%}
 
 <div class="col d-flex">
   <a
-    class="member-card {{ bg_class }} d-flex flex-column align-items-center justify-content-start rounded-3 position-relative p-1 text-center h-100"
+    class="member-card {{ category_class }} d-flex flex-column align-items-center justify-content-start rounded-3 position-relative p-1 text-center h-100"
     href="{{ href }}"
     target="_blank"
     rel="noopener noreferrer"
