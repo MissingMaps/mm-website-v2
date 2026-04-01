@@ -1,0 +1,45 @@
+{%- assign items = include.items | default: site.testing123 -%}
+{%- assign categories = "TM,MR,MS" | split: "," -%}
+
+{%- if items and items.size > 0 -%}
+<section class="current-projects pt-2 pb-4">
+  <div class="container">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-1">
+
+      {% for category in categories %}
+        {% for item in items %}
+          {% unless item.title %}
+            {% continue %}
+          {% endunless %}
+
+          {% if item.category == category %}
+
+            {%- comment -%} Category → styling mapping {%- endcomment -%}
+            {% case category %}
+              {% when "TM" %}
+                {% assign bg = "danger" %}
+                {% assign img = "/assets/images/pages/HOTTM_logo.png" %}
+              {% when "MR" %}
+                {% assign bg = "success" %}
+                {% assign img = "/assets/images/pages/MapRoulette_logo.png" %}
+              {% when "MS" %}
+                {% assign bg = "warning" %}
+                {% assign img = "/assets/images/pages/mapswipe-logo.png" %}
+            {% endcase %}
+
+            {% include sections/current-projects-card.html
+              title=item.title
+              description=item.excerpt
+              url=item.external_url
+              bg=bg
+              img=img
+            %}
+
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+{%- endif -%}

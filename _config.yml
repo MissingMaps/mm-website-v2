@@ -33,6 +33,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  testing123:
+    output: false
 
 # Pages
 defaults:
