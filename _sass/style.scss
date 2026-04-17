@@ -590,8 +590,11 @@ p,
   color: var(--color-primary-bg) !important;
 }
 
-.project-card .card-content {
-  padding: 1.5rem 0.5rem;
+.current-projects a img {
+  transition: filter 0.2s ease;
+}
+.current-projects a:hover img {
+  filter: brightness(1.25);
 }
 
 /* Footer Styling */

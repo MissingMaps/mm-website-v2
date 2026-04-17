@@ -1,4 +1,4 @@
-{%- assign items = include.items | default: site.testing123 -%}
+{%- assign items = include.items | default: site.projects -%}
 {%- assign categories = "TM,MR,MS" | split: "," -%}
 
 {%- if items and items.size > 0 -%}

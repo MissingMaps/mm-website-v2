@@ -292,17 +292,16 @@ body_classes: page-home
         <div class="subheading mb-3">
           {{ page.projects_sub_heading }}
         </div>
-        {% if page.projects_button_url %}
         <a class="button btn-dark btn-white-arrow" href="{{ page.projects_button_url | relative_url }}">{{ page.projects_button_label }}</a>
-        {% endif %}
       </div>
       <div class="col-12 col-md-6">
-        {%- assign featured = site.projects | where_exp: 'p','p.featured' | first -%}
-        {%- assign proj = featured -%}
-        {%- unless proj -%}
-        {%- assign proj = site.projects | sort: 'date' | reverse | first -%}
-        {%- endunless -%}
-        {% include sections/project-card.html item=proj %}
+        <a href="{{ page.projects_button_url | relative_url }}">
+          <img
+            src="/assets/images/pages/current-projects.webp"
+            alt="{{ page.projects_label }}"
+            style="width:100%; height:auto; display:block; border-radius: var(--border-radius, 8px);"
+          />
+        </a>
       </div>
     </div>
   </div>

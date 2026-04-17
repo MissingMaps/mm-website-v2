@@ -1,7 +1,7 @@
 ---
 layout: basic
 title: "Current Projects"
-permalink: "/current-projects/"
+permalink: "/projects/"
 description: |-
   Here you can find the current Missing Maps priority projects. Happy mapping!
 

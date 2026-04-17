@@ -46,9 +46,6 @@ collections:
   posts:
     output: true
     permalink: /blog/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
 
 languages: [en, fr, cs, es]
 default_lang: en
@@ -93,7 +90,7 @@ Content is organized into **Jekyll collections, static pages, and language-speci
 ```
 collections/
   _posts/        → Blog posts (multilingual via front-matter + i18n)
-  _projects/     → Project pages
+  _current-projects/     → Project pages
 pages/            → English static pages (default language)
 cs/               → Czech static pages
 fr/               → French static pages
@@ -106,7 +103,6 @@ assets/            → Images, uploads, CSS, JS, fonts
 ### Permalinks
 
 * Blog posts: `/blog/{slug}/`
-* Projects: `/projects/{slug}/`
 * Pages: `/{page-slug}/` (default language)
 * Translated pages: `/{lang}/{page-slug}/`
 
