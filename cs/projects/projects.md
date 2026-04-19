@@ -5,7 +5,7 @@ permalink: "/cs/projects/"
 title: "Aktuální projekty"
 description: |-
   Zde můžeš prozkoumat aktuální prioritní kampaně Missing Maps.
-  Přejeme vám příjemné mapování!
+  Přejeme příjemné mapování!
 
 image: "assets/images/pages/current-projects.webp"
 image_credit: "Edgar Lima / MSF"
