@@ -1,5 +1,5 @@
 ---
-title: "Missing Maps: Buildings in Aweil Counties, South Sudan (2)"
+title: "Missing Maps: Buildings in Aweil Counties, South Sudan"
 category: TM
-external_url: https://tasks.hotosm.org/projects/48879
+external_url: https://tasks.hotosm.org/explore?campaign=Aweil&omitMapResults=1
 ---
