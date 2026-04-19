@@ -1,13 +1,14 @@
 ---
 lang: es
-layout: projects
+layout: basic
 permalink: "/es/projects/"
-body_classes: page-projects
 title: "Proyectos actuales"
 description: |-
   Aquí puedes explorar las campañas prioritarias actuales de Missing Maps.
-  Elige la que mejor se adapte a tu nivel y ¡empieza a mapear!
+  ¡Que disfrutes mapeando!
 
-image: "assets/images/pages/current-projects-header.webp"
+image: "assets/images/pages/current-projects.webp"
 image_credit: "Edgar Lima / MSF"
 ---
+
+{% include sections/current-projects-grid.html %}

@@ -72,57 +72,9 @@ collections:
 
       - { label: "Body", name: "body", widget: "markdown" }
   
-  - name: "projects"
-    label: "Projects"
+  - name: "current-projects"
+    label: "Current Projects"
     folder: "collections/_projects"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    extension: "md"
-    format: "frontmatter"
-
-    fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-
-      - { label: "Title", name: "title", widget: "string" }
-
-      - label: "Date"
-        name: "date"
-        widget: "datetime"
-        format: "YYYY-MM-DD"
-        date_format: "YYYY-MM-DD"
-        time_format: false
-        picker_utc: true
-
-      - label: "Banner"
-        name: "banner"
-        widget: "string"
-        required: false
-        hint: "Optional. Paste an image URL or a relative path."
-
-      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
-
-      - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
-
-      - { label: "Published", name: "published", widget: "boolean", default: true, required: false }
-
-      - label: "Language"
-        name: "lang"
-        widget: "select"
-        options: ["en", "fr", "cs", "es"]
-        default: "en"
-
-      - label: "Permalink"
-        name: "permalink"
-        widget: "string"
-        required: false
-        default: "/projects/:year/:month/:day/:title/"
-        hint: "Optional. Default: /projects/:year/:month/:day/:title/. If needed, add language prefix (e.g. /fr/projects/:year/:month/:day/:title/)."
-
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "testing123"
-    label: "testing123 Projects"
-    folder: "collections/_testing123"
     create: true
     slug: "{{slug}}"
     extension: "md"

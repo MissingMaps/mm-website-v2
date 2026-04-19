@@ -30,10 +30,7 @@ collections:
   posts:
     output: true
     permalink: /blog/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-  testing123:
+  current-projects:
     output: false
 
 # Pages
