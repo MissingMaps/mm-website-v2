@@ -24,6 +24,13 @@
                 {% assign img = "/assets/images/pages/mapswipe-logo.png" %}
             {% endcase %}
 
+            {% include sections/current-projects-card.html
+              title=item.title
+              url=item.external_url
+              img=img
+              category=item.category
+            %}
+
           {% endif %}
         {% endfor %}
       {% endfor %}
