@@ -80,9 +80,6 @@ collections:
     extension: "md"
     format: "frontmatter"
     fields:
-      - label: Project name
-        name: title
-        widget: string
 
       - label: Mapping tool
         name: category
@@ -96,11 +93,27 @@ collections:
             value: MS
         default: TM
 
+      - label: Project name
+        name: title
+        widget: string
+
       - label: Project URL
         name: external_url
         widget: string
 
-      - label: Short description
-        name: excerpt
-        widget: text
+      - label: "RSS Feed Notification Settings"
+        name: "feed"
+        widget: "object"
+        collapsed: true
         required: false
+        fields:
+          - label: "I want to notify the Missing Maps community about this project via Slack and the RSS feed"
+            name: "include_in_feed"
+            widget: "boolean"
+            default: false
+            hint: "Toggle on to include this project in the public RSS feed at /projects-feed.xml and send an automatic message to channel on HOT Slack."
+          - label: "Slack / RSS message"
+            name: "excerpt"
+            widget: "text"
+            required: false
+            hint: "Leave empty for default: 'New Missing Maps mapping request'"
