@@ -4,5 +4,5 @@ category: TM
 external_url: https://tasks.hotosm.org/explore?campaign=Cyclone+Gezani+2026&omitMapResults=1&status=PUBLISHED
 feed:
   include_in_feed: true
-  excerpt: 
+  date: 2026-04-21 15:27:00
 ---
