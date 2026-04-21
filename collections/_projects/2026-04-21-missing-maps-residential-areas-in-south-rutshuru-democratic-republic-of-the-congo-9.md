@@ -5,17 +5,6 @@ title: "Missing Maps: Residential Areas in South Rutshuru, Democratic Republic
 external_url: https://tasks.hotosm.org/explore?campaign=NorthKivu&omitMapResults=1&organisation=M%C3%A9decins+Sans+Fronti%C3%A8res+%28MSF%29+
 feed:
   include_in_feed: true
-  excerpt: "Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world Hello world Hello world Hello
-    world Hello world Hello world Hello world "
+  excerpt: "You can put whatever you want in this message. It is fully customizable."
+date: 2026-02-10
 ---
