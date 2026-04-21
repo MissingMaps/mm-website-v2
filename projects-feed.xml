@@ -7,7 +7,7 @@ layout: null
     <title>{{ site.title | xml_escape }} – Current Projects</title>
     <description>Current Missing Maps priority projects</description>
     <link>{{ site.url }}{{ site.baseurl }}/projects/</link>
-    <atom:link href="{{ "/projects-feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+ssl"/>
+    <atom:link href="{{ "/projects-feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ project.date | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
