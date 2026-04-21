@@ -8,14 +8,15 @@ layout: null
     <description>Current Missing Maps priority projects</description>
     <link>{{ site.url }}{{ site.baseurl }}/projects/</link>
     <atom:link href="{{ "/projects-feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ project.date | date_to_rfc822 }}</pubDate>
+    <pubDate>{{ site.date | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% assign projects = site.projects | where: "feed.include_in_feed", true %}
+    {% assign projects = site.projects | where: "feed.include_in_feed", true % | sort: "date" | reverse %}
 {% for project in projects %}
   <item>
     <title>{{ project.title | xml_escape }}</title>
     <description>{{ project.feed.excerpt | default: "New Missing Maps mapping request." | xml_escape }}</description>
+    <pubDate>{{ project.date | date_to_rfc822 }}</pubDate>
     <link>{{ project.external_url | xml_escape }}</link>
     <guid isPermaLink="false">{{ project.url | prepend: site.baseurl | prepend: site.url }}</guid>
     {% if project.category %}
