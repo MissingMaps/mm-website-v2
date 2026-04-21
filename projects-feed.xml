@@ -8,7 +8,7 @@ layout: null
     <description>Current Missing Maps priority projects</description>
     <link>{{ site.url }}{{ site.baseurl }}/projects/</link>
     <atom:link href="{{ "/projects-feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+ssl"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <pubDate>{{ project.date | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% assign projects = site.projects | where: "feed.include_in_feed", true %}
