@@ -117,3 +117,11 @@ collections:
             widget: "text"
             required: false
             hint: "Leave empty for default: 'New Missing Maps mapping request'"
+          - label: "Date - no need to change, mandatory for properly triggering the RSS feed and Slack message"
+            name: "date"
+            widget: "datetime"
+            format: "YYYY-MM-DD HH:mm:ss"
+            date_format: "YYYY-MM-DD"
+            time_format: "HH:mm"
+            picker_utc: true
+            default: "{{now}}"
