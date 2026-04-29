@@ -125,5 +125,5 @@ collections:
             name: "excerpt"
             widget: "text"
             required: false
-            hint: "Leave empty for default: 'New Missing Maps mapping request'"
+            hint: "Max 495 characters. Leave empty for default: 'New Missing Maps mapping request'"
 
