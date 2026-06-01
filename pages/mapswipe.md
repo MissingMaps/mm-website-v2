@@ -9,7 +9,7 @@ description: |-
   
   MapSwipe harnesses the collective strength of volunteers to actively contribute to geospatial data projects. From identifying infrastructure to tracking environmental changes and validating map data, MapSwipers help improve map data across the world.
 
-  MapSwipe is an open-source mobile and web app that is making mapping around the world more coordinated and efficient. Volunteers swipe through imagery in several different project types, each designed to meet specific mapping needs.
+  MapSwipe is an open-source mobile and web app that is making mapping around the world more coordinated and efficient. Volunteers swipe through imagery in several different project types, each designed to meet specific mapping needs. Due to its ease of use, MapSwipe is for everyone; volunteers can make a meaningful contribution to a humanitarian or development mapping project within their first minutes.
 
 intro: |-
   For example, in the “Find features” type of project, volunteers swipe through satellite images to identify & select those that contain the requested features such as buildings, roadways, waterways:
@@ -23,21 +23,22 @@ fig_alt_2: "Result of Mapswipe"
 
 explore_text: "Explore all project types and more information on how to get involved on the MapSwipe website:"
 
-mapswipe_button_text: "MAPSWIPE Website"
+mapswipe_button_text: "MapSwipe Website"
 mapswipe_button_url: "https://mapswipe.org/en/"
 
-start_mapping_heading: "Start Mapping Today" 
+start_mapping_heading: "Start Swiping Today" 
 start_mapping_text: |- 
-  Getting started is quick and easy:
+  Getting started is free, quick and easy:
   1. Download the app or open the web app
-  2. Choose a project
-  3. Complete the short tutorial
-  4. Start swiping and contributing
+  2. Create an account
+  3. Choose a project
+  4. Complete the short tutorial
+  5. Swipe and contribute
 
 start_mapping_img: "assets/images/pages/MapSwipe-Start-Mapping.svg"
 
 button_row:
-  - label: "MAPSWIPE Web App"
+  - label: "MapSwipe Web App"
     url: "https://web.mapswipe.org/#/en"
     external: true
     outline: true
@@ -64,7 +65,7 @@ organize_event_faq_url: "https://wiki.openstreetmap.org/wiki/MapSwipe_event_FAQ"
 # Donation / support block (previously an include in Markdown)
 support_heading: "Support MapSwipe"
 support_text: |-
-  Want to help keep MapSwipe running smoothly?
+  Want to help keep MapSwipe running?
 
   Your donation will help ensure smooth operation, sustainability and maintenance of the mobile and web apps.
 support_button_text: "Donate Now"
