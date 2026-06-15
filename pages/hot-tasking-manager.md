@@ -131,6 +131,7 @@ validation_step3_body: |-
 
 validation_resources_heading: "Resources:"
 validation_resources_body: |- 
+  - [Validation guide created by anthaas](https://docs.google.com/document/d/1BS4Ht6T7NSRsaaFL2wq7o1g8WVBNGfn74a4Qo4y0ezs/edit?usp=sharing)
   - [LearnOSM validation page](https://learnosm.org/en/coordination/validation/)  
   - [Wiki for validating tasks on Tasking Manager](https://wiki.openstreetmap.org/wiki/Tasking_Manager/Validating_data)  
 
