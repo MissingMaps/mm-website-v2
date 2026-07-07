@@ -37,7 +37,12 @@ In collaboration with the Humanitarian OpenStreetMap Team(HOT) and the ESA Open 
 
 This [uMap](https://umap.hotosm.org/en/map/drc-ebola-outbreak-2026-priority-area_2892#7/6.688643/30.811776) shows the priority area that Humanitarian OpenStreetMap Team (HOT) is working with Médecins Sans Frontières (MSF) to respond to the outbreak. At the same time, experienced mappers are validating HOT Tasking Manager data, including deleting no longer existing buildings and residential areas, to ensure that the map data best reflects the current situation on the ground. This can result in a negative count of OSM buildings in terms of the overall statistics of the #eboladrc2026mapping campaign.
 
-Source:https://ohsome-now.heigit.org/dashboard#hashtag=eboladrc2026 
+<figure>
+<img src="/assets/uploads/20260707-ebola-mapping_ohsomenow-dashboard-2026-06-23.webp">
+<p class="caption">Fig 2 Source:https://ohsome-now.heigit.org/dashboard#hashtag=eboladrc2026
+</p>
+</figure>
+ 
 
 New data has continuously been made available on OpenStreetMap: 
 
