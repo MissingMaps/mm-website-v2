@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "17th Ebola outbreak in the DRC: Mapping for the response "
+banner: /assets/uploads/20260707-ebola-mapping_msf372299.webp
 date: 2026-07-07
 author: Jana Bauerová
 excerpt: "Following the confirmation of an Ebola outbreak in the Ituri Province
