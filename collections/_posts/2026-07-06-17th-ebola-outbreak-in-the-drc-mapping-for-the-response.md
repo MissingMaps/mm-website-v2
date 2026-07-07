@@ -10,7 +10,7 @@ excerpt: "Following the confirmation of an Ebola outbreak in the Ituri Province
   The HOT Eastern and Southern Africa (Hub, in collaboration with local mappers
   from OpenStreetMap RDC and Médecins Sans Frontières (MSF), launched HOT
   Tasking Manager projects from May 21. MapSwipe projects followed. "
-published: false
+published: true
 categories:
   - Ebola
   - MSF
