@@ -7,7 +7,7 @@ author: Jana Bauerová
 excerpt: "Following the confirmation of an Ebola outbreak in the Ituri Province
   in the eastern Democratic Republic of the Congo on May 18, 2026, the
   Humanitarian OpenStreetMap Team (HOT) completed a needs assessment (size-up).
-  The HOT Eastern and Southern Africa (Hub, in collaboration with local mappers
+  The HOT Eastern and Southern Africa Hub, in collaboration with local mappers
   from OpenStreetMap RDC and Médecins Sans Frontières (MSF), launched HOT
   Tasking Manager projects from May 21. MapSwipe projects followed. "
 published: true
