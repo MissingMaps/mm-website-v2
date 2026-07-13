@@ -413,6 +413,148 @@ p,
   }
 }
 
+/* Blog Search */
+.blog-search {
+  position: relative;
+  max-width: 400px;
+  margin: 1rem 0;
+}
+
+.search-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem;
+  border: 1px solid var(--color-base-bg-3);
+  border-radius: 0.5rem;
+
+  button {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  i {
+    color: var(--color-base-text-2);
+    font-size: 0.875rem;
+  }
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--color-base-text);
+  font-size: 0.875rem;
+  min-width: 0;
+}
+
+.search-results {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  right: 0;
+  max-height: 320px;
+  overflow-y: auto;
+  background-color: var(--color-base-bg);
+  border-radius: 0.5rem;
+  box-shadow: rgba(17, 17, 17, 0.1) 0 20px 25px -5px, rgba(17, 17, 17, 0.04) 0 10px 10px -5px;
+  padding: 0.5rem;
+  z-index: 30;
+
+  .blog-search.open & {
+    display: block;
+  }
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+
+  &:hover {
+    background-color: var(--color-base-bg-2);
+  }
+
+  .search-result-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-base-text);
+  }
+
+  .search-result-date {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-base-text-2);
+    margin-top: 0.125rem;
+  }
+
+  .search-result-excerpt {
+    font-size: 0.75rem;
+    color: var(--color-base-text-2);
+    margin-top: 0.125rem;
+  }
+}
+
+.search-no-results {
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-base-text-2);
+  margin: 0;
+}
+
+.search-page-results {
+  &:empty {
+    display: none;
+  }
+}
+
+.search-page-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.search-page-clear {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-base-text-2);
+  text-decoration: underline;
+}
+
+.search-page-list {
+  display: flex;
+  flex-direction: column;
+
+  .search-result {
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid var(--color-base-bg-3);
+    border-radius: 0;
+
+    &:hover {
+      background-color: var(--color-base-bg-2);
+    }
+  }
+
+  .search-result-title {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
 
   .menu-lang-switcher:hover .dropdown-menu {

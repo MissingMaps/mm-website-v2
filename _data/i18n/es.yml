@@ -45,3 +45,9 @@ bottom:
 
 pagination:
   page: "Página"
+
+search:
+  placeholder: "Buscar..."
+  no_results: "No se encontraron resultados"
+  results_for: "Resultados de búsqueda para"
+  clear: "Borrar búsqueda"

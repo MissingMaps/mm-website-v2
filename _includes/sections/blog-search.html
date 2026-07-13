@@ -1,0 +1,30 @@
+{% assign lang = page.lang | default: site.default_lang | default: "en" %}
+{% assign T = site.data.i18n[lang] | default: {} %}
+{% assign search_placeholder = T.search.placeholder | default: "Search blog posts..." %}
+{% assign search_no_results = T.search.no_results | default: "No results found" %}
+{% assign search_results_for = T.search.results_for | default: "Search results for" %}
+{% assign search_clear = T.search.clear | default: "Clear search" %}
+
+<div
+  class="blog-search"
+  id="blog-search"
+  data-index-url="{{ '/blog-search.json' | relative_url }}"
+  data-results-for="{{ search_results_for }}"
+  data-clear="{{ search_clear }}"
+>
+  <form class="search-input-wrap" id="blog-search-form" action="" method="GET">
+    <button type="submit" aria-label="{{ search_placeholder }}">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+    <input
+      type="text"
+      name="q"
+      id="blog-search-input"
+      class="search-input"
+      placeholder="{{ search_placeholder }}"
+      autocomplete="off"
+      data-no-results="{{ search_no_results }}"
+    >
+  </form>
+  <div class="search-results" id="blog-search-results"></div>
+</div>

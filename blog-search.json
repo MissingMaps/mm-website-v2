@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /blog-search.json
+---
+[
+{%- assign first = true -%}
+{%- for post in site.posts -%}
+  {%- unless first %},{% endunless -%}
+  {%- assign first = false -%}
+  {
+    "title": {{ post.title | jsonify }},
+    "url": {{ post.url | relative_url | jsonify }},
+    "excerpt": {{ post.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }},
+    "date": {{ post.date | date_to_long_string | jsonify }},
+    "lang": {{ post.lang | default: site.default_lang | jsonify }}
+  }
+{%- endfor -%}
+]
