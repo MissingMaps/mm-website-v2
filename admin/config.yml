@@ -22,6 +22,13 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
 
+      - label: "Published"
+        name: "published"
+        widget: "boolean"
+        default: true
+        required: false
+        hint: "Turn this OFF to save the post as a draft — it will not appear on the live site until you turn it back on and publish."
+
       - { label: "Title", name: "title", widget: "string" }
 
       # Banner can be an uploaded image OR an external URL:
@@ -42,8 +49,6 @@ collections:
       - { label: "Author", name: "author", widget: "string", required: false }
 
       - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
-
-      - { label: "Published", name: "published", widget: "boolean", default: true, required: false }
 
       - label: "Categories"
         name: "categories"
