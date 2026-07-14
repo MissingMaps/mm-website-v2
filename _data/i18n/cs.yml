@@ -46,3 +46,9 @@ bottom:
 
 pagination:
   page: "Page"
+
+search:
+  placeholder: "Hledat..."
+  no_results: "Nebyly nalezeny žádné výsledky"
+  results_for: "Výsledky hledání pro"
+  clear: "Zrušit hledání"

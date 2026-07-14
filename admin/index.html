@@ -9,6 +9,42 @@
 
 <body>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    CMS.registerEditorComponent({
+      id: "figure",
+      label: "Figure with Caption",
+      fields: [
+        { name: "image", label: "Image", widget: "image" },
+        {
+          name: "alt",
+          label: "Alt Text (for screen readers)",
+          widget: "string",
+          hint: "Describe what's in the image. This is read aloud by screen readers, so someone who can't see the image still knows what it shows.",
+        },
+        { name: "caption", label: "Caption", widget: "string", required: false },
+      ],
+      pattern: /^<figure>\n<img src="(.*?)" alt="(.*?)">\n<p class="caption">([\s\S]*?)<\/p>\n<\/figure>$/,
+      fromBlock: function (match) {
+        return {
+          image: match[1],
+          alt: match[2],
+          caption: match[3],
+        };
+      },
+      toBlock: function (obj) {
+        return (
+          "<figure>\n<img src=\"" + (obj.image || "") + "\" alt=\"" + (obj.alt || "") + "\">\n" +
+          "<p class=\"caption\">" + (obj.caption || "") + "</p>\n</figure>"
+        );
+      },
+      toPreview: function (obj) {
+        return (
+          "<figure><img src=\"" + (obj.image || "") + "\" alt=\"" + (obj.alt || "") + "\" style=\"max-width:100%\">" +
+          "<p>" + (obj.caption || "") + "</p></figure>"
+        );
+      },
+    });
+  </script>
 </body>
 
 </html>

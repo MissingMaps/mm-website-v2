@@ -14,17 +14,24 @@ body_classes: page-blog
         %}
       </div>
     </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12">
+        {% include sections/blog-search.html %}
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="section pt-0">
   <div class="container">
+    <div id="blog-search-page-results" class="search-page-results"></div>
+    <div id="blog-listing">
       <div class="row justify-content-center">
         <div class="col-12 col-md-12">
           <div class="row">
             {% assign posts = site.posts %}
             {% if paginator %}{% assign posts = paginator.posts %}{% endif %}
-            
+
               {% if paginator %}
                 <div class="col-12">
                   {% include framework/paginator-count.html %}
@@ -37,7 +44,7 @@ body_classes: page-blog
                     date=post.date
                     title=post.title
                     description=post.excerpt
-                    thumbnail=post.banner 
+                    thumbnail=post.banner
                     image=post.banner
                     url=post.url
                     authors=post.author
@@ -64,7 +71,7 @@ body_classes: page-blog
           </a>
         </div>
       </div>
-      </div>
+    </div>
   </div>
 </div>
 

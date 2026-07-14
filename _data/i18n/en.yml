@@ -24,3 +24,9 @@ bottom:
 
 pagination:
   page: "Page"
+
+search:
+  placeholder: "Search..."
+  no_results: "No results found"
+  results_for: "Search results for"
+  clear: "Clear search"

@@ -22,6 +22,13 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
 
+      - label: "Published"
+        name: "published"
+        widget: "boolean"
+        default: true
+        required: false
+        hint: "Turn this OFF to save the post as a draft — it will not appear on the live site until you turn it back on and publish."
+
       - { label: "Title", name: "title", widget: "string" }
 
       # Banner can be an uploaded image OR an external URL:
@@ -42,8 +49,6 @@ collections:
       - { label: "Author", name: "author", widget: "string", required: false }
 
       - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
-
-      - { label: "Published", name: "published", widget: "boolean", default: true, required: false }
 
       - label: "Categories"
         name: "categories"
@@ -113,14 +118,14 @@ collections:
       - label: "RSS Feed Notification Settings"
         name: "feed"
         widget: "object"
-        collapsed: true
+        collapsed: false
         required: false
         fields:
           - label: "I want to notify the Missing Maps community about this project via Slack and the RSS feed"
             name: "include_in_feed"
             widget: "boolean"
-            default: false
-            hint: "Toggle on to include this project in the public RSS feed at /projects-feed.xml and send an automatic message to channel on HOT Slack."
+            default: true
+            hint: "On by default. Toggle off if you do NOT want this project included in the public RSS feed at /projects-feed.xml or announced on HOT Slack."
           - label: "Slack / RSS message"
             name: "excerpt"
             widget: "text"
