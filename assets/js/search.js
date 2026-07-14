@@ -63,7 +63,7 @@
     var q = query.trim().toLowerCase();
     if (q.length < 2 || !index) return [];
     return index.filter(function (item) {
-      var haystack = (item.title + " " + item.excerpt).toLowerCase();
+      var haystack = (item.title + " " + item.content).toLowerCase();
       return haystack.indexOf(q) !== -1;
     });
   }
