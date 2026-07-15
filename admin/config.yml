@@ -34,9 +34,9 @@ collections:
       # Banner can be an uploaded image OR an external URL:
       - label: "Banner"
         name: "banner"
-        widget: "string"
-        required: false
-        hint: "Paste an image URL (https://...) OR upload an image and paste its path."
+        widget: "image"
+        required: true
+        hint: "Choose an image to upload, or insert an external image URL."
 
       - label: "Date"
         name: "date"
@@ -75,7 +75,7 @@ collections:
         required: false
         hint: "Optional. Internal identifier (e.g. MM-2023-annual-report-highlights-Cameroon)."
 
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown", editor_components: ["figure"] }
   
   - name: "current-projects"
     label: "Current Projects"
