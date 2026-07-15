@@ -2,8 +2,7 @@
 
 This repository contains the next-generation Missing Maps website built with **Jekyll**, multilingual content support, and **Decap CMS** for content editing. The site is deployed via **GitHub Pages** and served at **[https://www.missingmaps.org](https://www.missingmaps.org)**.
 
-Last updated: January 2026
-Status: Production-ready (mm-website-v2)
+[Guide for blog posting on MM website](https://docs.google.com/document/d/1LB4ukESX1F-JIuCBgt3Vj2-xvzmOzJJyGFy-W2bnGIk/edit?usp=sharing)
 
 ---
 
