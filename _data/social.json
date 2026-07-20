@@ -18,5 +18,10 @@
     "title": "LinkedIn",
     "fa_icon": "fab fa-linkedin",
     "url": "https://www.linkedin.com/company/missing-maps"
+  },
+  {
+    "title": "GitHub",
+    "fa_icon": "fab fa-github-square",
+    "url": "https://github.com/MissingMaps/mm-website-v2"
   }
 ]
