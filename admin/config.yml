@@ -125,7 +125,7 @@ collections:
             name: "include_in_feed"
             widget: "boolean"
             default: true
-            hint: "On by default. Toggle off if you do NOT want this project included in the public RSS feed at /projects-feed.xml or announced on HOT Slack."
+            hint: "On by default. Toggle off if you do NOT want this project included in the public RSS feed at /feed.xml or announced on HOT Slack."
           - label: "Slack / RSS message"
             name: "excerpt"
             widget: "text"
