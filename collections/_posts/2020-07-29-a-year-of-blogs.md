@@ -1,15 +1,18 @@
 ---
 layout: post
+published: true
 title: "'How to Host a Virtual Mapathon' – A Year of Blogs – July 2020"
-postID: 2020-07-29-a-year-of-blogs
-
+banner: https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20200729_photo1.png
 date: 2020-07-29
 author: Sam Colchester, Melanie Chabot, Rachel Levine, Léonie Miège
-excerpt: "I realized right after the French lockdown that online mapathons were very important to me during this isolation period."
-published: true
-categories: [remote mapathons, Year-of-Blogs]
+excerpt: I realized right after the French lockdown that online mapathons were
+  very important to me during this isolation period.
+categories:
+  - remote mapathons
+  - Year-of-Blogs
 permalink: /blog/:year/:month/:day/:title/
 lang: en
+postID: 2020-07-29-a-year-of-blogs
 ---
 
 **Virtual mapathons: a social activity during trying times**
