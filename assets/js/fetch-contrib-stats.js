@@ -26,9 +26,9 @@ const DEBUG = process.env.DEBUG_CONTRIB === "1";
 const HASHTAG = process.env.OSM_STATS_HASHTAG || "missingmaps";
 const API_URL =
   process.env.OHSOME_STATS_URL ||
-  `https://stats.now.ohsome.org/api/stats/${encodeURIComponent(HASHTAG)}`;
+  `https://stats.now.ohsome.org/api/stats/hashtags/${encodeURIComponent(HASHTAG)}`;
 
-// Save into ROOT _data for Jekyll (from assets/js → ../.. → repo root → _data)
+  // Save into ROOT _data for Jekyll (from assets/js → ../.. → repo root → _data)
 const dataDir = path.join(__dirname, "..", "..", "_data");
 const outputPath = path.join(dataDir, "contrib_stats.json");
 
@@ -132,9 +132,19 @@ async function run() {
 
     // Expected shape:
     // { result: { users, edits, buildings, roads, ... } } :contentReference[oaicite:1]{index=1}
-    const r = payload?.result;
-    if (!r || typeof r !== "object") {
+    const results = payload?.result;
+
+    if (!results || typeof results !== "object") {
       throw new Error(`Unexpected response shape: missing 'result'`);
+    }
+
+    const r =
+      results[HASHTAG] ||
+      results[HASHTAG.toLowerCase()] ||
+      Object.values(results)[0];
+
+    if (!r || typeof r !== "object") {
+      throw new Error(`No statistics returned for hashtag '${HASHTAG}'`);
     }
 
     // Validate presence (numbers)
@@ -168,13 +178,7 @@ async function run() {
     console.error("Error fetching contribution stats:");
     console.error(err?.message || err);
 
-    // Always write fallback so Jekyll renders predictably
-    writeJson({
-      total_contributors: "—",
-      total_edits: "—",
-      building_edits: "—",
-      roads_km: "—",
-    });
+    console.error("Keeping the existing contrib_stats.json values.");
   }
 }
 
