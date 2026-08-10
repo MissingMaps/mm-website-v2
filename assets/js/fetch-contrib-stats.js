@@ -168,6 +168,7 @@ async function run() {
       total_edits: formatAbbrev(edits),
       building_edits: formatAbbrev(buildings),
       roads_km: formatKm(roads),
+      last_updated: new Date().toISOString(),
     };
 
     if (DEBUG) dlog("Formatted output:", out);
@@ -175,10 +176,12 @@ async function run() {
     writeJson(out);
   } catch (err) {
     // Errors only by default
+    const message = err?.message || String(err);
     console.error("Error fetching contribution stats:");
-    console.error(err?.message || err);
-
-    console.error("Keeping the existing contrib_stats.json values.");
+    console.error(message);
+    console.error(
+      "Keeping the existing contrib_stats.json values (last_updated will not advance, so the homepage date will show as stale until this succeeds again)."
+    );
   }
 }
 

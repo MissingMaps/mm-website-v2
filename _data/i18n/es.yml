@@ -4,6 +4,8 @@ contrib:
   total_edits: "Total de ediciones"
   building_edits: "Ediciones de edificios"
   roads_km: "Carreteras (km)"
+  source_note: "Datos de las contribuciones de OpenStreetMap etiquetadas con #MissingMaps, a través de <a href=\"https://ohsome-now.heigit.org\" target=\"_blank\" rel=\"noopener noreferrer\">ohsomeNow Stats</a>."
+  updated_note: "Última actualización: %DATE%."
 
 openstreetmap:
   title: "OpenStreetMap"

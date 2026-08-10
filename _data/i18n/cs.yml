@@ -4,6 +4,8 @@ contrib:
   total_edits: "Celkový počet úprav"
   building_edits: "Úpravy budov"
   roads_km: "Silnice (km)"
+  source_note: "Data z příspěvků OpenStreetMap označených #MissingMaps, prostřednictvím <a href=\"https://ohsome-now.heigit.org\" target=\"_blank\" rel=\"noopener noreferrer\">ohsomeNow Stats</a>."
+  updated_note: "Naposledy aktualizováno: %DATE%."
 
 openstreetmap:
   title: "OpenStreetMap"

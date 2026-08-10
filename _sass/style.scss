@@ -686,6 +686,20 @@ p,
   font-weight: 500;
 }
 
+.contrib-meta {
+  font-size: 1rem;
+  color: var(--color-base-bg);
+}
+
+.contrib-meta a {
+  color: var(--color-base-bg);
+  text-decoration: underline;
+}
+
+.contrib-meta a:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 767px) {
   .contrib-value {
     font-size: 3rem;

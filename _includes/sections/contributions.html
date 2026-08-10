@@ -31,5 +31,17 @@
       </div>
       {% endfor %}
     </div>
+
+    {% if stats.last_updated %}
+    <div class="row pt-3">
+      <div class="col-12">
+        <div class="contrib-meta">
+          {{ contribT.source_note | default: "Data from OpenStreetMap contributions tagged #MissingMaps, via ohsomeNow Stats." }}
+          {% assign updated_human = stats.last_updated | date: "%B %-d, %Y" %}
+          {{ contribT.updated_note | default: "Last updated %DATE%." | replace: "%DATE%", updated_human }}
+        </div>
+      </div>
+    </div>
+    {% endif %}
   </div>
 </div>
