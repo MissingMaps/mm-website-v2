@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "fetch:osmcal": "node assets/js/fetch-osmcal-events.js",
+    "fetch:osmcal-calendar-ics": "node assets/js/fetch-osmcal-calendar-ics.js",
     "fetch:contrib-stats": "node assets/js/fetch-contrib-stats.js"
   }
 }

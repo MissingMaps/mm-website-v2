@@ -48,7 +48,15 @@ jobs:
           else
             echo "No package.json found, skipping OSMCal fetch."
           fi
-          
+
+      - name: Build OSMCal calendar feeds
+        run: |
+          if [ -f package.json ]; then
+            npm run fetch:osmcal-calendar-ics
+          else
+            echo "No package.json found, skipping calendar feeds."
+          fi
+
       - name: Fetch contribution stats
         run: |
             if [ -f package.json ]; then
