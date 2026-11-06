@@ -58,6 +58,8 @@ jobs:
           fi
 
       - name: Fetch contribution stats
+        env:
+          HEIGIT_API_KEY: ${{ secrets.HEIGIT_API_KEY }}
         run: |
             if [ -f package.json ]; then
               npm run fetch:contrib-stats
