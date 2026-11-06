@@ -26,7 +26,9 @@ const DEBUG = process.env.DEBUG_CONTRIB === "1";
 const HASHTAG = process.env.OSM_STATS_HASHTAG || "missingmaps";
 const API_URL =
   process.env.OHSOME_STATS_URL ||
-  `https://stats.now.ohsome.org/api/stats/hashtags/${encodeURIComponent(HASHTAG)}`;
+  `https://api.heigit.org/ohsome-now/v1/stats/hashtags/${encodeURIComponent(HASHTAG)}`;
+// Secret, from the HEIGIT_API_KEY GitHub Actions secret. Only ever send it to the ohsomeNow API.
+const HEIGIT_API_KEY = process.env.HEIGIT_API_KEY;
 
 // Stats published by the previous build (from contrib-stats.json in the repo root)
 const LIVE_STATS_URL = "https://missingmaps.org/contrib-stats.json";
@@ -88,7 +90,7 @@ function explainFetchError(err) {
   return lines.join("\n");
 }
 
-async function fetchJson(url) {
+async function fetchJson(url, headers = {}) {
   dlog("Fetching:", url);
 
   let res;
@@ -97,7 +99,7 @@ async function fetchJson(url) {
     const t = setTimeout(() => controller.abort(), 15000);
 
     res = await fetch(url, {
-      headers: { Accept: "application/json" },
+      headers: { Accept: "application/json", ...headers },
       signal: controller.signal,
     });
 
@@ -147,7 +149,12 @@ async function restoreFromLiveSite() {
 // -------- Main --------
 async function run() {
   try {
-    const payload = await fetchJson(API_URL);
+    if (!HEIGIT_API_KEY) {
+      throw new Error("HEIGIT_API_KEY is not set");
+    }
+
+    // HeiGIT expects the raw token here, without a Bearer or Basic prefix
+    const payload = await fetchJson(API_URL, { Authorization: HEIGIT_API_KEY });
 
     // Expected shape:
     // { result: { users, edits, buildings, roads, ... } } :contentReference[oaicite:1]{index=1}
