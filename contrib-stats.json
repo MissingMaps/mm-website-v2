@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /contrib-stats.json
+---
+{{ site.data.contrib_stats | jsonify }}

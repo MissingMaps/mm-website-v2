@@ -28,6 +28,9 @@ const API_URL =
   process.env.OHSOME_STATS_URL ||
   `https://stats.now.ohsome.org/api/stats/hashtags/${encodeURIComponent(HASHTAG)}`;
 
+// Stats published by the previous build (from contrib-stats.json in the repo root)
+const LIVE_STATS_URL = "https://missingmaps.org/contrib-stats.json";
+
   // Save into ROOT _data for Jekyll (from assets/js → ../.. → repo root → _data)
 const dataDir = path.join(__dirname, "..", "..", "_data");
 const outputPath = path.join(dataDir, "contrib_stats.json");
@@ -125,6 +128,22 @@ async function fetchJson(url) {
   }
 }
 
+// -------- Fallback --------
+// Each build starts from a fresh checkout, so _data/contrib_stats.json is only as new
+// as its last commit. Reuse what the previous build published instead, so a failed
+// fetch keeps the latest numbers and their real date.
+async function restoreFromLiveSite() {
+  const stats = await fetchJson(LIVE_STATS_URL);
+
+  const required = ["total_contributors", "total_edits", "building_edits", "roads_km", "last_updated"];
+  const missing = required.filter((key) => !stats?.[key]);
+  if (missing.length > 0) {
+    throw new Error(`Live stats are missing: ${missing.join(", ")}`);
+  }
+
+  writeJson(stats);
+}
+
 // -------- Main --------
 async function run() {
   try {
@@ -179,9 +198,17 @@ async function run() {
     const message = err?.message || String(err);
     console.error("Error fetching contribution stats:");
     console.error(message);
-    console.error(
-      "Keeping the existing contrib_stats.json values (last_updated will not advance, so the homepage date will show as stale until this succeeds again)."
-    );
+
+    try {
+      await restoreFromLiveSite();
+      console.error(
+        "Reusing the stats from the live site (last_updated will not advance until the fetch succeeds again)."
+      );
+    } catch (restoreErr) {
+      console.error("Could not read the stats from the live site:");
+      console.error(restoreErr?.message || restoreErr);
+      console.error("Falling back to the values committed in contrib_stats.json.");
+    }
   }
 }
 
