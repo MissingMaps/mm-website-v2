@@ -12,7 +12,7 @@ Curious how many buildings you mapped during your last mapathon? Or how many kil
 </div>
 
 ## OpenStreetMap Stats Generator
-Want to see how your mappers did? Check out the **OpenStreetMap Stats Generator** for the leaderboard and other insights. For example you can use #hotosm-project-number to get the results.
+Want to see how your mappers did? Check out the **OpenStreetMap Stats Generator** for the leaderboard and other insights. For example you can use #hotosm-project-1234 to get the results.
 
 <div>
 {% include framework/button.html text="OpenStreetMap Stats Generator" url="https://osmsg.osgeonepal.org" external=true outline="true" %}
