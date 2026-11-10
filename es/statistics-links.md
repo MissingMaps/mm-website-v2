@@ -15,10 +15,10 @@ Explora estas estadísticas y muchas más en **ohsomeNow Stats**.
 </div>
 
 ## Panel de mapatones
-¿Quieres ver cómo se desempeñaron tus personas mapeadoras? Consulta el **Mapathon Dashboard** para ver el ranking y otros datos clave.
+¿Quieres ver cómo se desempeñaron tus personas mapeadoras? Consulta el **OpenStreetMap Stats Generator** para ver el ranking y otros datos clave.
 
 <div>
-{% include framework/button.html text="Mapathon Dashboard" url="https://mapathon.cartong.org" external=true outline="true" %}
+{% include framework/button.html text="OpenStreetMap Stats Generator" url="https://osmsg.osgeonepal.org" external=true outline="true" %}
 </div>
 
 ## Panel comunitario de MapSwipe

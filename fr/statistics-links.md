@@ -15,10 +15,10 @@ Explorez ces statistiques et bien plus encore sur **ohsomeNow Stats**.
 </div>
 
 ## Tableau de bord des mapathons
-Vous souhaitez voir les performances de vos contributeurs ? Consultez le **Mapathon Dashboard** pour accéder au classement et à d’autres indicateurs.
+Vous souhaitez voir les performances de vos contributeurs ? Consultez le **OpenStreetMap Stats Generator** pour accéder au classement et à d’autres indicateurs.
 
 <div>
-{% include framework/button.html text="Mapathon Dashboard" url="https://mapathon.cartong.org" external=true outline="true" %}
+{% include framework/button.html text="OpenStreetMap Stats Generator" url="https://osmsg.osgeonepal.org" external=true outline="true" %}
 </div>
 
 ## Tableau de bord communautaire MapSwipe

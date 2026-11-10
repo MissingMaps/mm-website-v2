@@ -15,10 +15,10 @@ Tyto a další statistiky můžete prozkoumat na **ohsomeNow Stats**.
 </div>
 
 ## Přehled mapathonů
-Chcete vidět, jak si vaši mapující vedli? Podívejte se na **Mapathon Dashboard**, kde najdete žebříček a další přehledy.
+Chcete vidět, jak si vaši mapující vedli? Podívejte se na **OpenStreetMap Stats Generator**, kde najdete žebříček a další přehledy.
 
 <div>
-{% include framework/button.html text="Mapathon Dashboard" url="https://mapathon.cartong.org" external=true outline="true" %}
+{% include framework/button.html text="OpenStreetMap Stats Generatord" url="https://osmsg.osgeonepal.org" external=true outline="true" %}
 </div>
 
 ## Komunitní panel MapSwipe

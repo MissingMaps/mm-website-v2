@@ -11,11 +11,11 @@ Curious how many buildings you mapped during your last mapathon? Or how many kil
 {% include framework/button.html text="ohsomeNow Stats" url="https://stats.now.ohsome.org/dashboard#hashtag=missingmaps&start=2005-04-09T20:54:39Z&end=2025-09-01T13:34:16Z&interval=P1M&active_topic=contributor&countries=&topics=contributor,edit,building,road" external=true outline="true" %}
 </div>
 
-## Mapathon Dashboard 
-Want to see how your mappers did? Check out the **Mapathon Dashboard** for the leaderboard and other insights.
+## OpenStreetMap Stats Generator
+Want to see how your mappers did? Check out the **OpenStreetMap Stats Generator** for the leaderboard and other insights. For example you can use #hotosm-project-number to get the results.
 
 <div>
-{% include framework/button.html text="Mapathon Dashboard" url="https://mapathon.cartong.org" external=true outline="true" %}
+{% include framework/button.html text="OpenStreetMap Stats Generator" url="https://osmsg.osgeonepal.org" external=true outline="true" %}
 </div>
 
 ## MapSwipe Community Dashboard
