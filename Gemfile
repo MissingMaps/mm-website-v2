@@ -1,9 +1,8 @@
 
 source "https://rubygems.org"
-ruby "3.4.1"
+ruby "~> 3.4.0"
 
 # Gemfile pinned env variables
-ruby "3.4.1"
 gem "jekyll", "= 4.4.1"
 gem "jekyll-environment-variables", "= 1.0.1"
 gem "jekyll-paginate-v2", "= 3.0.0"
