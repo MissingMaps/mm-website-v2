@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: "17th Ebola outbreak in the DRC: Mapping for the response "
 banner: /assets/uploads/20260707-ebola-mapping_msf372299.webp
 date: 2026-07-07
@@ -10,7 +11,6 @@ excerpt: "Following the confirmation of an Ebola outbreak in the Ituri Province
   The HOT Eastern and Southern Africa Hub, in collaboration with local mappers
   from OpenStreetMap RDC and Médecins Sans Frontières (MSF), launched HOT
   Tasking Manager projects from May 21. MapSwipe projects followed. "
-published: true
 categories:
   - Ebola
   - MSF
@@ -26,12 +26,13 @@ Following the confirmation of an Ebola outbreak in the Ituri Province in the eas
 The good news was that the area, including the Ituri province, and Goma, the capital of the North Kivu province in eastern DRC, and its surroundings, had already been intensively mapped several years before the outbreak. Linked to the previous Ebola outbreaks, the OpenStreetMap RDC community led the mapping in OSM and [supported the Ebola response in 2018](https://www.hotosm.org/en/news/osm-drc-supporting-the-ebola-response/) in the DRC. [HOT developed a more robust digital data information system](https://www.hotosm.org/en/projects/digital-information-for-ebola-preparedness-point-of-entry-training-and-data-collection-in-uganda/) in Uganda, mapped points of interest, and trained community members in 2019.  Otherwise, MSF mapping in recent years focused on internally displaced persons (IDP) camps around Goma, as well as parts of Ituri, thanks to the implementation of an Indoor Residual Spraying campaign to prevent malaria-carrying mosquitoes in dwellings. Thanks to this, humanitarian organizations and first responders had access to solid quality baseline map data. However, as the situation evolves, more detailed and up-to-date information is needed, particularly from rural areas surrounding major urban centers.
 
 Volunteers from around the world started by improving the OpenStreetMap in the Ituri province in areas with the highest numbers of confirmed and suspected cases. As of 1 July 2026, 1333 cases have been confirmed, including 399 deaths, in DRC, as per the National Institute for Public Health [interactive dashboard](https://inrb-umie.github.io/BDBV2026-Epidemic_Dashboard/) set up in collaboration with Africa CDC (Centres for Disease Control and Prevention) and other organizations, and [20 in Uganda, including 2 fatalities](https://reliefweb.int/disaster/ep-2026-000071-cod). 
+The outbreak is far from over, even though more than 3,200 patients have recovered and research is underway on vaccines, including frontline humanitarian workers. Recently, the outbreak spread to Kenya − first fatality there was recorded in Nairobi on 6 October. As of 20 November, already more than 11,700 cases, and more than 5,700 deaths have been confirmed.
 
 About two weeks after the outbreak was declared, the MSF Missing Maps team was mobilized to support teams in the region through mapping. The main area of focus is around the towns of Mongbwalu and Bunia in Ituri province, covering an area of approximately 22,000 km² − roughly the size of Slovenia. Subsequently, MSF launched new projects on MapSwipe to help identify the human settlements in the landscape. Via the Missing Maps collaboration, the organizations setting up projects use recent open imagery provided by Vantor, made available via [OpenAerialMap](https://openaerialmap.org/).  
 
 <figure>
-<img src="/assets/uploads/20260707-ebola-mapping_msf370437.webp">
-<p class="caption">Fig 1 An Ebola treatment center in Mongbwalu, Ituri, Democratic Republic of Congo./Anna Schönhoffer, MSF
+<img src="assets/uploads/20260707-ebola-mapping-elikya-etc-in-bunia.webp">
+<p class="caption">Fig 1 An aerial view of the Elikya Ebola treatment center in Bunia, Ituri, Democratic Republic of Congo. There are some 20 tents. Each tent can accommodate up to 10 patients. Those who are stable and in better health are able to go outside and rest. Julien Dewarichet/MSF
 </p>
 </figure>
 
