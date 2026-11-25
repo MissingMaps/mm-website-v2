@@ -31,7 +31,7 @@ The outbreak is far from over, even though more than 3,200 patients have recover
 About two weeks after the outbreak was declared, the MSF Missing Maps team was mobilized to support teams in the region through mapping. The main area of focus is around the towns of Mongbwalu and Bunia in Ituri province, covering an area of approximately 22,000 km² − roughly the size of Slovenia. Subsequently, MSF launched new projects on MapSwipe to help identify the human settlements in the landscape. Via the Missing Maps collaboration, the organizations setting up projects use recent open imagery provided by Vantor, made available via [OpenAerialMap](https://openaerialmap.org/).  
 
 <figure>
-<img src="assets/uploads/20260707-ebola-mapping-elikya-etc-in-bunia.webp">
+<img src="/assets/uploads/20260707-ebola-mapping-elikya-etc-in-bunia.webp">
 <p class="caption">Fig 1 An aerial view of the Elikya Ebola treatment center in Bunia, Ituri, Democratic Republic of Congo. There are some 20 tents. Each tent can accommodate up to 10 patients. Those who are stable and in better health are able to go outside and rest. Julien Dewarichet/MSF
 </p>
 </figure>
